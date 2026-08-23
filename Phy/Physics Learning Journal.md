@@ -2,6 +2,8 @@
 layout: default
 title: Learning Journal
 permalink: /physics/learning-journal/
+section: Physics
+summary: A concise physics learning record covering measurement, scientific reasoning, and the intermediate physics path.
 ---
 
 # Learning Journal

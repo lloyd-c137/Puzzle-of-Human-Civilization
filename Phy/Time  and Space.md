@@ -2,6 +2,8 @@
 layout: default
 title: Time and Space
 permalink: /physics/time-and-space/
+section: Physics
+summary: An investigation of how humans developed ideas of time and space and learned to measure them.
 ---
 
 # Time and Space
