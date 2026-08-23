@@ -79,6 +79,31 @@ table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse
 th, td { padding: 8px 12px; border: 1px solid var(--line); text-align: left; }
 th { background: var(--accent-soft); }
 img { max-width: 100%; height: auto; }
+.report-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 16px;
+  margin: 24px 0;
+}
+.report-actions a { font-weight: 700; }
+.report-actions span { color: var(--muted); font-size: .9rem; }
+.report-pages { display: grid; gap: 28px; }
+.report-page { margin: 0; }
+.report-page a { display: block; }
+.report-page img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+.report-page figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: .9rem;
+  text-align: center;
+}
 .site-footer { padding: 24px 0 40px; color: var(--muted); font-size: .9rem; text-align: center; }
 @media (max-width: 640px) {
   .header-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
