@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Statistics Learning Path — Units 1–2
