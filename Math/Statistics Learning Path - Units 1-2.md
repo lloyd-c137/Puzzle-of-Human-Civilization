@@ -310,7 +310,7 @@ $$
 
 ## Study log
 
-| Date | Unit/session | Main idea | Evidence of learning |
+| Date | Unit/session | Main idea | Record |
 |---|---|---|---|
 | 2026-08-21 | Foundations: individuals and variables | Identify the observational unit, then classify each variable as categorical or quantitative based on whether it is a label or a meaningful numerical amount. | Began the topic using the website example and distinguished website, writers, posts, likes, and revenue. |
 | 2026-08-21 | Lesson 2: bar graphs for categorical data | Turn category counts into bars, read frequencies, and use percentages when comparing groups of different sizes. | Studied a transportation-preference bar graph and identified its highest and lowest categories. |
