@@ -14,8 +14,6 @@ summary: Evidence-based learning record for categorical data and one-variable qu
 
 ## Current status — 2026-08-24
 
-Studied Unit 1 foundations and Unit 2 displays and descriptions through Khan Academy practice. Current progress: **partly understood to applied**.
-
 - Unit 1: individuals, variables, categorical/quantitative data, bar graphs, two-way tables, and frequency comparisons.
 - Unit 2: dot plots, stem-and-leaf plots, histograms, box plots, distribution shapes, clusters, gaps, peaks, outliers, center, spread, and comparisons.
 - Main difficulty: reading grouped or stacked graphs without miscounting, and separating center from spread.
