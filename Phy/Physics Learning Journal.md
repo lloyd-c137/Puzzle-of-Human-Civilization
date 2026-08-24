@@ -1,94 +1,51 @@
 ---
 layout: default
-title: Learning Journal
+title: Physics Learning Journal
 permalink: /physics/learning-journal/
 section: Physics
-summary: A concise physics learning record covering measurement, scientific reasoning, and the intermediate physics path.
+summary: Overview of physics learning progress and Unit journals.
+journal_type: overview
+subject: Physics
 ---
 
-# Learning Journal
+# Physics Learning Journal
 
 ## Purpose
 
-This journal records my actual learning journey—not just completed tasks. It should show what I understand, what I misunderstand, how my thinking changes, and what I need to learn next.
+这是物理学科的总 Journal，用于查看整体进度、Unit 状态和当前学习重点。具体的观察、测量、解释、错误和疑问保存在 Unit Journal 中。
 
-## Learning entry
+## Current overview
 
-### Date
+当前从 Chapter 1 的科学思维、测量和天文尺度开始。已经理解观测如何转化为可检验的解释，并规划了利用影子估算地球周长的测量活动。下一步是完成测量并分析不确定性，然后进入惯性和 Newton's First Law。
 
-2026-08-20
+## Unit journals
 
-### Subject and topic
-
-Physics — Chapter 1: About Science, measurement, and astronomical scale
-
-### Source or activity
-
-Paul G. Hewitt, *Conceptual Physics*, Twelfth Edition, Chapter 1; review of my “Time and Space” note; planning possible measurements and experiments.
-
-### What I already understood
-
-I understood time mainly through natural changes such as the rising and setting of the Sun, Moon phases, and seasons. I also understood that people developed calendars and clocks because hunting, agriculture, and social organization required more reliable timekeeping.
-
-### What I learned
-
-Physics begins with observation, measurement, evidence, and testable explanations. Chapter 1 shows how simple geometry and observations can estimate the size of Earth, the Moon, and the Sun. I learned that Eratosthenes used shadows to estimate Earth’s circumference, while pinhole images and apparent size can reveal relationships between distance and scale. I also learned that a scientific explanation must be testable and capable of being shown wrong.
-
-### My understanding now
-
-Physics is a way to turn a question about nature into something measurable. A small observation, such as the length of a shadow or the size of a projected image, can become evidence about objects much larger or farther away. Equations are not only calculation recipes; they express relationships between observations and concepts.
-
-### Example, evidence, or application
-
-I can measure the height of a stick and the length of its shadow, calculate the Sun’s angle, and compare measurements from two locations to estimate Earth’s circumference. I can also use indirect pinhole projection to investigate why openings under trees produce round images of the Sun. These activities connect physics with astronomy, timekeeping, ancient civilization, and technology.
-
-### Mistake or confusion
-
-I initially treated time mainly as an abstract concept and treated equations mainly as tools for finding numerical answers. I also need to be careful not to confuse a plausible explanation with a scientific explanation.
-
-### Correction
-
-Time can be understood through measurable change and periodicity. Equations are useful because they make relationships precise and testable. A scientific claim must make a prediction and allow evidence that could contradict it. The examples in Chapter 1 show how measurements can turn an idea into a testable result.
-
-### Question
-
-How much do location, timing, weather, and measurement uncertainty affect an estimate of Earth’s circumference? How can I design the experiment so that the conclusion is reliable rather than just close by chance?
-
-### Confidence
-
-Medium — I understand the main ideas and the proposed experiments, but I still need to carry out measurements and analyze uncertainty.
-
-### Progress
-
-Exploring — the concepts are partly understood and the first investigation has been planned.
-
-### Next focus
-
-Carry out the shadow measurement of Earth’s circumference, then begin Chapter 2 on inertia and Newton’s First Law.
-
-## Ongoing records
-
-### Concepts to revisit
-
-- Measurement uncertainty and significant figures
-- Similar triangles and shadow geometry
-- The difference between a hypothesis, law, and theory
-
-### Mistakes and corrections
-
-| Date | Topic | Mistake | Correction |
-|---|---|---|---|
-| 2026-08-20 | Equations and scientific explanations | I viewed equations mainly as calculation recipes and assumed a reasonable claim was scientific. | Equations express testable relationships; scientific claims must make predictions and be open to disconfirmation. |
-
-### Questions
-
-- How can repeated measurements improve the reliability of the Earth-circumference estimate?
-- How do pinhole image size and distance relate mathematically?
-
-### Progress summary
-
-| Date | Subject | Topic | Current progress | Next step |
+| Unit | Main topics | Status | Last updated | Journal |
 |---|---|---|---|---|
-| 2026-08-20 | Physics | Chapter 1: About Science | Exploring | Complete the shadow experiment and start Chapter 2. |
+| Physics Foundations — Chapter 1 | Science, measurement, astronomical scale, and testable explanations | Exploring | 2026-08-20 | [Open Unit Journal]({{ '/physics/chapter-1-journal/' | relative_url }}) |
 
-Keep entries focused on content and progress. Use only the sections that are useful for that learning session.
+## Current learning focus
+
+- 完成 shadow measurement of Earth's circumference；
+- 分析 location、timing、weather 和 measurement uncertainty 的影响；
+- 开始 Chapter 2：inertia and Newton's First Law；
+- 保持公式、单位和物理解释之间的联系。
+
+## Questions carried across units
+
+- 重复测量如何提高地球周长估计的可靠性？
+- pinhole image size 与 distance 如何建立数学关系？
+- 什么条件下一个 plausible explanation 才是 scientific explanation？
+
+## Recurring mistakes
+
+| Topic | Recurring mistake | Current correction |
+|---|---|---|
+| Equations | 把公式只当作得到数字的计算步骤。 | 公式表达可检验的物理关系。 |
+| Scientific explanations | 把合理的说法自动当成科学解释。 | 科学解释必须能产生预测，并且允许被证据推翻。 |
+
+## Recent progress
+
+| Date | Unit | Topic | Progress | Next step |
+|---|---|---|---|---|
+| 2026-08-20 | Physics Foundations — Chapter 1 | Science, measurement, and astronomical scale | Exploring | Complete the shadow measurement and analyze uncertainty. |

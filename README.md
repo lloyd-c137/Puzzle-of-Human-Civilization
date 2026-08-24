@@ -15,6 +15,8 @@ Use this page as the reading index. The directory below lists every published le
 
 - [AP Chemistry Master Checklist]({{ '/chemistry/ap-chemistry/' | relative_url }})：从 AP Chemistry 的九个单元、科学实践、实验和公式开始。
 - [Chemical Foundations Learning Journey]({{ '/chemistry/chemical-foundations-journey/' | relative_url }})：沿着测量、单位、有效数字和密度建立化学基础。
+- [Physics Learning Journal]({{ '/physics/learning-journal/' | relative_url }})：从科学思维、测量和天文尺度开始。
+- [Math Learning Journal]({{ '/math/learning-journal/' | relative_url }})：查看数学总体目标、Unit 进度和统计学习记录。
 - [Biology Learning Journal]({{ '/biology/learning-journal/' | relative_url }})：从生命系统和科学思维开始的持续学习记录。
 
 ## 目录 Contents
