@@ -34,7 +34,7 @@ This Unit Journal records my learning about linear motion: reference frames, spe
 
 ## Learning entries
 
-- [[#Questions Selected|Questions Selected]]
+- <a href="#questions-selected">Questions Selected</a>
 
 ### Learning entry — 2026-08-25 — Relative motion, speed, velocity, and acceleration
 
