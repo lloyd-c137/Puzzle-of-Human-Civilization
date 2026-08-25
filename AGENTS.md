@@ -30,6 +30,8 @@ Each subject has one overview Journal. Its top-level sections must be:
 
 The overview records status and navigation only. Do not duplicate complete learning entries from Unit Journals in it.
 
+Biology-specific rule: `Bio/Biology Learning Journal.md` must not contain a `Questions carried across units` section. Biology questions belong in the Unit Journal's `Questions I am carrying forward` section or in the relevant learning entry.
+
 ## Required Unit structure
 
 Each Unit Journal must use these top-level sections:

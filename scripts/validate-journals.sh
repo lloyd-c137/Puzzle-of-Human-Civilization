@@ -17,6 +17,7 @@ unit_files=(
   "Bio/Biology Units 1 and 4 Learning Journal.md"
   "Chem Journal/Chemical Foundations Unit Journal.md"
   "Phy/Physics Chapter 1 Learning Journal.md"
+  "Phy/Physics Chapter 3 Learning Journal.md"
 )
 
 overview_sections=(
@@ -99,11 +100,29 @@ check_no_prohibited_headings() {
   fi
 }
 
+check_biology_overview_rules() {
+  local file="$1"
+  if [[ "$file" == "Bio/Biology Learning Journal.md" ]] && rg -q '^## Questions carried across units$' "$file"; then
+    fail "$file: Biology overview must not contain Questions carried across units"
+  fi
+}
+
 for file in "${overview_files[@]}"; do
   check_file "$file" || continue
   check_metadata "$file" overview
-  check_sections "$file" "${overview_sections[@]}"
+  if [[ "$file" == "Bio/Biology Learning Journal.md" ]]; then
+    check_sections "$file" \
+      "Purpose" \
+      "Current overview" \
+      "Unit journals" \
+      "Current learning focus" \
+      "Recurring mistakes" \
+      "Recent progress"
+  else
+    check_sections "$file" "${overview_sections[@]}"
+  fi
   check_no_prohibited_headings "$file"
+  check_biology_overview_rules "$file"
 done
 
 for file in "${unit_files[@]}"; do

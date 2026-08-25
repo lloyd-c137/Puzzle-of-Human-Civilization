@@ -16,19 +16,20 @@ subject: Physics
 
 ## Current overview
 
-当前从 Chapter 1 的科学思维、测量和天文尺度开始。已经理解观测如何转化为可检验的解释，并规划了利用影子估算地球周长的测量活动。下一步是完成测量并分析不确定性，然后进入惯性和 Newton's First Law。
+当前已从 Chapter 1 的科学思维、测量和天文尺度进入 Chapter 3 Linear Motion。Chapter 3 的详细学习记录已经开始，重点是参照系、速率、速度和加速度；目前能够解释基本概念，但还需要练习矢量分量和运动图像。
 
 ## Unit journals
 
 | Unit | Main topics | Status | Last updated | Journal |
 |---|---|---|---|---|
 | Physics Foundations — Chapter 1 | Science, measurement, astronomical scale, and testable explanations | Exploring | 2026-08-20 | [Open Unit Journal]({{ '/physics/chapter-1-journal/' | relative_url }}) |
+| Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Partly understood | 2026-08-25 | [Open Unit Journal]({{ '/physics/chapter-3-journal/' | relative_url }}) |
 
 ## Current learning focus
 
-- 完成 shadow measurement of Earth's circumference；
-- 分析 location、timing、weather 和 measurement uncertainty 的影响；
-- 开始 Chapter 2：inertia and Newton's First Law；
+- 练习 Chapter 3 的 relative motion、speed、velocity 和 acceleration；
+- 分析速度方向改变时为什么会产生加速度；
+- 练习 vector components、position-time graphs 和 velocity-time graphs；
 - 保持公式、单位和物理解释之间的联系。
 
 ## Questions carried across units
@@ -43,9 +44,11 @@ subject: Physics
 |---|---|---|
 | Equations | 把公式只当作得到数字的计算步骤。 | 公式表达可检验的物理关系。 |
 | Scientific explanations | 把合理的说法自动当成科学解释。 | 科学解释必须能产生预测，并且允许被证据推翻。 |
+| Motion quantities | 把速率不变理解为速度不变，或把单位 (\text{m/s}) 误认为自动包含方向。 | 速度包含大小和方向；方向改变时即使速率不变也会有加速度。 |
 
 ## Recent progress
 
 | Date | Unit | Topic | Progress | Next step |
 |---|---|---|---|---|
 | 2026-08-20 | Physics Foundations — Chapter 1 | Science, measurement, and astronomical scale | Exploring | Complete the shadow measurement and analyze uncertainty. |
+| 2026-08-25 | Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Partly understood | Answer the nine selected textbook review questions, then practise vector components and motion graphs. |

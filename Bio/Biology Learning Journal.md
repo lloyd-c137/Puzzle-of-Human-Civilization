@@ -33,12 +33,6 @@ Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；U
 - 区分 population 的当前变化和年龄结构对未来增长的影响；
 - 用证据和自己的解释完成 retrieval check。
 
-## Questions carried across units
-
-- 年龄结构如何改变未来的人口增长？
-- carrying capacity 和 limiting factors 会如何随时间变化？
-- 如何用 abiotic factor → survival/reproduction effect → geographic range 解释生物分布？
-
 ## Recurring mistakes
 
 | Topic | Recurring mistake | Current correction |
