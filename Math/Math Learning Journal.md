@@ -16,20 +16,20 @@ subject: Mathematics
 
 ## Current overview
 
-当前主要学习方向是 AP Statistics Unit 1–2。已经接触分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。图表阅读正在改善，分组数据、IQR、标准差和条件分布仍需要练习。
+当前统计学习记录包括 AP Statistics Unit 1–2；新的 Unit Journal 覆盖 Unit 3、Unit 6 和 Unit 7。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3、Unit 6 和 Unit 7 尚未开始记录。
 
 ## Unit journals
 
 | Unit | Main topics | Status | Last updated | Journal |
 |---|---|---|---|---|
 | Statistics Units 1–2 | Categorical data, two-way tables, quantitative displays, distributions, center, spread, and comparisons | Partly understood to Applied | 2026-08-24 | [Open Unit Journal]({{ '/math/statistics-units-1-2-journal/' | relative_url }}) |
+| Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | Not started | 2026-08-26 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
 
 ## Current learning focus
 
-- 区分 mean 与 median、range 与 IQR；
-- 理解异常值对统计量的影响；
-- 完整比较两个分布的 shape、center、spread 和 outliers；
-- 把每次练习中的错误和修正记录到 Unit Journal。
+- Unit 3：Summary statistics；
+- Unit 6：Collecting data；
+- Unit 7：Probability。
 
 ## Questions carried across units
 
@@ -50,3 +50,4 @@ subject: Mathematics
 | Date | Unit | Topic | Progress | Next step |
 |---|---|---|---|---|
 | 2026-08-24 | Statistics Units 1–2 | Stem-and-leaf plots, box plots, histograms, and distribution comparisons | Partly understood to Applied | Continue independent graph interpretation and summary-statistic practice. |
+| 2026-08-26 | Statistics Units 3, 6, and 7 | New Unit Journal created; no learning entries yet | Not started | No study record yet. |

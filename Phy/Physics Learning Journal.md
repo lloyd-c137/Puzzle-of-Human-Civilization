@@ -16,20 +16,20 @@ subject: Physics
 
 ## Current overview
 
-当前已从 Chapter 1 的科学思维、测量和天文尺度进入 Chapter 3 Linear Motion。Chapter 3 的详细学习记录已经开始，重点是参照系、速率、速度和加速度；目前能够解释基本概念，但还需要练习矢量分量和运动图像。
+当前已从 Chapter 1 的科学思维、测量和天文尺度进入 Chapter 3 Linear Motion。Chapter 3.5 Free Fall 的 Check Out Questions、三秒自由落体图和四道课后练习已经完成；目前重点转向终端速度和自由落体模型的适用边界。
 
 ## Unit journals
 
 | Unit | Main topics | Status | Last updated | Journal |
 |---|---|---|---|---|
 | Physics Foundations — Chapter 1 | Science, measurement, astronomical scale, and testable explanations | Exploring | 2026-08-20 | [Open Unit Journal]({{ '/physics/chapter-1-journal/' | relative_url }}) |
-| Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Partly understood | 2026-08-25 | [Open Unit Journal]({{ '/physics/chapter-3-journal/' | relative_url }}) |
+| Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, acceleration, and free fall | Applied | 2026-08-26 | [Open Unit Journal]({{ '/physics/chapter-3-journal/' | relative_url }}) |
 
 ## Current learning focus
 
-- 练习 Chapter 3 的 relative motion、speed、velocity 和 acceleration；
-- 分析速度方向改变时为什么会产生加速度；
-- 练习 vector components、position-time graphs 和 velocity-time graphs；
+- 复习 Chapter 3.5 Free Fall 和竖直上抛；
+- 理解终端速度以及空气阻力何时使自由落体模型失效；
+- 练习用正方向、速度表和位移方程描述自由落体；
 - 保持公式、单位和物理解释之间的联系。
 
 ## Questions carried across units
@@ -52,3 +52,4 @@ subject: Physics
 |---|---|---|---|---|
 | 2026-08-20 | Physics Foundations — Chapter 1 | Science, measurement, and astronomical scale | Exploring | Complete the shadow measurement and analyze uncertainty. |
 | 2026-08-25 | Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Partly understood | Answer the nine selected textbook review questions, then practise vector components and motion graphs. |
+| 2026-08-26 | Physics Foundations — Chapter 3 Linear Motion | Free fall and changing velocity | Applied | Review terminal velocity and the limits of the free-fall model. |
