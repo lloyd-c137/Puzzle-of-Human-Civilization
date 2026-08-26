@@ -28,8 +28,8 @@ This Unit Journal records my learning about linear motion: reference frames, spe
 | Concept or term | My current explanation | Example or connection | Status |
 |---|---|---|---|
 | Relative motion | Motion is described relative to a reference point. | I am stationary relative to a train seat but moving relative to the ground. | Applied |
-| Speed | A scalar quantity describing how fast an object moves. | \(5\ \text{m/s}\) gives a magnitude but no direction. | Applied |
-| Velocity | A vector quantity describing speed and direction. | \(5\ \text{m/s}\) east includes both magnitude and direction. | Applied |
+| Speed | A scalar quantity describing how fast an object moves. | $5\ \text{m/s}$ gives a magnitude but no direction. | Applied |
+| Velocity | A vector quantity describing speed and direction. | $5\ \text{m/s}$ east includes both magnitude and direction. | Applied |
 | Acceleration | The rate at which velocity changes with time. | Turning at constant speed still produces acceleration because direction changes. | Partly understood |
 
 ## Learning entries
@@ -76,11 +76,11 @@ How can I represent and calculate acceleration when velocity changes in two dire
 
 #### Mistake or confusion
 
-I initially treated constant speed as meaning no acceleration and was unsure why a value written in \(\text{m/s}\) could be connected with velocity when the direction was not written in the unit.
+I initially treated constant speed as meaning no acceleration and was unsure why a value written in $\text{m/s}$ could be connected with velocity when the direction was not written in the unit.
 
 #### Correction
 
-The unit \(\text{m/s}\) does not contain direction; it can be used for both speed and velocity. Velocity includes direction as additional information. Since acceleration depends on the change in velocity, a direction change produces acceleration even when speed is constant.
+The unit $\text{m/s}$ does not contain direction; it can be used for both speed and velocity. Velocity includes direction as additional information. Since acceleration depends on the change in velocity, a direction change produces acceleration even when speed is constant.
 
 #### Confidence
 
@@ -110,19 +110,19 @@ Paul G. Hewitt, *Conceptual Physics*, Twelfth Edition, Chapter 3.5, printed pp. 
 
 #### What I knew or assumed before
 
-I understood that a ball stops moving upward at its highest point, so I answered \(v=0\). I also answered \(a=0\), because I thought the velocity and acceleration factors were different.
+I understood that a ball stops moving upward at its highest point, so I answered $v=0$. I also answered $a=0$, because I thought the velocity and acceleration factors were different.
 
 #### What I learned
 
-At the highest point, the ball’s instantaneous velocity is \(v=0\), but gravity is still acting. If upward is positive, the acceleration remains \(a\approx-10\ \mathrm{m/s^2}\). The ball’s velocity is changing from upward to downward, so its acceleration is not zero.
+At the highest point, the ball’s instantaneous velocity is $v=0$, but gravity is still acting. If upward is positive, the acceleration remains $a\approx-10\ \mathrm{m/s^2}$. The ball’s velocity is changing from upward to downward, so its acceleration is not zero.
 
 #### Evidence, example, or application
 
-For a ball thrown upward at \(20\ \mathrm{m/s}\), its velocity decreases by about \(10\ \mathrm{m/s}\) each second: \(+20\), \(+10\), \(0\), then \(-10\ \mathrm{m/s}\). The velocity is zero for only an instant at the top, while the acceleration remains downward throughout the motion.
+For a ball thrown upward at $20\ \mathrm{m/s}$, its velocity decreases by about $10\ \mathrm{m/s}$ each second: $+20$, $+10$, $0$, then $-10\ \mathrm{m/s}$. The velocity is zero for only an instant at the top, while the acceleration remains downward throughout the motion.
 
 #### My explanation now
 
-Velocity tells the ball’s motion at one instant. Acceleration tells how its velocity is changing. Therefore, \(v=0\) at the top does not mean \(a=0\); the ball is about to change from moving upward to moving downward because gravity continues to give it downward acceleration.
+Velocity tells the ball’s motion at one instant. Acceleration tells how its velocity is changing. Therefore, $v=0$ at the top does not mean $a=0$; the ball is about to change from moving upward to moving downward because gravity continues to give it downward acceleration.
 
 #### Question or uncertainty
 
@@ -134,11 +134,11 @@ I treated zero velocity at the highest point as zero acceleration and explained 
 
 #### Correction
 
-The important difference is not just their units. Acceleration is the rate of change of velocity. At the highest point, the velocity is momentarily zero, but it is changing, so \(a=-g\), not zero.
+The important difference is not just their units. Acceleration is the rate of change of velocity. At the highest point, the velocity is momentarily zero, but it is changing, so $a=-g$, not zero.
 
 #### Confidence
 
-Medium — I correctly identified \(v=0\), and I now know why the acceleration remains downward, but I need more practice using signs and equations.
+Medium — I correctly identified $v=0$, and I now know why the acceleration remains downward, but I need more practice using signs and equations.
 
 #### Progress
 
@@ -176,7 +176,7 @@ A feather and a coin fall at the same acceleration in a vacuum. In ordinary air,
 
 #### My explanation now
 
-The free-fall model assumes that the object is acted on only by gravity, so the net force equals the gravitational force and \(a=g\). When air resistance cannot be ignored, the object also experiences a force opposite to its motion, so the net force is no longer equal to gravity alone. The acceleration is then different from \(g\), and the free-fall equations no longer describe the motion accurately. If air resistance balances gravity, the object reaches terminal velocity.
+The free-fall model assumes that the object is acted on only by gravity, so the net force equals the gravitational force and $a=g$. When air resistance cannot be ignored, the object also experiences a force opposite to its motion, so the net force is no longer equal to gravity alone. The acceleration is then different from $g$, and the free-fall equations no longer describe the motion accurately. If air resistance balances gravity, the object reaches terminal velocity.
 
 #### Question or uncertainty
 
@@ -188,7 +188,7 @@ I attributed the feather’s slower fall mainly to its smaller mass and did not 
 
 #### Correction
 
-Mass does not change the ideal free-fall acceleration. The important difference in air is air resistance, especially relative to the feather’s small weight. Without air resistance, both objects accelerate at approximately \(10\ \mathrm{m/s^2}\) downward.
+Mass does not change the ideal free-fall acceleration. The important difference in air is air resistance, especially relative to the feather’s small weight. Without air resistance, both objects accelerate at approximately $10\ \mathrm{m/s^2}$ downward.
 
 #### Confidence
 
@@ -200,7 +200,7 @@ Partly understood — the definition and model boundary are clearer; the numeric
 
 #### Next focus
 
-Solve Check Out Question 2 using \(v=gt\) and \(d=\frac12gt^2\).
+Solve Check Out Question 2 using $v=gt$ and $d=\frac12gt^2$.
 
 ### Learning entry — 2026-08-26 — Check Out Question 3: Vertical throw
 
@@ -222,11 +222,11 @@ I understood that the ball is still moving upward one second after it is thrown 
 
 #### What I learned
 
-One second after being thrown upward at \(20\ \mathrm{m/s}\), the ball is still moving upward, although more slowly. At the highest point, its velocity is \(0\), so it has no direction at that instant. Its acceleration still points downward because gravity continues to act.
+One second after being thrown upward at $20\ \mathrm{m/s}$, the ball is still moving upward, although more slowly. At the highest point, its velocity is $0$, so it has no direction at that instant. Its acceleration still points downward because gravity continues to act.
 
 #### Evidence, example, or application
 
-With upward positive, the velocity changes from \(+20\ \mathrm{m/s}\) to \(+10\ \mathrm{m/s}\), then to \(0\ \mathrm{m/s}\) at the highest point. The acceleration remains \(-10\ \mathrm{m/s^2}\) throughout the ideal motion.
+With upward positive, the velocity changes from $+20\ \mathrm{m/s}$ to $+10\ \mathrm{m/s}$, then to $0\ \mathrm{m/s}$ at the highest point. The acceleration remains $-10\ \mathrm{m/s^2}$ throughout the ideal motion.
 
 #### My explanation now
 
@@ -242,7 +242,7 @@ I said the velocity at the highest point was still upward.
 
 #### Correction
 
-At the highest point, \(v=0\), so velocity has no direction. The acceleration is still downward: \(a=-g\).
+At the highest point, $v=0$, so velocity has no direction. The acceleration is still downward: $a=-g$.
 
 #### Confidence
 
@@ -276,23 +276,23 @@ I knew the object’s velocity direction after falling was downward, but I confu
 
 #### What I learned
 
-For an object released from rest with \(g=10\ \mathrm{m/s^2}\) and \(t=3\ \mathrm{s}\):
+For an object released from rest with $g=10\ \mathrm{m/s^2}$ and $t=3\ \mathrm{s}$:
 
-\[
+$$
 v=v_0+gt=0+10(3)=30\ \mathrm{m/s}
-\]
+$$
 
 The 3-second displacement is:
 
-\[
+$$
 d=\frac12gt^2=\frac12(10)(3^2)=45\ \mathrm{m}
-\]
+$$
 
-The final velocity is \(30\ \mathrm{m/s}\) downward, and the displacement is \(45\ \mathrm{m}\) downward.
+The final velocity is $30\ \mathrm{m/s}$ downward, and the displacement is $45\ \mathrm{m}$ downward.
 
 #### Evidence, example, or application
 
-The object’s velocity at each second is \(0\), \(10\), \(20\), and \(30\ \mathrm{m/s}\). Because the velocity is changing, displacement cannot be found by using the final velocity for the entire 3-second interval.
+The object’s velocity at each second is $0$, $10$, $20$, and $30\ \mathrm{m/s}$. Because the velocity is changing, displacement cannot be found by using the final velocity for the entire 3-second interval.
 
 **My hand-drawn free-fall diagram**
 
@@ -300,19 +300,19 @@ The object’s velocity at each second is \(0\), \(10\), \(20\), and \(30\ \math
 
 #### My explanation now
 
-Final velocity describes how fast the object is moving at \(3\ \mathrm{s}\). Displacement describes how far it moved during the whole interval. Under constant acceleration, the object’s average velocity is \(15\ \mathrm{m/s}\), so \(d=15(3)=45\ \mathrm{m}\).
+Final velocity describes how fast the object is moving at $3\ \mathrm{s}$. Displacement describes how far it moved during the whole interval. Under constant acceleration, the object’s average velocity is $15\ \mathrm{m/s}$, so $d=15(3)=45\ \mathrm{m}$.
 
 #### Question or uncertainty
 
-Why is the average velocity \(15\ \mathrm{m/s}\) when the final velocity is \(30\ \mathrm{m/s}\)?
+Why is the average velocity $15\ \mathrm{m/s}$ when the final velocity is $30\ \mathrm{m/s}$?
 
 #### Mistake or confusion
 
-I identified the downward direction correctly but gave \(30\ \mathrm{m}\) for the displacement.
+I identified the downward direction correctly but gave $30\ \mathrm{m}$ for the displacement.
 
 #### Correction
 
-Use \(v=v_0+gt\) for final velocity and \(d=\frac12gt^2\) for displacement from rest. The units also help: velocity is in \(\mathrm{m/s}\), while displacement is in \(\mathrm{m}\).
+Use $v=v_0+gt$ for final velocity and $d=\frac12gt^2$ for displacement from rest. The units also help: velocity is in $\mathrm{m/s}$, while displacement is in $\mathrm{m}$.
 
 #### Confidence
 
@@ -324,7 +324,7 @@ Partly understood — the direction and final velocity are correct; the displace
 
 #### Next focus
 
-Explain why the average velocity is \(15\ \mathrm{m/s}\), then complete the three-second motion diagram.
+Explain why the average velocity is $15\ \mathrm{m/s}$, then complete the three-second motion diagram.
 
 ## Concepts to revisit
 
@@ -337,7 +337,7 @@ Explain why the average velocity is \(15\ \mathrm{m/s}\), then complete the thre
 | Date | Topic | Mistake | Correction |
 |---|---|---|---|
 | 2026-08-25 | Acceleration in circular motion | I thought constant speed meant that acceleration was zero. | Direction is part of velocity, so changing direction produces acceleration even when speed is constant. |
-| 2026-08-25 | Speed and velocity units | I thought \(\text{m/s}\) alone had to show direction to be connected with velocity. | \(\text{m/s}\) is the unit; direction is additional information in the velocity description. |
+| 2026-08-25 | Speed and velocity units | I thought $\text{m/s}$ alone had to show direction to be connected with velocity. | $\text{m/s}$ is the unit; direction is additional information in the velocity description. |
 
 ## Questions I am carrying forward
 
@@ -389,11 +389,11 @@ Source: *Conceptual Physics*, Twelfth Edition, Chapter 3 Review, “Reading Chec
 
    **My answer:** 经过5秒后获得的速度是50m/s。经过6秒后速度是60m/s
 
-   **Answer:** Using \(v=gt\) with \(g=10\ \mathrm{m/s^2}\):
+   **Answer:** Using $v=gt$ with $g=10\ \mathrm{m/s^2}$:
 
-   \[
+   $$
    v(5)=10(5)=50\ \mathrm{m/s},\qquad v(6)=10(6)=60\ \mathrm{m/s}.
-   \]
+   $$
 
    The object is moving downward in both cases.
 
@@ -401,38 +401,38 @@ Source: *Conceptual Physics*, Twelfth Edition, Chapter 3 Review, “Reading Chec
 
    **My answer:** 经过1秒后下落了10m，经过4秒后下落了40m
 
-   **Feedback and correction:** These values are the speeds at 1 s and 4 s, not the distances. Because the object starts from rest and accelerates, its distance is found with \(d=\frac12gt^2\).
+   **Feedback and correction:** These values are the speeds at 1 s and 4 s, not the distances. Because the object starts from rest and accelerates, its distance is found with $d=\frac12gt^2$.
 
    **Follow-up question:** 为什么经过1秒后下落的距离不是10m
 
-   **Explanation:** \(10\ \mathrm{m/s}\) is the speed at the end of the first second, not the speed during the whole second. The object starts at \(0\ \mathrm{m/s}\) and gradually reaches \(10\ \mathrm{m/s}\), so its average speed during that second is \(5\ \mathrm{m/s}\). Therefore, the distance is \(5\ \mathrm{m/s}\times1\ \mathrm{s}=5\ \mathrm{m}\).
+   **Explanation:** $10\ \mathrm{m/s}$ is the speed at the end of the first second, not the speed during the whole second. The object starts at $0\ \mathrm{m/s}$ and gradually reaches $10\ \mathrm{m/s}$, so its average speed during that second is $5\ \mathrm{m/s}$. Therefore, the distance is $5\ \mathrm{m/s}\times1\ \mathrm{s}=5\ \mathrm{m}$.
 
    **Re-attempt:** 经过1秒后下落了5m，经过4秒后下落了20m
 
    **Correction:** The 1-second answer is correct. For 4 s, use the square of the time:
 
-   \[
+   $$
    d=\frac12gt^2=\frac12(10)(4^2)=5\times16=80\ \mathrm{m}.
-   \]
+   $$
 
-   The distance is not \(20\ \mathrm{m}\), because the object keeps accelerating; the distance does not increase by the same amount each second.
+   The distance is not $20\ \mathrm{m}$, because the object keeps accelerating; the distance does not increase by the same amount each second.
 
    **Final understanding:** 我懂了，要先算平均速度是20m/s，经过了4秒，所以位移是80m
 
-   **Answer:** Using \(d=\frac12gt^2\):
+   **Answer:** Using $d=\frac12gt^2$:
 
-   \[
+   $$
    d(1)=\frac12(10)(1^2)=5\ \mathrm{m},qquad d(4)=\frac12(10)(4^2)=80\ \mathrm{m}.
-   \]
+   $$
 
 4. **Q22. What is the effect of air resistance on the acceleration of falling objects?**
 
    **My answer:** 空气阻力的方向如果与物体运动的方向相同，物体会做加速运动，如果相反，会做减速运动，当空气等于重力时，物体会进入terminal 速度
 
-   **Correction:** Air resistance is a force that acts opposite to the object’s motion relative to the air. For a falling object, gravity acts downward and air resistance acts upward. The object may still accelerate downward, but its acceleration is smaller than \(g\). When air resistance becomes equal in magnitude to gravity, the net force is zero, so acceleration becomes zero and the object continues falling at constant terminal velocity.
+   **Correction:** Air resistance is a force that acts opposite to the object’s motion relative to the air. For a falling object, gravity acts downward and air resistance acts upward. The object may still accelerate downward, but its acceleration is smaller than $g$. When air resistance becomes equal in magnitude to gravity, the net force is zero, so acceleration becomes zero and the object continues falling at constant terminal velocity.
 
    **Follow-up question:** 所以当空气阻力与物体运动方向相同时，是否不存在空气阻力，还是什么
 
    **Explanation:** In the elementary free-fall model, air resistance means drag, and drag points opposite to the object’s motion relative to the air. If air pushes an object in the same direction, that force is better described as a wind force or a propelling air force, not ordinary drag. With wind, the correct comparison is always the object’s motion relative to the air, not only its motion relative to the ground.
 
-   **Answer:** Air resistance acts opposite to the object’s motion. When it is significant, the net force is no longer equal to gravity alone, so the downward acceleration is less than \(g\). If air resistance eventually balances gravity, the net force and acceleration become zero and the object reaches terminal velocity.
+   **Answer:** Air resistance acts opposite to the object’s motion. When it is significant, the net force is no longer equal to gravity alone, so the downward acceleration is less than $g$. If air resistance eventually balances gravity, the net force and acceleration become zero and the object reaches terminal velocity.
