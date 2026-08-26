@@ -35,8 +35,8 @@ This Unit Journal records the actual learning process for measurement, laborator
 | Precision | Agreement among repeated measurements of the same quantity. | A small range indicates high precision. | Applied |
 | Random error | Unpredictable variation that changes the reading from trial to trial. | Repeated trials and averaging can reduce its effect. | Applied |
 | Systematic error | A consistent bias in the same direction. | A balance that is not zeroed can make every mass too high or too low. | Applied |
-| Significant figures | Digits that communicate the precision of a measured value. | In \(0.004080\), only \(4\), the internal \(0\), \(8\), and the final \(0\) are significant. | Applied |
-| Exact number | A counted value or defined relationship with no measurement uncertainty. | The \(3\) in “three identical experiments” does not limit the final significant figures. | Applied |
+| Significant figures | Digits that communicate the precision of a measured value. | In $0.004080$, only $4$, the internal $0$, $8$, and the final $0$ are significant. | Applied |
+| Exact number | A counted value or defined relationship with no measurement uncertainty. | The $3$ in “three identical experiments” does not limit the final significant figures. | Applied |
 
 ## Learning entries
 
@@ -116,7 +116,7 @@ Zumdahl, *Chemistry*, 9th Edition, Chapter 1 review questions and exercises; sel
 
 #### What I knew or assumed before
 
-I knew that accuracy means closeness to a true value and precision means repeated values being close together. I still needed to connect those definitions to the textbook questions. I also tended to ask in this order: “what does this mean?”, make a first attempt, then ask why the rule works. For example, I first treated the leading zeros in \(0.004080\) as if they might affect the number of significant figures, and I needed the distinction between “locating the decimal point” and “communicating measurement precision.”
+I knew that accuracy means closeness to a true value and precision means repeated values being close together. I still needed to connect those definitions to the textbook questions. I also tended to ask in this order: “what does this mean?”, make a first attempt, then ask why the rule works. For example, I first treated the leading zeros in $0.004080$ as if they might affect the number of significant figures, and I needed the distinction between “locating the decimal point” and “communicating measurement precision.”
 
 #### What I learned
 
@@ -126,13 +126,13 @@ The eight answers are completed below. The reasoning follows the same learning p
 
 1. **Review Question 4 — dissolving sugar in water**
 
-   - **First thought:** The masses might change because the sugar disappears into the water, and the volumes might simply be \(100.0+100.0=200.0\text{ mL}\).
-   - **Correction:** Assuming there is no spill or evaporation, mass is conserved: \(180.0\text{ g}+100.0\text{ g}=280.0\text{ g}\). Therefore the answer for mass is **iii, exactly \(280.0\text{ g}\)**. The volume is **iv, somewhat less than \(200.0\text{ mL}\)**, because dissolved sugar particles fit into spaces between water molecules; volumes are not always additive.
+   - **First thought:** The masses might change because the sugar disappears into the water, and the volumes might simply be $100.0+100.0=200.0\text{ mL}$.
+   - **Correction:** Assuming there is no spill or evaporation, mass is conserved: $180.0\text{ g}+100.0\text{ g}=280.0\text{ g}$. Therefore the answer for mass is **iii, exactly $280.0\text{ g}$**. The volume is **iv, somewhat less than $200.0\text{ mL}$**, because dissolved sugar particles fit into spaces between water molecules; volumes are not always additive.
 
 2. **Review Question 13 — two glassware sketches**
 
    - **First thought:** “To the thousandths place” means the instrument must show many small divisions, while “to the ones place” means it has only large 1-mL divisions.
-   - **Answer:** The fine-scale drawing has divisions small enough to support a reading such as \(2.350\text{ mL}\); the coarse-scale drawing supports only a reading such as \(2\text{ mL}\) (or \(2.\text{ mL}\) when the ones-place precision must be made explicit). A measurement includes all certain digits plus one estimated digit, so the scale determines the uncertainty.
+   - **Answer:** The fine-scale drawing has divisions small enough to support a reading such as $2.350\text{ mL}$; the coarse-scale drawing supports only a reading such as $2\text{ mL}$ (or $2.\text{ mL}$ when the ones-place precision must be made explicit). A measurement includes all certain digits plus one estimated digit, so the scale determines the uncertainty.
 
    ![Review Question 13 precision schematic]({{ '/Chem Journal/attachments/question-13-precision-sketch.svg' | relative_url }})
 
@@ -140,18 +140,18 @@ The eight answers are completed below. The reasoning follows the same learning p
 
 3. **Review Question 21 — observations, SI units, and uncertainty**
 
-   - A **qualitative observation** uses words without a numerical measurement, such as “the liquid is blue.” A **quantitative observation** includes a number and a unit, such as \(25.00\text{ mL}\).
+   - A **qualitative observation** uses words without a numerical measurement, such as “the liquid is blue.” A **quantitative observation** includes a number and a unit, such as $25.00\text{ mL}$.
    - The SI units requested are mass: **kilogram (kg)**; length: **meter (m)**; volume: **cubic meter (m³)**. Liter (L) is commonly used in chemistry but is not the SI unit for volume.
-   - Unless stated otherwise, the assumed uncertainty is \(\pm1\) in the last reported digit. For example, \(1.86\text{ kg}\) implies approximately \(1.86\pm0.01\text{ kg}\).
+   - Unless stated otherwise, the assumed uncertainty is $\pm1$ in the last reported digit. For example, $1.86\text{ kg}$ implies approximately $1.86\pm0.01\text{ kg}$.
    - A more precise instrument gives more certain digits and a smaller uncertainty. A coarse instrument cannot justify extra decimal places merely because a calculator can display them.
 
 4. **Exercise 33 — adding two graduated-cylinder samples**
 
-   The textbook figure gives approximately \(2.85\text{ mL}\) in the left cylinder and \(0.280\text{ mL}\) in the right cylinder. Therefore:
+   The textbook figure gives approximately $2.85\text{ mL}$ in the left cylinder and $0.280\text{ mL}$ in the right cylinder. Therefore:
 
    $$2.85+0.280=3.130\text{ mL}$$
 
-   For addition, the answer is limited by the fewest decimal places. The left cylinder is recorded only to the hundredths place, so the reported total is **\(3.13\text{ mL}\)**. The left graduated cylinder limits the precision.
+   For addition, the answer is limited by the fewest decimal places. The left cylinder is recorded only to the hundredths place, so the reported total is **$3.13\text{ mL}$**. The left graduated cylinder limits the precision.
 
    ![Zumdahl Exercise 33 graduated-cylinder figures]({{ '/Chem Journal/attachments/zumdahl-exercise-33-graduated-cylinders.png' | relative_url }})
 
@@ -180,11 +180,11 @@ The eight answers are completed below. The reasoning follows the same learning p
    - **Random error** changes unpredictably from trial to trial. It increases the spread and lowers precision; repeated measurements and averaging usually reduce its effect.
    - **Systematic error** shifts results consistently high or consistently low. It lowers accuracy and is not removed by averaging. Examples include a balance that has not been zeroed or an instrument with a calibration bias.
 
-4. **Review Question 22 — true dimension \(10.62\text{ cm}\)**
+4. **Review Question 22 — true dimension $10.62\text{ cm}$**
 
-   - **Imprecise and inaccurate:** \(8.9,\ 9.3,\ 11.8,\ 12.4\text{ cm}\). The values are widely spread and do not consistently agree with \(10.62\text{ cm}\).
-   - **Precise but inaccurate:** \(9.80,\ 9.81,\ 9.79,\ 9.80\text{ cm}\). The values are tightly grouped but consistently below the true value, suggesting a systematic bias.
-   - **Precise and accurate:** \(10.61,\ 10.62,\ 10.63,\ 10.62\text{ cm}\). The values are close together and close to \(10.62\text{ cm}\).
+   - **Imprecise and inaccurate:** $8.9,\ 9.3,\ 11.8,\ 12.4\text{ cm}$. The values are widely spread and do not consistently agree with $10.62\text{ cm}$.
+   - **Precise but inaccurate:** $9.80,\ 9.81,\ 9.79,\ 9.80\text{ cm}$. The values are tightly grouped but consistently below the true value, suggesting a systematic bias.
+   - **Precise and accurate:** $10.61,\ 10.62,\ 10.63,\ 10.62\text{ cm}$. The values are close together and close to $10.62\text{ cm}$.
    - Possible causes are poor or changing technique for imprecision and zero/calibration/method bias for inaccuracy. “Imprecise but accurate” needs careful wording: the set can be spread out while its average is near the true value, but the individual readings are not precise.
 
 #### My explanation now
@@ -193,7 +193,7 @@ When I see a repeated-data question, I first calculate or describe the spread, t
 
 #### Evidence, example, or application
 
-The eight completed answers show the distinction in different ways: the calcium results are tightly clustered but far from \(15.70\%\); the cylinder total is limited by \(2.85\text{ mL}\); and the no-zeroed balance example gives a systematic shift that averaging cannot remove.
+The eight completed answers show the distinction in different ways: the calcium results are tightly clustered but far from $15.70\%$; the cylinder total is limited by $2.85\text{ mL}$; and the no-zeroed balance example gives a systematic shift that averaging cannot remove.
 
 #### Question or uncertainty
 
@@ -239,43 +239,43 @@ I understood that leading zeros do not count as significant figures, but I was s
 
 #### What I learned
 
-1. **\(0.004080\) has four significant figures.**
+1. **$0.004080$ has four significant figures.**
 
    Reading each zero from left to right:
 
-   - The first three zeros before \(4\) are leading zeros. They only locate the decimal point and are **not significant**.
-   - The zero between \(4\) and \(8\) is an interior zero and **is significant**.
+   - The first three zeros before $4$ are leading zeros. They only locate the decimal point and are **not significant**.
+   - The zero between $4$ and $8$ is an interior zero and **is significant**.
    - The final zero is a trailing zero in a decimal measurement and **is significant**.
 
-   Therefore the significant digits are \(4,0,8,0\): **4 significant figures**. The number communicates approximately four-digit measurement precision; the leading zeros do not change the quantity, they only write \(0.004080\) in ordinary decimal form.
+   Therefore the significant digits are $4,0,8,0$: **4 significant figures**. The number communicates approximately four-digit measurement precision; the leading zeros do not change the quantity, they only write $0.004080$ in ordinary decimal form.
 
-2. **\(12.11+0.3+1.045\)**
+2. **$12.11+0.3+1.045$**
 
    First keep the full arithmetic result:
 
    $$12.11+0.3+1.045=13.455$$
 
-   For addition, the answer is reported to the **fewest decimal places**, not the fewest total significant figures. The value \(0.3\) has only one decimal place, so it limits the result:
+   For addition, the answer is reported to the **fewest decimal places**, not the fewest total significant figures. The value $0.3$ has only one decimal place, so it limits the result:
 
    $$13.455\longrightarrow\boxed{13.5}$$
 
-   The value that limits the result precision is **\(0.3\)**.
+   The value that limits the result precision is **$0.3$**.
 
-3. **\(3\times(2.50\times3.2)\div1.004\)**
+3. **$3\times(2.50\times3.2)\div1.004$**
 
    Keep extra digits during the calculation:
 
    $$3\times(2.50\times3.2)\div1.004=23.904382\ldots$$
 
-   The measured values have 3 significant figures in \(2.50\), 2 in \(3.2\), and 4 in \(1.004\). Therefore the final answer must have **2 significant figures**:
+   The measured values have 3 significant figures in $2.50$, 2 in $3.2$, and 4 in $1.004$. Therefore the final answer must have **2 significant figures**:
 
    $$23.904382\ldots\longrightarrow\boxed{2.4\times10^1}$$
 
-   The \(3\) means three counted, completely identical experiments. It is an **exact number**, so it has no measurement uncertainty and does not limit the final significant figures. The limiting measured value is \(3.2\), which has only 2 significant figures.
+   The $3$ means three counted, completely identical experiments. It is an **exact number**, so it has no measurement uncertainty and does not limit the final significant figures. The limiting measured value is $3.2$, which has only 2 significant figures.
 
 #### Evidence, example, or application
 
-The three questions use three different decisions: count significant figures digit by digit, use decimal places for addition, and use the fewest significant figures for multiplication/division. Writing \(24\) as \(2.4\times10^1\) makes its two significant figures explicit.
+The three questions use three different decisions: count significant figures digit by digit, use decimal places for addition, and use the fewest significant figures for multiplication/division. Writing $24$ as $2.4\times10^1$ makes its two significant figures explicit.
 
 #### My explanation now
 
@@ -283,15 +283,15 @@ When I see a significant-figure question, I first ask what operation is being us
 
 #### Question or uncertainty
 
-I still need independent practice distinguishing a measured number such as \(3.0\) from an exact counted number such as “3 trials.”
+I still need independent practice distinguishing a measured number such as $3.0$ from an exact counted number such as “3 trials.”
 
 #### Mistake or confusion
 
-My first description of \(0.004080\) was “the first three numbers do not count and 4080 counts.” That conclusion gave the correct total of four significant figures, but it did not explain each zero precisely. I also needed to check why \(13.455\) becomes \(13.5\), rather than being rounded by total significant figures.
+My first description of $0.004080$ was “the first three numbers do not count and 4080 counts.” That conclusion gave the correct total of four significant figures, but it did not explain each zero precisely. I also needed to check why $13.455$ becomes $13.5$, rather than being rounded by total significant figures.
 
 #### Correction
 
-The first three zeros in \(0.004080\) are not measurement digits; the interior zero and final decimal trailing zero are measurement digits. Addition uses the smallest number of decimal places, so \(0.3\) controls \(13.5\). Multiplication/division uses the smallest number of significant figures among measured values, while exact counts do not limit the answer.
+The first three zeros in $0.004080$ are not measurement digits; the interior zero and final decimal trailing zero are measurement digits. Addition uses the smallest number of decimal places, so $0.3$ controls $13.5$. Multiplication/division uses the smallest number of significant figures among measured values, while exact counts do not limit the answer.
 
 #### Confidence
 
@@ -393,4 +393,4 @@ Physical properties, chemical properties, physical changes, and chemical changes
 | 2026-08-20 | Chemistry | Liquid Type Test Experiment foundations | Understood the main vocabulary, safety requirements, equipment, measurement sequence, and basic density calculations; experiment not yet performed. | Complete three real trials and calculate the results. |
 | 2026-08-20 | Chemistry | Atomic structure and classification of substances | Understood atoms, subatomic particles, molecules, elements, compounds, and pure substances; corrected key misunderstandings. | Learn physical and chemical properties and changes. |
 | 2026-08-26 | Chemistry | Measurement reliability and uncertainty | Completed four §1.3 and four §1.4 textbook questions with calculations, error analysis, a source figure, and the required precision schematic. | Reproduce the answers independently and review the remaining uncertainty. |
-| 2026-08-26 | Chemistry | Lesson 4 significant figures Checkout Questions | Completed all three questions: \(0.004080\) has 4 significant figures; \(12.11+0.3+1.045=13.5\); and \(3\times(2.50\times3.2)\div1.004=2.4\times10^1\). | Reproduce each rule with a new example without notes. |
+| 2026-08-26 | Chemistry | Lesson 4 significant figures Checkout Questions | Completed all three questions: $0.004080$ has 4 significant figures; $12.11+0.3+1.045=13.5$; and $3\times(2.50\times3.2)\div1.004=2.4\times10^1$. | Reproduce each rule with a new example without notes. |
