@@ -122,7 +122,7 @@ The selected §1.3 questions focus on measurement values, units, glassware, inst
 
 1. **Review Question 4:** For each pictured piece of glassware, provide a sample measurement and discuss its significant figures and uncertainty.
 
-   ![Zumdahl Review Question 4 glassware figures](attachments/zumdahl-review-question-4-glassware.png)
+   ![Zumdahl Review Question 4 glassware figures]({{ '/Chem Journal/attachments/zumdahl-review-question-4-glassware.png' | relative_url }})
 
 2. **Review Question 13:** Sketch one piece of glassware that measures volume to the thousandths place and another that measures volume only to the ones place.
 
@@ -132,7 +132,7 @@ The selected §1.3 questions focus on measurement values, units, glassware, inst
 
 4. **Exercise 33:** Read the liquid volumes in the two graduated cylinders, report them with appropriate precision, and determine how the total volume should be reported when the liquids are combined.
 
-   ![Zumdahl Exercise 33 graduated-cylinder figures](attachments/zumdahl-exercise-33-graduated-cylinders.png)
+   ![Zumdahl Exercise 33 graduated-cylinder figures]({{ '/Chem Journal/attachments/zumdahl-exercise-33-graduated-cylinders.png' | relative_url }})
 
 **Selected questions for §1.4 — Uncertainty in Measurement**
 
