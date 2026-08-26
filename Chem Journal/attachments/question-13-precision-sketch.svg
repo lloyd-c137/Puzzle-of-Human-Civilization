@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic comparison of fine and coarse volume scales</title>
+  <desc id="desc">A fine-scale graduated cylinder with thousandths-place markings compared with a coarse-scale cylinder with ones-place markings.</desc>
+  <rect width="900" height="420" fill="#fffdf8"/>
+  <style>
+    .title { font: 700 24px sans-serif; fill: #243447; }
+    .label { font: 600 20px sans-serif; fill: #243447; }
+    .small { font: 16px sans-serif; fill: #52606d; }
+    .glass { fill: #e8f1f5; stroke: #52606d; stroke-width: 3; }
+    .liquid { fill: #b9e4ef; opacity: .9; }
+    .mark { stroke: #243447; stroke-width: 2; }
+    .major { stroke-width: 4; }
+  </style>
+  <text x="450" y="34" text-anchor="middle" class="title">Review Question 13 — precision schematic</text>
+  <g transform="translate(110,65)">
+    <text x="145" y="0" text-anchor="middle" class="label">Fine scale</text>
+    <text x="145" y="27" text-anchor="middle" class="small">can estimate to 0.001 mL</text>
+    <path d="M70 55 L90 55 L90 300 Q90 330 145 330 Q200 330 200 300 L200 55 L220 55 L220 315 Q220 365 145 365 Q70 365 70 315 Z" class="glass"/>
+    <path d="M91 190 L199 190 L199 300 Q199 330 145 330 Q91 330 91 300 Z" class="liquid"/>
+    <line x1="105" y1="95" x2="180" y2="95" class="mark major"/>
+    <line x1="120" y1="110" x2="180" y2="110" class="mark"/>
+    <line x1="120" y1="125" x2="180" y2="125" class="mark"/>
+    <line x1="120" y1="140" x2="180" y2="140" class="mark"/>
+    <line x1="120" y1="155" x2="180" y2="155" class="mark"/>
+    <line x1="105" y1="170" x2="180" y2="170" class="mark major"/>
+    <line x1="120" y1="185" x2="180" y2="185" class="mark"/>
+    <line x1="120" y1="200" x2="180" y2="200" class="mark"/>
+    <line x1="120" y1="215" x2="180" y2="215" class="mark"/>
+    <line x1="120" y1="230" x2="180" y2="230" class="mark"/>
+    <line x1="105" y1="245" x2="180" y2="245" class="mark major"/>
+    <text x="240" y="172" class="small">many small divisions</text>
+    <text x="145" y="400" text-anchor="middle" class="small">reported value: certain digits + one estimated digit</text>
+  </g>
+  <g transform="translate(540,65)">
+    <text x="145" y="0" text-anchor="middle" class="label">Coarse scale</text>
+    <text x="145" y="27" text-anchor="middle" class="small">reports only to the ones place</text>
+    <path d="M70 55 L90 55 L90 300 Q90 330 145 330 Q200 330 200 300 L200 55 L220 55 L220 315 Q220 365 145 365 Q70 365 70 315 Z" class="glass"/>
+    <path d="M91 230 L199 230 L199 300 Q199 330 145 330 Q91 330 91 300 Z" class="liquid"/>
+    <line x1="105" y1="110" x2="180" y2="110" class="mark major"/>
+    <line x1="105" y1="170" x2="180" y2="170" class="mark major"/>
+    <line x1="105" y1="230" x2="180" y2="230" class="mark major"/>
+    <line x1="105" y1="290" x2="180" y2="290" class="mark major"/>
+    <text x="240" y="172" class="small">large divisions</text>
+    <text x="145" y="400" text-anchor="middle" class="small">less certain digits and larger uncertainty</text>
+  </g>
+</svg>
