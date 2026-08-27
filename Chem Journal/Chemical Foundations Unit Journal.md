@@ -538,9 +538,11 @@ The hundredths digit in `640.99` is 9, so rounding to the tenths place changes t
 
 I need to distinguish “有效数字总数” from “小数位”. For this addition, the limiting measurements are `212.2` and `26.7`, each measured to one decimal place; therefore the properly reported result is `641.0`.
 
+我明白了，要保留1位小数，所以结果是641.0。
+
 #### Question or uncertainty
 
-I need more practice deciding whether a calculation is limited by decimal places or by the total number of significant figures.
+I need more practice deciding whether a calculation is limited by decimal places or by the total number of significant figures. I have now confirmed the rule for this addition.
 
 #### Mistake or confusion
 
@@ -552,11 +554,11 @@ For addition and subtraction, compare decimal places. Keep the complete intermed
 
 #### Confidence
 
-Medium. I calculated the unrounded sum correctly, but I need additional practice applying the correct rounding position.
+High for this addition. I calculated the unrounded sum correctly, corrected the rounding position, and confirmed that the answer is `641.0` because one decimal place is required.
 
 #### Progress
 
-Partly understood — I understand the addition rule after correction but have not yet completed the remaining parts of the exercise set.
+Understood — I can identify the limiting decimal place in this addition and report the final zero correctly. The remaining parts of the exercise set are not yet completed.
 
 #### Next focus
 
