@@ -191,8 +191,6 @@ During the actual 2026-08-26 learning discussion, my original questions included
 
 #### My explanation now
 
-我的原文回答是：
-
 “1.这组数据的准确度会偏低，精密度会高 2.这组数据最低值是24.8ml，最高值是25.1ml，范围为0.3ml，分散程度较小 3.没有调零属于systematic error，会使结果一直偏高或者偏低，多次测量或取平均值不能消除这种误差，最后一位有波动属于随机误差，它会使数据出现分散，降低precise，精密度，多次测量取平均值通常可以减小这种误差”
 
 #### Evidence, example, or application
@@ -283,7 +281,7 @@ The three questions use three different decisions: count significant figures dig
 
 #### My explanation now
 
-我的原文问题和回答包括：“0.004080每个零分别代表什么”、“加法要按照**最少小数位**报告结果 what does this mean”、“so the 结果精度 need to consider the number that has the smallest digits right”、“为什么最后还要舍入，按照什么标准”、“所有结果都要舍入吗”，以及“so the answer for this question is: it has four significant figures,the first 3numbers doesnt count,the 4080 count”。这些是我的原文；后面的规则说明属于解释/纠正，不是我的原文回答。
+“0.004080每个零分别代表什么”、“加法要按照**最少小数位**报告结果 what does this mean”、“so the 结果精度 need to consider the number that has the smallest digits right”、“为什么最后还要舍入，按照什么标准”、“所有结果都要舍入吗”，以及“so the answer for this question is: it has four significant figures,the first 3numbers doesnt count,the 4080 count”。后面的规则说明属于解释/纠正。
 
 #### Question or uncertainty
 
@@ -325,7 +323,7 @@ The current Track 2 assignment instructions and the existing Chemical Foundation
 
 #### What I knew or assumed before
 
-我的原文问题是：“这些问题我们是不是之前学过”。之前的学习和讨论已经发生在 2026-08-26；2026-08-27 只是把已有学习内容与当前作业要求对应起来。
+“这些问题我们是不是之前学过”。之前的学习和讨论已经发生在 2026-08-26；2026-08-27 只是把已有学习内容与当前作业要求对应起来。
 
 #### What I learned
 
@@ -345,7 +343,7 @@ The 2026-08-26 Journal entries contain the guided answers and corrections for al
 
 #### My explanation now
 
-我的原文是：“learningjournal里面要使用我原来的话我的原文”。因此本 Journal 现在采用以下记录边界：标为“我的原文”的内容必须逐字来自我的提问或回答；没有我的原文的部分只能标为“解释/纠正”，不能冒充我的回答。当前已经学过的内容与新作业仍需分别记录。
+“learningjournal里面要使用我原来的话我的原文”。因此本 Journal 保留提问和回答的原句，解释/纠正单独作为参考说明。当前已经学过的内容与新作业仍需分别记录。
 
 #### Question or uncertainty
 
@@ -387,9 +385,9 @@ Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 27, pp. 34–35.
 
 #### What I knew or assumed before
 
-我的原文问题是：“这个怎么完成”。在学习过程中，我也曾把一个数字是否准确数和它的外观联系起来，而没有先判断它是定义、计数、测量还是近似值。
+“这个怎么完成”。在学习过程中，我也曾把一个数字是否准确数和它的外观联系起来，而没有先判断它是定义、计数、测量还是近似值。
 
-我的原文回答是：“**a是准确数 b非准确数 c不知道 d非准确数**”。这四个判断中有 3 个正确。
+“**a是准确数 b非准确数 c不知道 d非准确数**”。这四个判断中有 3 个正确。
 
 #### What I learned
 
@@ -424,7 +422,7 @@ The classification depends on the source:
 
 #### My explanation now
 
-我的原文回答是：“**a是准确数 b非准确数 c不知道 d非准确数**”。我当时没有给出 c 的判断；c 的答案和理由属于后续解释/纠正，不是我的原文回答。
+“**a是准确数 b非准确数 c不知道 d非准确数**”。我当时没有给出 c 的判断；c 的答案和理由属于后续解释/纠正。
 
 #### Question or uncertainty
 
@@ -474,7 +472,7 @@ An atom is the smallest unit of an element that keeps that element’s identity.
 
 #### My understanding now
 
-我的原文是：“atom is the smallest unit of an element that still keeps that element's identity,and the nucleus is inside the atom ,and neutron has no electric charge,proton is positive,electron is negative”。我还说过：“yes i know and element is a pure substance made of only one type of atom,and compound is a pure substance made when atoms of different elements chemically join together”。
+“atom is the smallest unit of an element that still keeps that element's identity,and the nucleus is inside the atom ,and neutron has no electric charge,proton is positive,electron is negative”。我还说过：“yes i know and element is a pure substance made of only one type of atom,and compound is a pure substance made when atoms of different elements chemically join together”。
 
 #### Example, evidence, or application
 
