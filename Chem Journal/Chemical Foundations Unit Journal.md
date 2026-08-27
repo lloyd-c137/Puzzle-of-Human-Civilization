@@ -564,6 +564,66 @@ Understood — I can identify the limiting decimal place in this addition and re
 
 Review why `641.0` must retain the final zero, then continue to Exercise 36(a), which uses multiplication and division.
 
+### Learning entry — 2026-08-27 — Exercise 36(a): multiplication and division
+
+#### Date
+
+2026-08-27 (Asia/Shanghai)
+
+#### Subject and topic
+
+Chemistry — Multiplication and division with significant figures
+
+#### Source or activity
+
+Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 36(a), p. 35; guided calculation.
+
+#### What I knew or assumed before
+
+I wrote: “这个等式的结果是2.2635...按照最少有效数字，即1.01，得到2.26”。
+
+#### What I learned
+
+The calculation is:
+
+\[
+\frac{0.102 \times 0.0821 \times 273}{1.01}=2.2635\ldots
+\]
+
+For multiplication and division, the final result is reported with the same number of significant figures as the factor or divisor with the fewest significant figures. Here, `0.102`, `0.0821`, `273`, and `1.01` each have 3 significant figures.
+
+#### Evidence, example, or application
+
+Rounding `2.2635...` to 3 significant figures gives `2.26`, because the next digit after `2.26` is 3.
+
+#### My explanation now
+
+The unrounded result is `2.2635...`, and the correctly reported result is `2.26`. `1.01` has 3 significant figures, but it is not the only limiting value; all four numbers in this calculation have 3 significant figures.
+
+#### Question or uncertainty
+
+I need more practice recognizing whether one value alone limits a calculation or whether several values have the same limiting precision.
+
+#### Mistake or confusion
+
+My final answer was correct, but I described `1.01` as if it alone determined the final precision.
+
+#### Correction
+
+The final answer is controlled by the smallest significant-figure count among all measured factors and divisors. In this problem, the minimum is 3 and is shared by all four values.
+
+#### Confidence
+
+High. I calculated the unrounded value and reported it correctly to 3 significant figures.
+
+#### Progress
+
+Applied — I completed Exercise 36(a) and correctly used the multiplication/division rule.
+
+#### Next focus
+
+Review the difference between the addition/subtraction rule and the multiplication/division rule, then review the completed Exercises 27, 29, 35(a), and 36(a).
+
 ### Learning entry — 2026-08-20 — Atomic structure and classification of substances
 
 #### Date
@@ -657,3 +717,4 @@ Physical properties, chemical properties, physical changes, and chemical changes
 | 2026-08-27 | Chemistry | Exercise 27 exact and inexact numbers | Completed all four classifications: exact, inexact, exact, inexact; each answer is supported by whether the value is defined, measured, rounded, or approximated. | Study Exercise 29 and count significant figures in each value. |
 | 2026-08-27 | Chemistry | Exercise 29 significant figures | Completed the count for a–e and g–h; corrected the ambiguity of `300` without a decimal point. | Complete Exercise 35(a) and apply the decimal-place rule. |
 | 2026-08-27 | Chemistry | Exercise 35(a) addition | Calculated the unrounded sum correctly; corrected the final report from `640.1` to `641.0` using the one-decimal-place rule. | Continue with Exercise 36(a) and apply the multiplication/division rule. |
+| 2026-08-27 | Chemistry | Exercise 36(a) multiplication and division | Calculated `2.2635...` and correctly reported `2.26` to 3 significant figures; recognized that all four values share the same limiting count. | Review both calculation rules and the completed exercise set. |
