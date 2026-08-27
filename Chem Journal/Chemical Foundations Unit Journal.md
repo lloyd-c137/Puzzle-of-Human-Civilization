@@ -341,10 +341,6 @@ The newly assigned work is different: complete **Chapter 1 Exercises 27, 29, 35(
 
 The 2026-08-26 Journal entries contain the guided answers and corrections for all three Checkout Questions, including the questions I actually asked while learning. They also contain examples of measurement uncertainty and the distinction between measured values and exact counted values. The remaining evidence needed for this assignment is the four textbook exercise solutions with their original question wording, intermediate work, final answers, and rounding explanations.
 
-#### My explanation now
-
-“learningjournal里面要使用我原来的话我的原文”。因此本 Journal 保留提问和回答的原句，解释/纠正单独作为参考说明。当前已经学过的内容与新作业仍需分别记录。
-
 #### Question or uncertainty
 
 I need to apply the already learned rules to Exercises 27, 29, 35(a), and 36(a), and identify whether each result is controlled by exactness, decimal places, or significant figures.
