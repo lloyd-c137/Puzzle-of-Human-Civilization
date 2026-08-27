@@ -323,7 +323,7 @@ The current Track 2 assignment instructions and the existing Chemical Foundation
 
 #### What I knew or assumed before
 
-“这些问题我们是不是之前学过”。之前的学习和讨论已经发生在 2026-08-26；2026-08-27 只是把已有学习内容与当前作业要求对应起来。
+之前的学习和讨论已经发生在 2026-08-26；2026-08-27 只是把已有学习内容与当前作业要求对应起来。
 
 #### What I learned
 
