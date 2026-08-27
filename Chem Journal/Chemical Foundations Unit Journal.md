@@ -387,6 +387,8 @@ Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 27, pp. 34–35.
 
 I knew that exact numbers do not limit significant figures, but I was likely to judge a number by its appearance: a whole number might seem exact, while a decimal might seem inexact. The important question is not whether the number has a decimal point; it is how the number was obtained.
 
+My independent attempt was: **a exact, b inexact, c I did not know, d inexact**. This gave 3 correct classifications out of 4.
+
 #### What I learned
 
 Exercise 27 asks which statements contain exact numbers:
@@ -404,6 +406,8 @@ They come from the defined relationship between the Celsius and Fahrenheit scale
 The displayed decimal is a finite approximation to the mathematical constant \(\pi\). It is not the exact value of \(\pi\).
 
 The final answers are therefore: **a exact; b inexact; c exact; d inexact.**
+
+My correction after answering was only needed for part c: both \(\frac{9}{5}\) and \(32\) are exact because the Celsius-Fahrenheit relationship defines the temperature scales. The fact that \(T_C\) or \(T_F\) may be measured does not make the defined coefficients in the equation inexact.
 
 #### Evidence, example, or application
 
@@ -426,7 +430,7 @@ I still need to apply the exact/inexact test when a problem mixes exact definiti
 
 #### Mistake or confusion
 
-The likely first mistake is to think that every number written in an equation is measured, or that a decimal such as \(1.094\) becomes exact because the sentence says “equals.” Another possible confusion is treating \(3.1415927\) as exact simply because it has many digits.
+I correctly identified a, b, and d, but I did not know whether the coefficients in the temperature equation were exact. The likely confusion is thinking that every number in an equation is measured. Another possible confusion is treating \(3.1415927\) as exact simply because it has many digits.
 
 #### Correction
 
@@ -434,7 +438,7 @@ Exactness comes from the origin of a value, not from its number of digits or the
 
 #### Confidence
 
-Medium. I can classify all four parts and explain the source of each number, but I need more practice identifying exactness inside multistep calculations.
+Medium-high. I classified three of four parts independently and corrected the remaining uncertainty after checking why the temperature-scale coefficients are defined as exact.
 
 #### Progress
 
