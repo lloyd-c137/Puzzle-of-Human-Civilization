@@ -122,6 +122,8 @@ I knew that accuracy means closeness to a true value and precision means repeate
 
 The eight answers are completed below. The reasoning follows the same learning pattern: first identify what the question is testing, make the natural first interpretation, then correct it using the measurement rule or the evidence.
 
+During the actual 2026-08-26 learning discussion, I asked questions in a step-by-step way: “What are the four types of zeros?”, “What are exact numbers?”, “If leading zeros do not count, what is the consequence?”, “Why does scientific notation focus on the coefficient?”, “Why does the 6 count as a significant figure but the 3 in the previous question does not?”, and “Do all results need to be rounded?” These questions led to the following corrections: leading zeros only locate the decimal point; interior zeros and decimal trailing zeros can be significant; exact counted values do not limit a measured result; and intermediate values should be kept unrounded until the final step.
+
 **§1.3 — Units of Measurement**
 
 1. **Review Question 4 — dissolving sugar in water**
@@ -321,23 +323,23 @@ The current Track 2 assignment instructions and the existing Chemical Foundation
 
 #### What I knew or assumed before
 
-I was unsure whether the three Checkout Questions were new work or material we had already studied. I had already learned the ideas through guided questions, but the assignment wording made it necessary to check exactly which parts were completed and which parts were newly assigned.
+I had already studied the significant-figure rules and the three Checkout Questions through the 2026-08-26 guided discussion. The new assignment wording made it necessary to separate that previous learning from the newly listed textbook exercises.
 
 #### What I learned
 
-The three Checkout Questions were already studied and recorded on 2026-08-26:
+The three Checkout Questions were already studied and recorded on 2026-08-26. They are not new learning for this 2026-08-27 entry:
 
 1. \(0.004080\) has four significant figures; the first three zeros are leading zeros, the zero between \(4\) and \(8\) is an interior significant zero, and the final zero is a significant trailing zero in a decimal measurement.
 2. \(12.11+0.3+1.045=13.455\), reported as \(13.5\) because addition is limited by the fewest decimal places; \(0.3\) controls the result.
 3. \(3\times(2.50\times3.2)\div1.004=23.904382\ldots\), reported as \(2.4\times10^1\) because multiplication/division is limited by the fewest significant figures. The \(3\) is an exact counted number and does not limit the result.
 
-The concepts listed in the first assignment bullet were also studied: the four types of zeros, exact numbers, addition/subtraction rules, multiplication/division rules, and rounding only at the final step of a multistep calculation.
+The concepts listed in the first assignment bullet were also studied on 2026-08-26: the four types of zeros, exact numbers, addition/subtraction rules, multiplication/division rules, and rounding only at the final step of a multistep calculation. The earlier questions and corrections are kept in the 2026-08-26 learning entries rather than being presented as new work today.
 
 The newly assigned work is different: complete **Chapter 1 Exercises 27, 29, 35(a), and 36(a)** from pp. 34–35, keeping complete intermediate values and stating the final rounding basis. These four exercises have not yet been completed in the Journal.
 
 #### Evidence, example, or application
 
-The Journal already contains the guided answers and corrections for all three Checkout Questions. It also contains examples of measurement uncertainty and the distinction between measured values and exact counted values. The remaining evidence needed for this assignment is the four textbook exercise solutions with their original question wording, intermediate work, final answers, and rounding explanations.
+The 2026-08-26 Journal entries contain the guided answers and corrections for all three Checkout Questions, including the questions I actually asked while learning. They also contain examples of measurement uncertainty and the distinction between measured values and exact counted values. The remaining evidence needed for this assignment is the four textbook exercise solutions with their original question wording, intermediate work, final answers, and rounding explanations.
 
 #### My explanation now
 
@@ -345,15 +347,15 @@ I can separate the assignment into two parts: **already learned** means the thre
 
 #### Question or uncertainty
 
-I need to apply the same rules to the four new exercises and identify whether each result is controlled by exactness, decimal places, or significant figures.
+I need to apply the already learned rules to Exercises 27, 29, 35(a), and 36(a), and identify whether each result is controlled by exactness, decimal places, or significant figures.
 
 #### Mistake or confusion
 
-I initially treated the Checkout Questions and the four textbook exercises as one undifferentiated task, so it was unclear whether the assignment had been completed.
+I initially treated the Checkout Questions and the four textbook exercises as one undifferentiated task, so it was unclear whether the assignment had been completed. I also risked recording the previously learned Checkout Questions as if they had been learned on 2026-08-27.
 
 #### Correction
 
-The Checkout Questions are marked as previously studied on 2026-08-26. The new Exercises 27, 29, 35(a), and 36(a) are explicitly marked as pending and will receive a separate solution record when completed.
+The Checkout Questions and their answers are dated 2026-08-26, when the discussion actually occurred. The 2026-08-27 entry only maps that previous learning to the current assignment. Exercises 27, 29, 35(a), and 36(a) are explicitly marked as pending and will receive a separate solution record when completed.
 
 #### Confidence
 
