@@ -21,7 +21,7 @@ This Unit Journal records the actual learning process for measurement, laborator
 |---|---|---|---|---|
 | Liquid Type Test safety and equipment | Applied | Medium-high | 2026-08-20 | Perform the supervised procedure. |
 | Mass, volume, density, and repeated measurements | Exploring | Medium | 2026-08-20 | Calculate three real trials, mean, and range. |
-| Measurement reliability and uncertainty | Applied | Medium | 2026-08-26 | Reproduce the eight textbook answers and three Checkout Questions independently. |
+| Measurement reliability and uncertainty | Applied | Medium | 2026-08-27 | Complete Exercises 27, 29, 35(a), and 36(a), then reproduce the rules independently. |
 | Atomic structure and classification of substances | Applied | High | 2026-08-20 | Study physical and chemical properties and changes. |
 
 ## Key knowledge and vocabulary
@@ -305,6 +305,68 @@ Applied — the three Checkout Questions are answered with the required rules, c
 
 Complete one new example of each rule without notes, then review the textbook Examples 1.3 and 1.4.
 
+### Learning entry — 2026-08-27 — Track 2 assignment review and question status
+
+#### Date
+
+2026-08-27 (Asia/Shanghai)
+
+#### Subject and topic
+
+Chemistry — Zumdahl Chapter 1 §1.5 Significant Figures and Calculations; Track 2 advanced chemistry assignment
+
+#### Source or activity
+
+The current Track 2 assignment instructions and the existing Chemical Foundations Unit Journal.
+
+#### What I knew or assumed before
+
+I was unsure whether the three Checkout Questions were new work or material we had already studied. I had already learned the ideas through guided questions, but the assignment wording made it necessary to check exactly which parts were completed and which parts were newly assigned.
+
+#### What I learned
+
+The three Checkout Questions were already studied and recorded on 2026-08-26:
+
+1. \(0.004080\) has four significant figures; the first three zeros are leading zeros, the zero between \(4\) and \(8\) is an interior significant zero, and the final zero is a significant trailing zero in a decimal measurement.
+2. \(12.11+0.3+1.045=13.455\), reported as \(13.5\) because addition is limited by the fewest decimal places; \(0.3\) controls the result.
+3. \(3\times(2.50\times3.2)\div1.004=23.904382\ldots\), reported as \(2.4\times10^1\) because multiplication/division is limited by the fewest significant figures. The \(3\) is an exact counted number and does not limit the result.
+
+The concepts listed in the first assignment bullet were also studied: the four types of zeros, exact numbers, addition/subtraction rules, multiplication/division rules, and rounding only at the final step of a multistep calculation.
+
+The newly assigned work is different: complete **Chapter 1 Exercises 27, 29, 35(a), and 36(a)** from pp. 34–35, keeping complete intermediate values and stating the final rounding basis. These four exercises have not yet been completed in the Journal.
+
+#### Evidence, example, or application
+
+The Journal already contains the guided answers and corrections for all three Checkout Questions. It also contains examples of measurement uncertainty and the distinction between measured values and exact counted values. The remaining evidence needed for this assignment is the four textbook exercise solutions with their original question wording, intermediate work, final answers, and rounding explanations.
+
+#### My explanation now
+
+I can separate the assignment into two parts: **already learned** means the three Checkout Questions and the significant-figure rules; **new work** means Exercises 27, 29, 35(a), and 36(a). A completed concept explanation is not the same as a completed textbook exercise, so the Journal must record both statuses separately.
+
+#### Question or uncertainty
+
+I need to apply the same rules to the four new exercises and identify whether each result is controlled by exactness, decimal places, or significant figures.
+
+#### Mistake or confusion
+
+I initially treated the Checkout Questions and the four textbook exercises as one undifferentiated task, so it was unclear whether the assignment had been completed.
+
+#### Correction
+
+The Checkout Questions are marked as previously studied on 2026-08-26. The new Exercises 27, 29, 35(a), and 36(a) are explicitly marked as pending and will receive a separate solution record when completed.
+
+#### Confidence
+
+Medium. I understand the required rules and the three Checkout Questions, but the four newly assigned exercises still need to be solved and checked.
+
+#### Progress
+
+Partly understood — the concepts and Checkout Questions are applied, while the four new textbook exercises have not yet been completed.
+
+#### Next focus
+
+Complete Exercise 27 first, then Exercises 29, 35(a), and 36(a), preserving unrounded intermediate values and explaining the final rounding decision.
+
 ### Learning entry — 2026-08-20 — Atomic structure and classification of substances
 
 #### Date
@@ -394,3 +456,4 @@ Physical properties, chemical properties, physical changes, and chemical changes
 | 2026-08-20 | Chemistry | Atomic structure and classification of substances | Understood atoms, subatomic particles, molecules, elements, compounds, and pure substances; corrected key misunderstandings. | Learn physical and chemical properties and changes. |
 | 2026-08-26 | Chemistry | Measurement reliability and uncertainty | Completed four §1.3 and four §1.4 textbook questions with calculations, error analysis, a source figure, and the required precision schematic. | Reproduce the answers independently and review the remaining uncertainty. |
 | 2026-08-26 | Chemistry | Lesson 4 significant figures Checkout Questions | Completed all three questions: $0.004080$ has 4 significant figures; $12.11+0.3+1.045=13.5$; and $3\times(2.50\times3.2)\div1.004=2.4\times10^1$. | Reproduce each rule with a new example without notes. |
+| 2026-08-27 | Chemistry | Track 2 §1.5 assignment status | Checkout Questions and the related rules were already studied; Exercises 27, 29, 35(a), and 36(a) are newly assigned and pending. | Complete the four textbook exercises with intermediate values and rounding bases. |

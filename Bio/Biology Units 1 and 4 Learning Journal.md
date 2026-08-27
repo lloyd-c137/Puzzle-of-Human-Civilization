@@ -807,6 +807,60 @@ Applied
 
 Identify whether examples are facultative or obligate mutualism.
 
+### Learning entry — 2026-08-26 — Interactions and competition exercises
+
+#### Date
+
+2026-08-26
+
+#### Subject and topic
+
+Biology Unit 4 — community interactions and competition
+
+#### Source or activity
+
+Khan Academy exercises: “Understand: Interactions in communities,” “Apply: Interactions in communities,” “Understand: Competition and regulation,” and “Apply: Competition and regulation.”
+
+#### What I knew or assumed before
+
+I knew the main interaction types and that competition involves limited resources.
+
+#### What I learned
+
+Different species competing for the same resource show interspecific competition. Resource partitioning reduces competition by separating resource use. High competition can compress a niche, while low competition can allow a niche to expand.
+
+#### Evidence, example, or application
+
+I identified competition between vultures sharing carrion, resource partitioning among shorebirds using different feeding depths, and vendace outcompeting whitefish for zooplankton. I completed all four exercises at Proficient (100%).
+
+#### My explanation now
+
+Competition regulates populations and can change where and how a species uses its habitat. Species can coexist when they partition resources; if they use exactly the same limited resources, competitive exclusion may occur.
+
+#### Question or uncertainty
+
+How can environmental change reverse which species is the stronger competitor?
+
+#### Mistake or confusion
+
+No mistakes in this exercise set.
+
+#### Correction
+
+The practice confirmed the distinction between same-species competition, different-species competition, resource partitioning, and competitive exclusion.
+
+#### Confidence
+
+High
+
+#### Progress
+
+Applied — current lesson exercises complete
+
+#### Next focus
+
+Continue to the next Biology lesson and revisit the competition graph examples when reviewing.
+
 ## Concepts to revisit
 
 - 
