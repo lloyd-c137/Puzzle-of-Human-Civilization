@@ -21,7 +21,7 @@ This Unit Journal records the actual learning process for measurement, laborator
 |---|---|---|---|---|
 | Liquid Type Test safety and equipment | Applied | Medium-high | 2026-08-20 | Perform the supervised procedure. |
 | Mass, volume, density, and repeated measurements | Exploring | Medium | 2026-08-20 | Calculate three real trials, mean, and range. |
-| Measurement reliability and uncertainty | Applied | Medium | 2026-08-27 | Complete Exercises 27, 29, 35(a), and 36(a), then reproduce the rules independently. |
+| Measurement reliability and uncertainty | Applied | Medium | 2026-08-27 | Complete Exercises 29, 35(a), and 36(a), then reproduce the rules independently. |
 | Atomic structure and classification of substances | Applied | High | 2026-08-20 | Study physical and chemical properties and changes. |
 
 ## Key knowledge and vocabulary
@@ -335,7 +335,7 @@ The three Checkout Questions were already studied and recorded on 2026-08-26. Th
 
 The concepts listed in the first assignment bullet were also studied on 2026-08-26: the four types of zeros, exact numbers, addition/subtraction rules, multiplication/division rules, and rounding only at the final step of a multistep calculation. The earlier questions and corrections are kept in the 2026-08-26 learning entries rather than being presented as new work today.
 
-The newly assigned work is different: complete **Chapter 1 Exercises 27, 29, 35(a), and 36(a)** from pp. 34–35, keeping complete intermediate values and stating the final rounding basis. These four exercises have not yet been completed in the Journal.
+The newly assigned work is different: complete **Chapter 1 Exercises 27, 29, 35(a), and 36(a)** from pp. 34–35, keeping complete intermediate values and stating the final rounding basis. Exercise 27 has now been completed in the Journal; Exercises 29, 35(a), and 36(a) remain.
 
 #### Evidence, example, or application
 
@@ -355,7 +355,7 @@ I initially treated the Checkout Questions and the four textbook exercises as on
 
 #### Correction
 
-The Checkout Questions and their answers are dated 2026-08-26, when the discussion actually occurred. The 2026-08-27 entry only maps that previous learning to the current assignment. Exercises 27, 29, 35(a), and 36(a) are explicitly marked as pending and will receive a separate solution record when completed.
+The Checkout Questions and their answers are dated 2026-08-26, when the discussion actually occurred. The 2026-08-27 entry only maps that previous learning to the current assignment. Exercise 27 is now completed in a separate entry; Exercises 29, 35(a), and 36(a) remain pending and will receive separate solution records.
 
 #### Confidence
 
@@ -368,6 +368,81 @@ Partly understood — the concepts and Checkout Questions are applied, while the
 #### Next focus
 
 Complete Exercise 27 first, then Exercises 29, 35(a), and 36(a), preserving unrounded intermediate values and explaining the final rounding decision.
+
+### Learning entry — 2026-08-27 — Exercise 27: exact and inexact numbers
+
+#### Date
+
+2026-08-27 (Asia/Shanghai)
+
+#### Subject and topic
+
+Chemistry — Zumdahl Chapter 1 §1.5 Significant Figures and Calculations; exact and inexact numbers
+
+#### Source or activity
+
+Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 27, pp. 34–35.
+
+#### What I knew or assumed before
+
+I knew that exact numbers do not limit significant figures, but I was likely to judge a number by its appearance: a whole number might seem exact, while a decimal might seem inexact. The important question is not whether the number has a decimal point; it is how the number was obtained.
+
+#### What I learned
+
+Exercise 27 asks which statements contain exact numbers:
+
+**a. There are 100 cm in 1 m. — Exact.**
+This is an exact metric definition. It is not the result of measuring a particular object.
+
+**b. One meter equals 1.094 yards. — Inexact.**
+The conversion from meters to yards is not exactly \(1.094\); \(1.094\) is a rounded conversion value. The word “equals” in the sentence does not make a rounded value exact.
+
+**c. \(T_F=\frac{9}{5}T_C+32\). — The numbers \(\frac{9}{5}\) and \(32\) are exact.**
+They come from the defined relationship between the Celsius and Fahrenheit scales, not from an experimental measurement. The measured temperature \(T_C\) or \(T_F\) may still be inexact.
+
+**d. \(\pi=3.1415927\). — Inexact.**
+The displayed decimal is a finite approximation to the mathematical constant \(\pi\). It is not the exact value of \(\pi\).
+
+The final answers are therefore: **a exact; b inexact; c exact; d inexact.**
+
+#### Evidence, example, or application
+
+The classification depends on the source:
+
+| Statement | Source of the number | Classification |
+|---|---|---|
+| \(100\text{ cm}=1\text{ m}\) | Defined metric relationship | Exact |
+| \(1\text{ m}=1.094\text{ yd}\) | Rounded conversion value | Inexact |
+| \(\frac{9}{5}\) and \(32\) in the temperature equation | Defined temperature-scale relationship | Exact |
+| \(3.1415927\) for \(\pi\) | Finite decimal approximation | Inexact |
+
+#### My explanation now
+
+To decide whether a number is exact, I ask: **Was it counted or defined, or was it measured, estimated, or rounded?** Defined conversion relationships such as \(100\text{ cm}=1\text{ m}\) are exact. A rounded conversion such as \(1.094\text{ yd}\), and a finite approximation such as \(3.1415927\), are inexact even if they are written confidently.
+
+#### Question or uncertainty
+
+I still need to apply the exact/inexact test when a problem mixes exact definitions with measured values in the same calculation.
+
+#### Mistake or confusion
+
+The likely first mistake is to think that every number written in an equation is measured, or that a decimal such as \(1.094\) becomes exact because the sentence says “equals.” Another possible confusion is treating \(3.1415927\) as exact simply because it has many digits.
+
+#### Correction
+
+Exactness comes from the origin of a value, not from its number of digits or the wording “equals.” Definitions and counted quantities are exact; measured, estimated, rounded, and truncated values are inexact. The coefficients in the Celsius-Fahrenheit definition are exact, while \(1.094\) yards and \(3.1415927\) are approximations.
+
+#### Confidence
+
+Medium. I can classify all four parts and explain the source of each number, but I need more practice identifying exactness inside multistep calculations.
+
+#### Progress
+
+Applied — I completed Exercise 27 and connected each answer to the definition, measurement, or approximation that produced the number.
+
+#### Next focus
+
+Study Exercise 29 by counting significant figures in scientific notation, zeros, and whole numbers with or without a decimal point.
 
 ### Learning entry — 2026-08-20 — Atomic structure and classification of substances
 
@@ -458,4 +533,5 @@ Physical properties, chemical properties, physical changes, and chemical changes
 | 2026-08-20 | Chemistry | Atomic structure and classification of substances | Understood atoms, subatomic particles, molecules, elements, compounds, and pure substances; corrected key misunderstandings. | Learn physical and chemical properties and changes. |
 | 2026-08-26 | Chemistry | Measurement reliability and uncertainty | Completed four §1.3 and four §1.4 textbook questions with calculations, error analysis, a source figure, and the required precision schematic. | Reproduce the answers independently and review the remaining uncertainty. |
 | 2026-08-26 | Chemistry | Lesson 4 significant figures Checkout Questions | Completed all three questions: $0.004080$ has 4 significant figures; $12.11+0.3+1.045=13.5$; and $3\times(2.50\times3.2)\div1.004=2.4\times10^1$. | Reproduce each rule with a new example without notes. |
-| 2026-08-27 | Chemistry | Track 2 §1.5 assignment status | Checkout Questions and the related rules were already studied; Exercises 27, 29, 35(a), and 36(a) are newly assigned and pending. | Complete the four textbook exercises with intermediate values and rounding bases. |
+| 2026-08-27 | Chemistry | Track 2 §1.5 assignment status | Checkout Questions and the related rules were already studied; Exercise 27 is completed, while Exercises 29, 35(a), and 36(a) remain. | Complete the remaining three textbook exercises with intermediate values and rounding bases. |
+| 2026-08-27 | Chemistry | Exercise 27 exact and inexact numbers | Completed all four classifications: exact, inexact, exact, inexact; each answer is supported by whether the value is defined, measured, rounded, or approximated. | Study Exercise 29 and count significant figures in each value. |
