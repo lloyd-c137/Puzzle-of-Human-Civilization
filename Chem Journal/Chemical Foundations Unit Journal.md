@@ -122,7 +122,7 @@ I knew that accuracy means closeness to a true value and precision means repeate
 
 The eight answers are completed below. The reasoning follows the same learning pattern: first identify what the question is testing, make the natural first interpretation, then correct it using the measurement rule or the evidence.
 
-During the actual 2026-08-26 learning discussion, I asked questions in a step-by-step way: “What are the four types of zeros?”, “What are exact numbers?”, “If leading zeros do not count, what is the consequence?”, “Why does scientific notation focus on the coefficient?”, “Why does the 6 count as a significant figure but the 3 in the previous question does not?”, and “Do all results need to be rounded?” These questions led to the following corrections: leading zeros only locate the decimal point; interior zeros and decimal trailing zeros can be significant; exact counted values do not limit a measured result; and intermediate values should be kept unrounded until the final step.
+During the actual 2026-08-26 learning discussion, my original questions included: “0.004080每个零分别代表什么”, “为什么科学计数法只看前面的8050”, “好的我明白了，我们继续看example1.4”, “乘除规则，1.05的有效数字更少，最终答案应该保留2个有效数字”, “这是怎么算的”, “为什么最后还要舍入，按照什么标准”, and “所有结果都要舍入吗”. These questions led to the following corrections: leading zeros only locate the decimal point; interior zeros and decimal trailing zeros can be significant; exact counted values do not limit a measured result; and intermediate values should be kept unrounded until the final step.
 
 **§1.3 — Units of Measurement**
 
@@ -387,7 +387,7 @@ Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 27, pp. 34–35.
 
 I knew that exact numbers do not limit significant figures, but I was likely to judge a number by its appearance: a whole number might seem exact, while a decimal might seem inexact. The important question is not whether the number has a decimal point; it is how the number was obtained.
 
-My independent attempt was: **a exact, b inexact, c I did not know, d inexact**. This gave 3 correct classifications out of 4.
+我的原文回答是：“**a是准确数 b非准确数 c不知道 d非准确数**”。这四个判断中有 3 个正确。
 
 #### What I learned
 
