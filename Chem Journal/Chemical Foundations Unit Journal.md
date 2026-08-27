@@ -329,9 +329,9 @@ The current Track 2 assignment instructions and the existing Chemical Foundation
 
 The three Checkout Questions were already studied and recorded on 2026-08-26. They are not new learning for this 2026-08-27 entry:
 
-1. \(0.004080\) has four significant figures; the first three zeros are leading zeros, the zero between \(4\) and \(8\) is an interior significant zero, and the final zero is a significant trailing zero in a decimal measurement.
-2. \(12.11+0.3+1.045=13.455\), reported as \(13.5\) because addition is limited by the fewest decimal places; \(0.3\) controls the result.
-3. \(3\times(2.50\times3.2)\div1.004=23.904382\ldots\), reported as \(2.4\times10^1\) because multiplication/division is limited by the fewest significant figures. The \(3\) is an exact counted number and does not limit the result.
+1. $0.004080$ has four significant figures; the first three zeros are leading zeros, the zero between $4$ and $8$ is an interior significant zero, and the final zero is a significant trailing zero in a decimal measurement.
+2. $12.11+0.3+1.045=13.455$, reported as $13.5$ because addition is limited by the fewest decimal places; $0.3$ controls the result.
+3. $3\times(2.50\times3.2)\div1.004=23.904382\ldots$, reported as $2.4\times10^1$ because multiplication/division is limited by the fewest significant figures. The $3$ is an exact counted number and does not limit the result.
 
 The concepts listed in the first assignment bullet were also studied on 2026-08-26: the four types of zeros, exact numbers, addition/subtraction rules, multiplication/division rules, and rounding only at the final step of a multistep calculation. The earlier questions and corrections are kept in the 2026-08-26 learning entries rather than being presented as new work today.
 
@@ -393,17 +393,17 @@ Exercise 27 asks which statements contain exact numbers:
 This is an exact metric definition. It is not the result of measuring a particular object.
 
 **b. One meter equals 1.094 yards. — Inexact.**
-The conversion from meters to yards is not exactly \(1.094\); \(1.094\) is a rounded conversion value. The word “equals” in the sentence does not make a rounded value exact.
+The conversion from meters to yards is not exactly $1.094$; $1.094$ is a rounded conversion value. The word “equals” in the sentence does not make a rounded value exact.
 
-**c. \(T_F=\frac{9}{5}T_C+32\). — The numbers \(\frac{9}{5}\) and \(32\) are exact.**
-They come from the defined relationship between the Celsius and Fahrenheit scales, not from an experimental measurement. The measured temperature \(T_C\) or \(T_F\) may still be inexact.
+**c. $T_F=\frac{9}{5}T_C+32$. — The numbers $\frac{9}{5}$ and $32$ are exact.**
+They come from the defined relationship between the Celsius and Fahrenheit scales, not from an experimental measurement. The measured temperature $T_C$ or $T_F$ may still be inexact.
 
-**d. \(\pi=3.1415927\). — Inexact.**
-The displayed decimal is a finite approximation to the mathematical constant \(\pi\). It is not the exact value of \(\pi\).
+**d. $\pi=3.1415927$. — Inexact.**
+The displayed decimal is a finite approximation to the mathematical constant $\pi$. It is not the exact value of $\pi$.
 
 The final answers are therefore: **a exact; b inexact; c exact; d inexact.**
 
-My correction after answering was only needed for part c: both \(\frac{9}{5}\) and \(32\) are exact because the Celsius-Fahrenheit relationship defines the temperature scales. The fact that \(T_C\) or \(T_F\) may be measured does not make the defined coefficients in the equation inexact.
+My correction after answering was only needed for part c: both $\frac{9}{5}$ and $32$ are exact because the Celsius-Fahrenheit relationship defines the temperature scales. The fact that $T_C$ or $T_F$ may be measured does not make the defined coefficients in the equation inexact.
 
 #### Evidence, example, or application
 
@@ -411,10 +411,10 @@ The classification depends on the source:
 
 | Statement | Source of the number | Classification |
 |---|---|---|
-| \(100\text{ cm}=1\text{ m}\) | Defined metric relationship | Exact |
-| \(1\text{ m}=1.094\text{ yd}\) | Rounded conversion value | Inexact |
-| \(\frac{9}{5}\) and \(32\) in the temperature equation | Defined temperature-scale relationship | Exact |
-| \(3.1415927\) for \(\pi\) | Finite decimal approximation | Inexact |
+| $100\text{ cm}=1\text{ m}$ | Defined metric relationship | Exact |
+| $1\text{ m}=1.094\text{ yd}$ | Rounded conversion value | Inexact |
+| $\frac{9}{5}$ and $32$ in the temperature equation | Defined temperature-scale relationship | Exact |
+| $3.1415927$ for $\pi$ | Finite decimal approximation | Inexact |
 
 #### My explanation now
 
@@ -426,11 +426,11 @@ I still need to apply the exact/inexact test when a problem mixes exact definiti
 
 #### Mistake or confusion
 
-I correctly identified a, b, and d, but I did not know whether the coefficients in the temperature equation were exact. The likely confusion is thinking that every number in an equation is measured. Another possible confusion is treating \(3.1415927\) as exact simply because it has many digits.
+I correctly identified a, b, and d, but I did not know whether the coefficients in the temperature equation were exact. The likely confusion is thinking that every number in an equation is measured. Another possible confusion is treating $3.1415927$ as exact simply because it has many digits.
 
 #### Correction
 
-Exactness comes from the origin of a value, not from its number of digits or the wording “equals.” Definitions and counted quantities are exact; measured, estimated, rounded, and truncated values are inexact. The coefficients in the Celsius-Fahrenheit definition are exact, while \(1.094\) yards and \(3.1415927\) are approximations.
+Exactness comes from the origin of a value, not from its number of digits or the wording “equals.” Definitions and counted quantities are exact; measured, estimated, rounded, and truncated values are inexact. The coefficients in the Celsius-Fahrenheit definition are exact, while $1.094$ yards and $3.1415927$ are approximations.
 
 #### Confidence
 
@@ -520,9 +520,9 @@ I wrote: “这个等式的结果是640.99,因为最少数位是3位，所以结
 
 The unrounded addition is correct:
 
-\[
+$$
 212.2 + 26.7 + 402.09 = 640.99
-\]
+$$
 
 For addition, the final answer is limited by the fewest decimal places, not by the fewest total significant figures. The first two values have one decimal place, so the final answer must be reported to one decimal place.
 
@@ -582,9 +582,9 @@ I wrote: “这个等式的结果是2.2635...按照最少有效数字，即1.01�
 
 The calculation is:
 
-\[
+$$
 \frac{0.102 \times 0.0821 \times 273}{1.01}=2.2635\ldots
-\]
+$$
 
 For multiplication and division, the final result is reported with the same number of significant figures as the factor or divisor with the fewest significant figures. Here, `0.102`, `0.0821`, `273`, and `1.01` each have 3 significant figures.
 
