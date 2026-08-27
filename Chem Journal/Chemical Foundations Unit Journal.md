@@ -448,6 +448,120 @@ Applied — I completed Exercise 27 and connected each answer to the definition,
 
 Study Exercise 29 by counting significant figures in scientific notation, zeros, and whole numbers with or without a decimal point.
 
+### Learning entry — 2026-08-27 — Exercise 29: significant figures
+
+#### Date
+
+2026-08-27 (Asia/Shanghai)
+
+#### Subject and topic
+
+Chemistry — Counting significant figures in scientific notation, decimal values, and whole numbers
+
+#### Source or activity
+
+Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 29, p. 34; guided learning discussion.
+
+#### What I knew or assumed before
+
+I answered: “a: 3 b: 4 c: 4 d: 1 e: 7 f:3 g:3 h:3”.
+
+#### What I learned
+
+Parts a, b, c, d, e, g, and h are correct. In part f, `300` is ambiguous because the whole number has no decimal point, so its trailing zeros are not clearly identified as significant.
+
+#### Evidence, example, or application
+
+`6.07 × 10⁻¹⁵` has 3 significant figures; `0.003840` has 4; `17.00` has 4; `8 × 10⁸` has 1; `463.8052` has 7; `301` has 3 because the zero is between nonzero digits; and `300.` has 3 because the decimal point shows that the trailing zeros are significant.
+
+#### My explanation now
+
+The value of `300` is still 300. The ambiguity concerns measurement precision, not the size of the number: `3 × 10²`, `3.0 × 10²`, and `3.00 × 10²` all have the value 300 but communicate different precision.
+
+#### Question or uncertainty
+
+I was unsure why `300` could not simply be treated as having three significant figures when the value itself is clearly 300.
+
+#### Mistake or confusion
+
+I treated the missing decimal point as if it were merely hidden: “它都说是300了，肯定是300啊，不可能有小数点但是他把小数点隐藏了”。
+
+#### Correction
+
+A written number can identify its value without identifying its measurement precision. In a whole number without a decimal point, trailing zeros can be placeholders or significant measured digits. Scientific notation makes the intended precision unambiguous.
+
+#### Confidence
+
+High for counting the significant figures in a–e and g–h. Medium-high for ambiguous trailing zeros because I can now distinguish numerical value from reported precision.
+
+#### Progress
+
+Applied — I completed Exercise 29 and corrected the interpretation of an ambiguous whole number.
+
+#### Next focus
+
+Complete Exercise 35(a) using the addition rule based on decimal places.
+
+### Learning entry — 2026-08-27 — Exercise 35(a): addition and decimal-place rounding
+
+#### Date
+
+2026-08-27 (Asia/Shanghai)
+
+#### Subject and topic
+
+Chemistry — Addition with significant-figure reporting rules
+
+#### Source or activity
+
+Zumdahl, *Chemistry*, 9th Edition, Chapter 1 Exercise 35(a), p. 35; guided calculation.
+
+#### What I knew or assumed before
+
+I wrote: “这个等式的结果是640.99,因为最少数位是3位，所以结果是640.1”。
+
+#### What I learned
+
+The unrounded addition is correct:
+
+\[
+212.2 + 26.7 + 402.09 = 640.99
+\]
+
+For addition, the final answer is limited by the fewest decimal places, not by the fewest total significant figures. The first two values have one decimal place, so the final answer must be reported to one decimal place.
+
+#### Evidence, example, or application
+
+The hundredths digit in `640.99` is 9, so rounding to the tenths place changes the result to `641.0`. The written zero preserves the required tenths place.
+
+#### My explanation now
+
+I need to distinguish “有效数字总数” from “小数位”. For this addition, the limiting measurements are `212.2` and `26.7`, each measured to one decimal place; therefore the properly reported result is `641.0`.
+
+#### Question or uncertainty
+
+I need more practice deciding whether a calculation is limited by decimal places or by the total number of significant figures.
+
+#### Mistake or confusion
+
+I interpreted “最少数位是3位” as three significant figures and changed `640.99` to `640.1`, which is not the correct rounding of the number.
+
+#### Correction
+
+For addition and subtraction, compare decimal places. Keep the complete intermediate value `640.99`, then round only at the end to one decimal place: `641.0`.
+
+#### Confidence
+
+Medium. I calculated the unrounded sum correctly, but I need additional practice applying the correct rounding position.
+
+#### Progress
+
+Partly understood — I understand the addition rule after correction but have not yet completed the remaining parts of the exercise set.
+
+#### Next focus
+
+Review why `641.0` must retain the final zero, then continue to Exercise 36(a), which uses multiplication and division.
+
 ### Learning entry — 2026-08-20 — Atomic structure and classification of substances
 
 #### Date
@@ -539,3 +653,5 @@ Physical properties, chemical properties, physical changes, and chemical changes
 | 2026-08-26 | Chemistry | Lesson 4 significant figures Checkout Questions | Completed all three questions: $0.004080$ has 4 significant figures; $12.11+0.3+1.045=13.5$; and $3\times(2.50\times3.2)\div1.004=2.4\times10^1$. | Reproduce each rule with a new example without notes. |
 | 2026-08-27 | Chemistry | Track 2 §1.5 assignment status | Checkout Questions and the related rules were already studied; Exercise 27 is completed, while Exercises 29, 35(a), and 36(a) remain. | Complete the remaining three textbook exercises with intermediate values and rounding bases. |
 | 2026-08-27 | Chemistry | Exercise 27 exact and inexact numbers | Completed all four classifications: exact, inexact, exact, inexact; each answer is supported by whether the value is defined, measured, rounded, or approximated. | Study Exercise 29 and count significant figures in each value. |
+| 2026-08-27 | Chemistry | Exercise 29 significant figures | Completed the count for a–e and g–h; corrected the ambiguity of `300` without a decimal point. | Complete Exercise 35(a) and apply the decimal-place rule. |
+| 2026-08-27 | Chemistry | Exercise 35(a) addition | Calculated the unrounded sum correctly; corrected the final report from `640.1` to `641.0` using the one-decimal-place rule. | Continue with Exercise 36(a) and apply the multiplication/division rule. |
