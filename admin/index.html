@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comment administration · Puzzle of Human Civilization</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/admin.css">
+    <script defer src="/assets/js/admin.js?v=20260830-2"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-title" href="/">Puzzle of Human Civilization</a>
+        <a class="admin-back-link" href="/">Back to learning journal</a>
+      </div>
+    </header>
+
+    <main class="container admin-content">
+      <section class="admin-intro">
+        <p class="breadcrumb"><a href="/">Learning journal</a> / Administration</p>
+        <h1>Comment administration</h1>
+        <p>Review comments from every page and remove comments that should no longer be public.</p>
+      </section>
+
+      <section class="admin-panel" data-admin-login>
+        <h2>Administrator sign in</h2>
+        <p class="admin-muted">This area is restricted to the journal administrator.</p>
+        <form data-admin-login-form>
+          <label>
+            Administrator password
+            <input type="password" name="password" autocomplete="current-password" required>
+          </label>
+          <p class="admin-error" data-admin-login-error role="alert"></p>
+          <button class="admin-primary" type="submit">Sign in</button>
+        </form>
+      </section>
+
+      <section class="admin-panel" data-admin-dashboard hidden>
+        <div class="admin-dashboard-header">
+          <div>
+            <h2>All comments</h2>
+            <p class="admin-muted" data-admin-count>Loading comments…</p>
+          </div>
+          <button class="admin-secondary" type="button" data-admin-logout>Sign out</button>
+        </div>
+        <p class="admin-status" data-admin-status role="status" aria-live="polite"></p>
+        <div class="admin-comment-list" data-admin-list>
+          <p class="admin-muted">Loading comments…</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Puzzle of Human Civilization · Comment administration</div>
+    </footer>
+  </body>
+</html>

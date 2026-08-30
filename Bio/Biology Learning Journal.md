@@ -4,7 +4,9 @@ title: Biology Learning Journal
 permalink: /biology/learning-journal/
 section: Biology
 summary: Overview of biology learning progress and Unit journals.
-journal_type: overview
+journal_type: learning_journal
+learning_platform: independent
+journal_scope: overview
 subject: Biology
 ---
 
@@ -22,9 +24,9 @@ Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；U
 
 ## Unit journals
 
-| Unit | Main topics | Status | Last updated | Journal |
-|---|---|---|---|---|
-| Units 1 and 4 | Natural systems, ecology, niches, population growth, and carrying capacity | Exploring to Partly understood | 2026-08-24 | [Open Unit Journal]({{ '/biology/units-1-and-4-journal/' | relative_url }}) |
+| Unit | Main topics | Last updated | Journal |
+| --- | --- | --- | --- |
+| Units 1 and 4 | Natural systems, ecology, niches, population growth, and carrying capacity | 2026-08-24 | [Open Unit Journal]({{ '/biology/units-1-and-4-journal/' | relative_url }}) |
 
 ## Current learning focus
 
@@ -43,6 +45,6 @@ Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；U
 
 ## Recent progress
 
-| Date | Unit | Topic | Progress | Next step |
-|---|---|---|---|---|
-| 2026-08-24 | Units 1 and 4 | Natural systems and population growth | Partly understood | Review the concepts and complete the next retrieval check. |
+| Date | Unit | Topic | Next step |
+| --- | --- | --- | --- |
+| 2026-08-24 | Units 1 and 4 | Natural systems and population growth | Review the concepts and complete the next retrieval check. |

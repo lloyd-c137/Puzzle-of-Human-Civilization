@@ -13,6 +13,7 @@ exclude:
   - .obsidian/
   - .github/
   - scripts/
+  - server/
   - SYNC.md
   - "Chem Journal/Liquid Type Test Interactive Lab.md"
   - tmp/

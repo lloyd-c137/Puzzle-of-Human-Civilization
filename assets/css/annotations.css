@@ -1,0 +1,397 @@
+.annotation-panel {
+  margin-top: 28px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f9fbf7;
+}
+
+.annotation-panel-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.annotation-panel h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.25rem;
+}
+
+.annotation-panel h2 span,
+.annotation-panel-header p,
+.annotation-panel-header p span,
+.annotation-count,
+.annotation-empty,
+.annotation-status,
+.annotation-composer-header span,
+.annotation-composer label span {
+  color: var(--muted);
+}
+
+.annotation-panel h2 span {
+  font-size: .86em;
+  font-weight: 500;
+}
+
+.annotation-panel-header p {
+  margin: 6px 0 0;
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.annotation-panel-header p span {
+  margin-left: 4px;
+}
+
+.annotation-count {
+  flex: 0 0 auto;
+  font-size: .86rem;
+  white-space: nowrap;
+}
+
+.annotation-status {
+  min-height: 1.4em;
+  margin-top: 14px;
+  font-size: .9rem;
+}
+
+.annotation-status.is-error,
+.annotation-form-error {
+  color: #9b352d;
+}
+
+.annotation-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.annotation-empty {
+  margin: 0;
+  font-size: .94rem;
+}
+
+.annotation-card {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--paper);
+}
+
+.annotation-card.is-focused {
+  border-color: var(--accent);
+  background: #f1f7ee;
+}
+
+.annotation-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.annotation-card-author {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.annotation-card blockquote {
+  margin: 0 0 9px;
+  padding: 5px 10px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.annotation-card-body {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.annotation-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.annotation-delete {
+  padding: 6px 9px;
+  border: 1px solid #c98b84;
+  border-radius: 6px;
+  color: #8b302a;
+  background: transparent;
+  font: inherit;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+.annotation-delete:hover,
+.annotation-delete:focus-visible {
+  color: #fff;
+  border-color: #9b352d;
+  background: #9b352d;
+}
+
+.annotation-delete:disabled {
+  opacity: .55;
+  cursor: wait;
+}
+
+.annotation-highlight {
+  padding: 1px 2px;
+  border-bottom: 2px solid var(--accent);
+  background: #e2efdc;
+  cursor: pointer;
+}
+
+.annotation-highlight:focus,
+.annotation-highlight:hover {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.annotation-marker {
+  display: inline-flex;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  background: #f1f7ee;
+  font: inherit;
+  cursor: pointer;
+}
+
+.annotation-marker::before {
+  content: "";
+  width: 8px;
+  height: 6px;
+  border: 1.5px solid currentColor;
+  border-radius: 2px;
+}
+
+.annotation-marker::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  margin: 7px 0 0 5px;
+  border-bottom: 1.5px solid currentColor;
+  border-left: 1.5px solid currentColor;
+  transform: skewY(-28deg);
+}
+
+.annotation-marker:hover,
+.annotation-marker:focus-visible,
+.annotation-marker[aria-expanded="true"] {
+  color: #fff;
+  background: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.annotation-popover {
+  position: fixed;
+  z-index: 22;
+  width: min(340px, calc(100vw - 32px));
+  padding: 15px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: 0 8px 24px rgba(44, 59, 43, .16);
+}
+
+.annotation-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.annotation-popover-time {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: .8rem;
+}
+
+.annotation-popover blockquote {
+  max-height: 86px;
+  margin: 12px 0 9px;
+  overflow: auto;
+  padding: 5px 10px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  font-size: .88rem;
+  line-height: 1.5;
+}
+
+.annotation-popover-body {
+  max-height: 180px;
+  margin: 0;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.annotation-toolbar,
+.annotation-composer {
+  position: fixed;
+  z-index: 20;
+  box-shadow: 0 8px 24px rgba(44, 59, 43, .16);
+}
+
+.annotation-toolbar {
+  transform: translate(-50%, 8px);
+}
+
+.annotation-action,
+.annotation-secondary,
+.annotation-close {
+  min-height: 40px;
+  padding: 8px 13px;
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  font: inherit;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.annotation-action {
+  color: #fff;
+  background: var(--accent);
+}
+
+.annotation-action:hover,
+.annotation-action:focus-visible {
+  background: #2f573b;
+}
+
+.annotation-secondary,
+.annotation-close {
+  color: var(--ink);
+  border-color: var(--line);
+  background: var(--paper);
+}
+
+.annotation-secondary:hover,
+.annotation-secondary:focus-visible,
+.annotation-close:hover,
+.annotation-close:focus-visible {
+  border-color: var(--accent);
+}
+
+.annotation-composer {
+  right: 24px;
+  bottom: 24px;
+  width: min(390px, calc(100vw - 32px));
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+}
+
+.annotation-composer-header,
+.annotation-form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.annotation-close {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 2px 8px;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.annotation-quote {
+  max-height: 110px;
+  margin: 14px 0;
+  overflow: auto;
+  font-size: .9rem;
+}
+
+.annotation-composer label {
+  display: block;
+  margin-top: 12px;
+  color: var(--ink);
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.annotation-composer input,
+.annotation-composer textarea {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+  font-size: .92rem;
+}
+
+.annotation-composer textarea {
+  resize: vertical;
+}
+
+.annotation-composer input:focus,
+.annotation-composer textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-color: var(--accent);
+}
+
+.annotation-form-error {
+  min-height: 1.35em;
+  margin: 8px 0;
+  font-size: .86rem;
+}
+
+.annotation-form-actions {
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.annotation-trap {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+@media (max-width: 640px) {
+  .annotation-panel { padding: 18px; }
+  .annotation-panel-header { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .annotation-panel-header p span { display: block; margin-left: 0; }
+  .annotation-toolbar { transform: translate(-50%, 10px); }
+  .annotation-composer { right: 16px; bottom: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .annotation-highlight,
+  .annotation-card,
+  .annotation-popover { transition: none; }
+}

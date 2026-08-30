@@ -4,7 +4,9 @@ title: Chemistry Learning Journal
 permalink: /chemistry/chemical-foundations-journey/
 section: Chemistry
 summary: Overview of chemistry learning progress and Unit journals.
-journal_type: overview
+journal_type: learning_journal
+learning_platform: independent
+journal_scope: overview
 subject: Chemistry
 ---
 
@@ -31,12 +33,6 @@ subject: Chemistry
 - 计算质量、密度、平均值和范围；
 - 区分 physical property、chemical property、physical change 和 chemical change；
 - 根据重复结果和参考值判断“consistent with”或“inconclusive”。
-
-## Questions carried across units
-
-- 重复密度结果、range 和参考温度如何影响最终结论？
-- 如何判断一个变化是 physical change 还是 chemical change？
-- 如何区分 measurement accuracy、precision 和 uncertainty？
 
 ## Recurring mistakes
 

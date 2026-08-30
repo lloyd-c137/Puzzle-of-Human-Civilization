@@ -7,14 +7,21 @@ These rules apply to all learning-journal work in this repository.
 Read `/Journal Template.md` before creating or editing a learning Journal.
 Treat the template and this file as the source of truth for Journal structure.
 
-The four subject overview Journals are:
+LearningOS uses two Journal classes:
+
+- `journal_type: unit_learning_journal` — a Unit Journal explicitly tied to Khan Academy; it must include `learning_platform: khan-academy` and `unit`.
+- `journal_type: learning_journal` — a general Journal not tied to Khan Academy; it must include `learning_platform: independent`.
+
+The four subject overview Journals are `learning_journal` files with
+`journal_scope: overview`:
 
 - `Math/Math Learning Journal.md`
 - `Bio/Biology Learning Journal.md`
 - `Chem Journal/Chemical Foundations learning journey.md`
 - `Phy/Physics Learning Journal.md`
 
-The current Unit Journals are identified by `journal_type: unit` in their front matter. Specialized experiment or assignment records without `journal_type: overview` or `journal_type: unit` are not learning Journals and must not be forced into this format.
+Specialized experiment or assignment records without one of the two Journal
+types are not learning Journals and must not be forced into this format.
 
 ## Required overview structure
 
@@ -24,64 +31,58 @@ Each subject has one overview Journal. Its top-level sections must be:
 - `Current overview`
 - `Unit journals`
 - `Current learning focus`
-- `Questions carried across units`
 - `Recurring mistakes`
 - `Recent progress`
 
 The overview records status and navigation only. Do not duplicate complete learning entries from Unit Journals in it.
 
-Biology-specific rule: `Bio/Biology Learning Journal.md` must not contain a `Questions carried across units` section. Biology questions belong in the Unit Journal's `Questions I am carrying forward` section or in the relevant learning entry.
+Biology-specific rule: Biology questions belong in the relevant learning
+record's `question` field.
 
-## Required Unit structure
+## Required Unit Learning Journal structure
 
 Each Unit Journal must use these top-level sections:
 
 - `Unit purpose`
 - `Progress dashboard`
 - `Key knowledge and vocabulary`
-- `Learning entries`
+- `Learning records`
 - `Concepts to revisit`
 - `Mistakes and corrections`
-- `Questions I am carrying forward`
-- `Review record`
 
-Detailed learning records belong under `Learning entries`. Keep actual understanding, examples, questions, mistakes, corrections, confidence, progress, and next focus there.
+Detailed learning records belong under `Learning records`.
 
-## Required learning-entry fields
+## Required learning-record fields
 
-Every new learning entry must use this shape:
+Every new learning record must use exactly these three fields:
 
 ```markdown
-### Learning entry — YYYY-MM-DD — Topic name
+### Learning record — YYYY-MM-DD — Topic name
 
-#### Date
+#### question
 
-#### Subject and topic
+Copy the learner's original words exactly as written, including questions,
+doubts, predictions, answers, spelling, punctuation, and line breaks. Do not
+summarize, translate, normalize, or rewrite them. If the original wording
+cannot be verified from a source, leave this field empty rather than guessing.
+Only the learner's original message belongs in this field. If a record was
+initiated by an AI prompt and no learner question is available, leave this
+field empty; do not copy the AI prompt into `question`.
 
-#### Source or activity
+#### respond
 
-#### What I knew or assumed before
+Summarize the response. It may be the AI response or the learner's answer
+when the AI asked the question.
 
-#### What I learned
+#### reflection
 
-#### Evidence, example, or application
-
-#### My explanation now
-
-#### Question or uncertainty
-
-#### Mistake or confusion
-
-#### Correction
-
-#### Confidence
-
-#### Progress
-
-#### Next focus
+AI's learner-side reflection: exposed problems, current understanding,
+uncertainty, mastery estimate, and next intervention.
 ```
 
-Use the fields that are relevant to the session, but do not invent a separate structural system for a subject. Subject-specific material belongs inside the field content.
+Do not add Date, Source, Confidence, Progress, Review, or separate Question
+fields to a learning record. Preserve useful historical content inside one of
+the three fields instead of inventing a fourth field.
 
 ## Prohibited Journal content
 
@@ -93,17 +94,17 @@ Do not add these to learning Journals:
 - Stage-based roadmaps or course-plan instructions;
 - repeated study-method explanations;
 - duplicate vocabulary, review, or progress sections;
-- top-level course-alignment, lesson-preview, or assignment-instruction sections outside `Learning entries`;
+- `Questions carried across units`, `Questions I am carrying forward`, `Recent reviews`, or `Review record`;
+- top-level course-alignment, lesson-preview, or assignment-instruction sections outside `Learning records`;
 - content outside the approved overview or Unit structure.
 
-When an existing learning record contains useful knowledge in an old section, preserve the knowledge by placing it inside a standard learning entry or the appropriate approved summary section. Remove the old structural wrapper.
+When an existing learning record contains useful knowledge in an old section, preserve the knowledge by placing it inside one of the three standard fields. Remove the old structural wrapper.
 
 ## Update workflow
 
 1. Read `Journal Template.md` and this file.
-2. Identify whether the change belongs in the subject overview or a Unit Journal.
-3. Add detailed real-time learning information to the Unit Journal first.
-4. Update the overview only when the Unit status, current focus, cross-Unit question, or recurring mistake changes.
+2. Identify whether the change belongs in a `unit_learning_journal` or a `learning_journal`.
+3. Add the real-time learning record to the appropriate Journal.
+4. Update an overview only when status, current focus, or recurring mistakes change.
 5. Run `bash scripts/validate-journals.sh`.
-6. Run `git diff --check`.
-7. Report exact validation results and any skipped runtime or publication checks.
+6. Report exact validation results and any skipped runtime or publication checks. Exact learner-message whitespace is preserved when needed.

@@ -4,7 +4,9 @@ title: Physics Learning Journal
 permalink: /physics/learning-journal/
 section: Physics
 summary: Overview of physics learning progress and Unit journals.
-journal_type: overview
+journal_type: learning_journal
+learning_platform: independent
+journal_scope: overview
 subject: Physics
 ---
 
@@ -16,27 +18,22 @@ subject: Physics
 
 ## Current overview
 
-当前已从 Chapter 1 的科学思维、测量和天文尺度进入 Chapter 3 Linear Motion。Chapter 3.5 Free Fall 的 Check Out Questions、三秒自由落体图和四道课后练习已经完成；目前重点转向终端速度和自由落体模型的适用边界。
+当前已从 Chapter 1 的科学思维、测量和天文尺度进入 Chapter 3 Linear Motion。Chapter 3.5 Free Fall 的主要学习记录已完成；目前正在学习 Lesson 4，从亚里士多德的运动模型过渡到牛顿第一定律和速度矢量。
 
 ## Unit journals
 
-| Unit | Main topics | Status | Last updated | Journal |
-|---|---|---|---|---|
-| Physics Foundations — Chapter 1 | Science, measurement, astronomical scale, and testable explanations | Exploring | 2026-08-20 | [Open Unit Journal]({{ '/physics/chapter-1-journal/' | relative_url }}) |
-| Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, acceleration, and free fall | Applied | 2026-08-26 | [Open Unit Journal]({{ '/physics/chapter-3-journal/' | relative_url }}) |
+| Unit | Main topics | Last updated | Journal |
+| --- | --- | --- | --- |
+| Physics Foundations — Chapter 1 | Science, measurement, astronomical scale, and testable explanations | 2026-08-20 | [Open Unit Journal]({{ '/physics/chapter-1-journal/' | relative_url }}) |
+| Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, acceleration, and free fall | 2026-08-26 | [Open Unit Journal]({{ '/physics/chapter-3-journal/' | relative_url }}) |
+| Lesson 4 — From Aristotle to Velocity Vectors | Aristotle’s motion model, Newton’s first law, friction, and velocity-vector addition | 2026-08-30 | [Open Unit Journal]({{ '/physics/lesson-4-aristotle-velocity-vectors/' | relative_url }}) |
 
 ## Current learning focus
 
-- 复习 Chapter 3.5 Free Fall 和竖直上抛；
-- 理解终端速度以及空气阻力何时使自由落体模型失效；
-- 练习用正方向、速度表和位移方程描述自由落体；
-- 保持公式、单位和物理解释之间的联系。
-
-## Questions carried across units
-
-- 重复测量如何提高地球周长估计的可靠性？
-- pinhole image size 与 distance 如何建立数学关系？
-- 什么条件下一个 plausible explanation 才是 scientific explanation？
+- 理解亚里士多德的自然运动与强迫运动；
+- 掌握牛顿第一定律和摩擦力对运动的影响；
+- 练习把不同方向的速度矢量合成为合速度；
+- 完成 Lesson 4 对应的教材 Reading Checks 和矢量图。
 
 ## Recurring mistakes
 
@@ -48,8 +45,9 @@ subject: Physics
 
 ## Recent progress
 
-| Date | Unit | Topic | Progress | Next step |
-|---|---|---|---|---|
-| 2026-08-20 | Physics Foundations — Chapter 1 | Science, measurement, and astronomical scale | Exploring | Complete the shadow measurement and analyze uncertainty. |
-| 2026-08-25 | Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Partly understood | Answer the nine selected textbook review questions, then practise vector components and motion graphs. |
-| 2026-08-26 | Physics Foundations — Chapter 3 Linear Motion | Free fall and changing velocity | Applied | Review terminal velocity and the limits of the free-fall model. |
+| Date | Unit | Topic | Next step |
+| --- | --- | --- | --- |
+| 2026-08-20 | Physics Foundations — Chapter 1 | Science, measurement, and astronomical scale | Complete the shadow measurement and analyze uncertainty. |
+| 2026-08-25 | Physics Foundations — Chapter 3 Linear Motion | Relative motion, speed, velocity, and acceleration | Answer the nine selected textbook review questions, then practise vector components and motion graphs. |
+| 2026-08-26 | Physics Foundations — Chapter 3 Linear Motion | Free fall and changing velocity | Review terminal velocity and the limits of the free-fall model. |
+| 2026-08-30 | Lesson 4 — From Aristotle to Velocity Vectors | Motion models, friction, and velocity vectors | Complete the textbook Reading Checks and the scaled vector diagram. |

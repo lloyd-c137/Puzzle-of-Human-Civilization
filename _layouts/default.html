@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% if page.stylesheet %}<link rel="stylesheet" href="{{ '/assets/css/' | append: page.stylesheet | append: '.css' | relative_url }}">{% endif %}
     <script>
@@ -14,6 +15,8 @@
       };
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/annotations.css' | relative_url }}?v=20260830-3">
+    <script defer src="{{ '/assets/js/annotations.js' | relative_url }}?v=20260830-3"></script>
   </head>
   <body>
     <header class="site-header">
@@ -29,12 +32,67 @@
       </div>
     </header>
 
-    <main class="container content">
+    <main class="container content" data-annotation-root>
       <article>
         {% if page.title %}<p class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a> / {{ page.title }}</p>{% endif %}
         {{ content }}
       </article>
+
+      <section class="annotation-panel" aria-labelledby="annotation-heading">
+        <div class="annotation-panel-header">
+          <div>
+            <h2 id="annotation-heading">Comments on this page <span>/ 页面评论</span></h2>
+            <p>Select a passage in the note to leave a comment. <span>选中正文中的一段话即可发表评论。</span></p>
+          </div>
+          <span class="annotation-count" data-annotation-count>0 comments</span>
+        </div>
+        <div class="annotation-status" data-annotation-status role="status" aria-live="polite"></div>
+        <div class="annotation-list" data-annotation-list>
+          <p class="annotation-empty">Loading comments…</p>
+        </div>
+      </section>
     </main>
+
+    <div class="annotation-popover" data-annotation-popover hidden role="dialog" aria-label="Page comment">
+      <div class="annotation-popover-header">
+        <strong data-annotation-popover-author></strong>
+        <button type="button" class="annotation-close" data-annotation-popover-close aria-label="Close comment">×</button>
+      </div>
+      <time class="annotation-popover-time" data-annotation-popover-time></time>
+      <blockquote data-annotation-popover-quote></blockquote>
+      <p class="annotation-popover-body" data-annotation-popover-body></p>
+    </div>
+
+    <div class="annotation-toolbar" data-annotation-toolbar hidden>
+      <button type="button" class="annotation-action" data-annotation-open>Comment this selection</button>
+    </div>
+
+    <div class="annotation-composer" data-annotation-composer hidden>
+      <form data-annotation-form>
+        <div class="annotation-composer-header">
+          <strong>Comment on this passage</strong>
+          <button type="button" class="annotation-close" data-annotation-cancel aria-label="Cancel">×</button>
+        </div>
+        <blockquote class="annotation-quote" data-annotation-quote></blockquote>
+        <label>
+          Name <span>(saved in this browser)</span>
+          <input name="author_name" maxlength="80" autocomplete="nickname" placeholder="Anonymous">
+        </label>
+        <label>
+          Comment
+          <textarea name="body" maxlength="2000" required rows="4" placeholder="What would you like to add?"></textarea>
+        </label>
+        <label class="annotation-trap" aria-hidden="true">
+          Website
+          <input name="website" tabindex="-1" autocomplete="off">
+        </label>
+        <p class="annotation-form-error" data-annotation-error role="alert"></p>
+        <div class="annotation-form-actions">
+          <button type="button" class="annotation-secondary" data-annotation-cancel>Cancel</button>
+          <button type="submit" class="annotation-action">Post comment</button>
+        </div>
+      </form>
+    </div>
 
     <footer class="site-footer">
       <div class="container">{{ site.title }} · Markdown learning notes</div>

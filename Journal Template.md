@@ -4,8 +4,8 @@ This is the shared format for all PHC subject and unit journals.
 
 ## How the structure works
 
-- Each subject has one **overview journal**. It records the current status, Unit links, current focus, and cross-Unit questions or recurring mistakes.
-- Each Unit has a separate **Unit journal**. It records the real-time learning process: what was learned, questions, mistakes, corrections, evidence, confidence, and next steps.
+- Each subject has one **learning journal** overview. It records current status, Unit links, current focus, and recurring mistakes.
+- A Khan Academy-bound Unit uses a **unit learning journal**. Other learning uses a general **learning journal**.
 - Add the detailed record to the Unit journal first. Update the subject overview only when the Unit status or overall focus changes.
 
 ## Overview journal front matter
@@ -17,7 +17,9 @@ title: Subject Learning Journal
 permalink: /subject/learning-journal/
 section: Subject
 summary: Overview of subject learning progress and Unit journals.
-journal_type: overview
+journal_type: learning_journal
+learning_platform: independent
+journal_scope: overview
 subject: Subject
 ---
 ```
@@ -33,15 +35,11 @@ subject: Subject
 
 ## Unit journals
 
-| Unit | Main topics | Status | Last updated | Journal |
-|---|---|---|---|---|
-|  |  |  |  |  |
+| Unit | Main topics | Last updated | Journal |
+| --- | --- | --- | --- |
+|  |  |  |  |
 
 ## Current learning focus
-
-- 
-
-## Questions carried across units
 
 - 
 
@@ -53,9 +51,9 @@ subject: Subject
 
 ## Recent progress
 
-| Date | Unit | Topic | Progress | Next step |
-|---|---|---|---|---|
-|  |  |  |  |  |
+| Date | Unit | Topic | Next step |
+| --- | --- | --- | --- |
+|  |  |  |  |
 ```
 
 ## Unit journal front matter
@@ -67,7 +65,8 @@ title: Subject Unit Learning Journal
 permalink: /subject/unit-journal/
 section: Subject
 summary: Real-time learning record for this Unit.
-journal_type: unit
+journal_type: unit_learning_journal
+learning_platform: khan-academy
 subject: Subject
 unit: Unit name
 ---
@@ -82,45 +81,36 @@ unit: Unit name
 
 ## Progress dashboard
 
-| Topic | Status | Confidence | Last updated | Next step |
-|---|---|---|---|---|
-|  |  |  |  |  |
+| Topic | Last updated | Next step |
+| --- | --- | --- |
+|  |  |  |
 
 ## Key knowledge and vocabulary
 
-| Concept or term | My current explanation | Example or connection | Status |
-|---|---|---|---|
-|  |  |  |  |
+| Concept or term | My current explanation | Example or connection |
+| --- | --- | --- |
+|  |  |  |
 
-## Learning entries
+## Learning records
 
-### Learning entry — YYYY-MM-DD — Topic name
+### Learning record — YYYY-MM-DD — Topic name
 
-#### Source or activity
+#### question
 
-#### What I knew or assumed before
+Copy the original learner wording exactly, including spelling, punctuation, and
+line breaks. Do not summarize, translate, normalize, or rewrite it. If the
+original wording cannot be verified, leave this field empty. Do not copy an AI
+prompt into this field.
 
-#### What I learned
+#### respond
 
-#### Evidence, example, or application
+Summary of the response. It may summarize the AI response or the learner's
+answer when the AI asked the question.
 
-#### My explanation now
+#### reflection
 
-#### Question or uncertainty
-
-#### Mistake or confusion
-
-#### Correction
-
-#### Confidence
-
-Low / Medium / High
-
-#### Progress
-
-Not started / Exploring / Partly understood / Applied / Consolidated
-
-#### Next focus
+AI's reflection about exposed problems, current understanding, uncertainty,
+mastery estimate, and next intervention.
 
 ## Concepts to revisit
 
@@ -132,23 +122,4 @@ Not started / Exploring / Partly understood / Applied / Consolidated
 |---|---|---|---|
 |  |  |  |  |
 
-## Questions I am carrying forward
-
-- 
-
-## Review record
-
-| Date | Topic | What I could recall | What needs more practice |
-|---|---|---|---|
-|  |  |  |  |
 ```
-
-## Shared status vocabulary
-
-- **Not started** — no meaningful study record yet.
-- **Exploring** — first exposure or guided study is underway.
-- **Partly understood** — the main idea is present, but explanation or application is inconsistent.
-- **Applied** — can use the idea in a familiar problem or example.
-- **Consolidated** — can recall, explain, and apply it after review; this does not mean permanent mastery.
-
-Confidence and progress are separate: confidence describes how sure I feel now, while progress describes the evidence in the learning record.

@@ -4,7 +4,9 @@ title: Math Learning Journal
 permalink: /math/learning-journal/
 section: Mathematics
 summary: Overview of mathematics learning progress and Unit journals.
-journal_type: overview
+journal_type: learning_journal
+learning_platform: independent
+journal_scope: overview
 subject: Mathematics
 ---
 
@@ -16,26 +18,20 @@ subject: Mathematics
 
 ## Current overview
 
-当前统计学习记录包括 AP Statistics Unit 1–2；新的 Unit Journal 覆盖 Unit 3、Unit 6 和 Unit 7。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3、Unit 6 和 Unit 7 尚未开始记录。
+当前统计学习记录包括 AP Statistics Unit 1–2；Unit 3、Unit 6 和 Unit 7 的新学习记录已开始。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3 已有 summary statistics 和 dot plot 学习记录，Unit 6 和 Unit 7 仍需通过练习建立记录。
 
 ## Unit journals
 
-| Unit | Main topics | Status | Last updated | Journal |
-|---|---|---|---|---|
-| Statistics Units 1–2 | Categorical data, two-way tables, quantitative displays, distributions, center, spread, and comparisons | Partly understood to Applied | 2026-08-24 | [Open Unit Journal]({{ '/math/statistics-units-1-2-journal/' | relative_url }}) |
-| Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | Not started | 2026-08-26 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
+| Unit | Main topics | Last updated | Journal |
+| --- | --- | --- | --- |
+| Statistics Units 1–2 | Categorical data, two-way tables, quantitative displays, distributions, center, spread, and comparisons | 2026-08-24 | [Open Unit Journal]({{ '/math/statistics-units-1-2-journal/' | relative_url }}) |
+| Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | 2026-08-30 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
 
 ## Current learning focus
 
 - Unit 3：Summary statistics；
 - Unit 6：Collecting data；
 - Unit 7：Probability。
-
-## Questions carried across units
-
-- 什么时候应该使用 mean/standard deviation，什么时候应该使用 median/IQR？
-- 如何公平比较两个分类分布？
-- 如何从分组数据中判断中位数和近似范围？
 
 ## Recurring mistakes
 
@@ -47,7 +43,7 @@ subject: Mathematics
 
 ## Recent progress
 
-| Date | Unit | Topic | Progress | Next step |
-|---|---|---|---|---|
-| 2026-08-24 | Statistics Units 1–2 | Stem-and-leaf plots, box plots, histograms, and distribution comparisons | Partly understood to Applied | Continue independent graph interpretation and summary-statistic practice. |
-| 2026-08-26 | Statistics Units 3, 6, and 7 | New Unit Journal created; no learning entries yet | Not started | No study record yet. |
+| Date | Unit | Topic | Next step |
+| --- | --- | --- | --- |
+| 2026-08-24 | Statistics Units 1–2 | Stem-and-leaf plots, box plots, histograms, and distribution comparisons | Continue independent graph interpretation and summary-statistic practice. |
+| 2026-08-30 | Statistics Units 3, 6, and 7 | Began a combined study session; Unit 3 prior knowledge identified | Continue with a short retrieval question, then record Unit 6 or Unit 7 practice. |
