@@ -339,6 +339,192 @@ I correctly identified $T_C=T_K-273.15$, but I initially treated temperature con
 
 I understand the different zero points of Kelvin, Celsius, and Fahrenheit and the order of the Fahrenheit calculation. I still need to calculate $77\ \text{K}$ to both Celsius and Fahrenheit independently and explain the result without notes.
 
+### Learning record — 2026-08-31 — Chapter 1 Sections 1.7–1.9 selected exercises
+
+#### question
+
+从 Chapter 1 课后练习或者 Study Guide Workbook 中，§1.7、§1.8、§1.9 每节挑选 4 题，完成在 Journal 上（共 12 题）
+
+#### respond
+
+I checked the Chapter 1 exercises in the Zumdahl textbook and selected four exercises from each assigned section. The solutions below keep the unit chain visible and apply the rounding rule after the calculation.
+
+**Textbook examples assigned for this lesson**
+
+**Example 1.7 — Unit Conversions III.** A 10.0-km run is converted to miles:
+
+$$
+10.0\ \text{km}\times\frac{1000\ \text{m}}{1\ \text{km}}\times\frac{1.094\ \text{yd}}{1\ \text{m}}\times\frac{1\ \text{mi}}{1760\ \text{yd}}=6.216\ldots\ \text{mi}
+$$
+
+Because the starting value has three significant figures, the reported result is $6.22\ \text{mi}$.
+
+**Example 1.11 — Temperature Conversions I.** Normal body temperature, $98.6^\circ\text{F}$, is converted first to Celsius and then to Kelvin:
+
+$$
+T_C=(98.6-32)\times\frac{5}{9}=37.0^\circ\text{C}
+$$
+
+$$
+T_K=37.0+273.15=310.2\ \text{K}
+$$
+
+The Celsius result has one decimal place, so it limits the final Kelvin result to one decimal place.
+
+**Example 1.14 — Determining Density.** For $25.00\ \text{cm}^3$ of liquid with a mass of $19.625\ \text{g}$:
+
+$$
+d=\frac{m}{V}=\frac{19.625\ \text{g}}{25.00\ \text{cm}^3}=0.7850\ \text{g/cm}^3
+$$
+
+This matches the listed density of isopropyl alcohol. Ethanol is close, so additional density experiments or another test would improve the identification.
+
+**Comparison.** 因次分析用等值的换算因子改变单位，并通过单位消去检查方向；温标转换要处理不同温标的零点和单位间隔；密度计算用 $d=m/V$ 建立质量与体积之间的关系。三者都要保留单位、检查单位是否得到目标单位，并在最后按测量数据的精度报告结果。
+
+**Section 1.7 — Dimensional Analysis and Unit Conversions**
+
+**Exercise 39(a).** Convert $8.43\ \text{cm}$ to millimeters:
+
+$$
+8.43\ \text{cm}\times\frac{10\ \text{mm}}{1\ \text{cm}}=84.3\ \text{mm}
+$$
+
+Answer: $84.3\ \text{mm}$.
+
+**Exercise 39(b).** Convert $2.41\times10^{-2}\ \text{cm}$ to meters:
+
+$$
+2.41\times10^{-2}\ \text{cm}\times\frac{1\ \text{m}}{100\ \text{cm}}=2.41\times10^{-4}\ \text{m}
+$$
+
+Answer: $2.41\times10^{-4}\ \text{m}$.
+
+**Exercise 39(c).** Convert $294.5\ \text{nm}$ to centimeters:
+
+$$
+294.5\ \text{nm}\times\frac{1\ \text{m}}{10^9\ \text{nm}}\times\frac{100\ \text{cm}}{1\ \text{m}}=2.945\times10^{-5}\ \text{cm}
+$$
+
+Answer: $2.945\times10^{-5}\ \text{cm}$.
+
+**Exercise 39(d).** Convert $1.445\times10^4\ \text{m}$ to kilometers:
+
+$$
+1.445\times10^4\ \text{m}\times\frac{1\ \text{km}}{1000\ \text{m}}=14.45\ \text{km}
+$$
+
+Answer: $14.45\ \text{km}$.
+
+**Section 1.8 — Temperature**
+
+For these conversions, I used $T_K=T_C+273.15$ and $T_F=T_C\times\frac{9}{5}+32$. The input precision determines the displayed decimal place.
+
+**Exercise 59(a).** $39.2^\circ\text{C}$:
+
+$$
+T_K=39.2+273.15=312.35\ \text{K}\approx312.4\ \text{K}
+$$
+
+$$
+T_F=39.2\times\frac{9}{5}+32=102.56^\circ\text{F}\approx102.6^\circ\text{F}
+$$
+
+Answer: $312.4\ \text{K}$ and $102.6^\circ\text{F}$.
+
+**Exercise 59(b).** $-225^\circ\text{C}$:
+
+$$
+T_K=-225+273.15=48.15\ \text{K}\approx48\ \text{K}
+$$
+
+$$
+T_F=(-225)\times\frac{9}{5}+32=-373^\circ\text{F}
+$$
+
+Answer: $48\ \text{K}$ and $-373^\circ\text{F}$.
+
+**Exercise 59(c).** $-273^\circ\text{C}$:
+
+$$
+T_K=-273+273.15=0.15\ \text{K}\approx0\ \text{K}
+$$
+
+$$
+T_F=(-273)\times\frac{9}{5}+32=-459.4^\circ\text{F}\approx-459^\circ\text{F}
+$$
+
+Answer: $0\ \text{K}$ and $-459^\circ\text{F}$, to the precision supported by the given whole-degree Celsius value.
+
+**Exercise 59(d).** $801^\circ\text{C}$:
+
+$$
+T_K=801+273.15=1074.15\ \text{K}\approx1074\ \text{K}
+$$
+
+$$
+T_F=801\times\frac{9}{5}+32=1473.8^\circ\text{F}\approx1474^\circ\text{F}
+$$
+
+Answer: $1074\ \text{K}$ and $1474^\circ\text{F}$.
+
+**Section 1.9 — Density**
+
+**Exercise 68.** A block has dimensions $2.9\ \text{cm}\times3.5\ \text{cm}\times10.0\ \text{cm}$ and mass $615.0\ \text{g}$.
+
+$$
+V=(2.9)(3.5)(10.0)=101.5\ \text{cm}^3\approx1.0\times10^2\ \text{cm}^3
+$$
+
+$$
+d=\frac{615.0\ \text{g}}{101.5\ \text{cm}^3}=6.059\ldots\ \text{g/cm}^3\approx6.1\ \text{g/cm}^3
+$$
+
+Answer: $V=1.0\times10^2\ \text{cm}^3$ and $d=6.1\ \text{g/cm}^3$. The limiting measurements are $2.9$ and $3.5$, which have two significant figures.
+
+**Exercise 69(a).** Find the volume of a $5.0$-carat diamond. Given $1\ \text{carat}=0.200\ \text{g}$ and $d=3.51\ \text{g/cm}^3$:
+
+$$
+V=5.0\ \text{carat}\times\frac{0.200\ \text{g}}{1\ \text{carat}}\times\frac{1\ \text{cm}^3}{3.51\ \text{g}}=0.2849\ldots\ \text{cm}^3\approx0.28\ \text{cm}^3
+$$
+
+Answer: $0.28\ \text{cm}^3$.
+
+**Exercise 69(b).** Find the mass in carats of a diamond measuring $2.8\ \text{mL}$:
+
+$$
+2.8\ \text{mL}\times\frac{3.51\ \text{g}}{1\ \text{mL}}\times\frac{1\ \text{carat}}{0.200\ \text{g}}=49.14\ldots\ \text{carat}\approx49\ \text{carat}
+$$
+
+Answer: $49\ \text{carat}$.
+
+**Exercise 71.** A $33.42\ \text{g}$ metal sample raises the water level from $12.7\ \text{mL}$ to $21.6\ \text{mL}$:
+
+$$
+\Delta V=21.6-12.7=8.9\ \text{mL}
+$$
+
+$$
+d=\frac{33.42\ \text{g}}{8.9\ \text{mL}}=3.755\ldots\ \text{g/mL}\approx3.8\ \text{g/mL}
+$$
+
+Answer: $3.8\ \text{g/mL}$.
+
+**Exercise 72.** For $5.25\ \text{g}$ of silver with density $10.5\ \text{g/cm}^3$:
+
+$$
+V_{\text{silver}}=\frac{5.25\ \text{g}}{10.5\ \text{g/cm}^3}=0.500\ \text{cm}^3=0.500\ \text{mL}
+$$
+
+$$
+V_{\text{final}}=11.2\ \text{mL}+0.500\ \text{mL}=11.700\ \text{mL}\approx11.7\ \text{mL}
+$$
+
+Answer: the water level rises to $11.7\ \text{mL}$.
+
+#### reflection
+
+I completed the required set of 12 exercises: 39(a–d) for dimensional analysis, 59(a–d) for temperature, and 68, 69(a–b), 71, and 72 for density. The main pattern is that the equation or conversion factor is chosen first, units are canceled through the chain, and rounding is applied after the unrounded calculation. I need to review temperature rounding near $0\ \text{K}$ and continue checking that each selected exercise is copied from the correct section of the textbook.
+
 ## Concepts to revisit
 
 - How a conversion factor preserves the quantity while changing its unit
