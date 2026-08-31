@@ -22,6 +22,7 @@ This Unit Journal records the actual learning process for measurement, laborator
 | Liquid Type Test safety and equipment | 2026-08-20 | Perform the supervised procedure. |
 | Mass, volume, density, and repeated measurements | 2026-08-20 | Calculate three real trials, mean, and range. |
 | Measurement reliability and uncertainty | 2026-08-27 | Complete Exercises 29, 35(a), and 36(a), then reproduce the rules independently. |
+| Dimensional analysis and conversion factors | 2026-08-31 | Convert liters to milliliters, use density to find mass, and complete the full unit chain independently. |
 | Atomic structure and classification of substances | 2026-08-20 | Study physical and chemical properties and changes. |
 
 ## Key knowledge and vocabulary
@@ -435,6 +436,45 @@ I calculated the unrounded value and reported it correctly to 3 significant figu
 I completed Exercise 36(a) and correctly used the multiplication/division rule.
 
 Review the difference between the addition/subtraction rule and the multiplication/division rule, then review the completed Exercises 27, 29, 35(a), and 36(a).
+### Learning record — 2026-08-31 — Dimensional analysis and conversion factors
+
+#### question
+
+1. 某液体密度为 0.745 g/mL。已知 1 gal = 3.785 L，求 12.0 gal 该液体的质量（kg）；写出单位链，并按正确有效数字报告结果。 先找换算因子对吗
+
+换算因子怎么找
+
+好的，换算因子是3.785L/1gal，所以12.0gal等于3.785L乘以12.0gal，对吗
+
+得到45.42L，按照12.0的有效数字报告得到45.4L
+
+#### respond
+
+Yes. First identify the equal-unit relationships and write each conversion factor in the direction that cancels the current unit. For this problem, the chain is:
+
+\[
+12.0\ \text{gal}
+\times\frac{3.785\ \text{L}}{1\ \text{gal}}
+\times\frac{1000\ \text{mL}}{1\ \text{L}}
+\times0.745\frac{\text{g}}{\text{mL}}
+\times\frac{1\ \text{kg}}{1000\ \text{g}}
+=33.8\ \text{kg}
+\]
+
+The first step is:
+
+\[
+12.0\ \text{gal}\times\frac{3.785\ \text{L}}{1\ \text{gal}}=45.42\ \text{L}\approx45.4\ \text{L}
+\]
+
+The units \(\text{gal}\), \(\text{L}\), \(\text{mL}\), and \(\text{g}\) cancel in sequence. The density \(0.745\ \text{g/mL}\) acts as the relationship that converts volume into mass. The final answer has three significant figures because the measured values \(12.0\) and \(0.745\) each have three significant figures.
+
+#### reflection
+
+I correctly recognized that the first step is to find conversion factors and correctly found \(3.785\ \text{L}/1\ \text{gal}\). I initially omitted the denominator unit when describing the multiplication, which would leave the units as \(\text{L}\cdot\text{gal}\). The denominator is necessary so that \(\text{gal}\) cancels. I correctly calculated \(45.42\ \text{L}\) and rounded it to \(45.4\ \text{L}\) using the three significant figures in \(12.0\).
+
+I understand that a conversion factor comes from an equality, that its direction is chosen by unit cancellation, and that the density can convert volume to mass. I still need to complete the remaining \(\text{L}\rightarrow\text{mL}\rightarrow\text{g}\rightarrow\text{kg}\) chain independently.
+
 ### Learning record — 2026-08-20 — Atomic structure and classification of substances
 
 #### question
