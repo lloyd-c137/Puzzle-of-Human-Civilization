@@ -63,20 +63,24 @@ This learning session covers three related ways to preserve the meaning of a mea
 
 The first active calculation is the third Check Out Question. The conversion factors are selected from equalities and arranged so the units cancel:
 
-$$
+<div class="math-display">
+\[
 12.0\ \text{gal}
 \times\frac{3.785\ \text{L}}{1\ \text{gal}}
 \times\frac{1000\ \text{mL}}{1\ \text{L}}
 \times0.745\frac{\text{g}}{\text{mL}}
 \times\frac{1\ \text{kg}}{1000\ \text{g}}
 =33.8\ \text{kg}
-$$
+\]
+</div>
 
 The first step gives:
 
-$$
+<div class="math-display">
+\[
 12.0\ \text{gal}\times\frac{3.785\ \text{L}}{1\ \text{gal}}=45.42\ \text{L}\rightarrow45.4\ \text{L}
-$$
+\]
+</div>
 
 The result is rounded to three significant figures because $12.0$ has three significant figures. The next step is to convert $45.4\ \text{L}$ to milliliters, then use the density and convert grams to kilograms.
 
@@ -98,25 +102,33 @@ I correctly found $\frac{3.785\ \text{L}}{1\ \text{gal}}$, calculated $45.42\ \t
 
 3.50g/cm3怎么换算成kg/m3
 
-$$
+<div class="math-display">
+\[
 \left(\frac{100\ \text{cm}}{1\ \text{m}}\right)^3
-$$
+\]
+</div>
 这是什么，我看不懂
 
-$$
+<div class="math-display">
+\[
 1\ \text{m}^3=(100\ \text{cm})^3=1{,}000{,}000\ \text{cm}^3
-$$
+\]
+</div>
 这个我能看懂，
 
-$$
+<div class="math-display">
+\[
 \left(\frac{100\ \text{cm}}{1\ \text{m}}\right)^3
 =\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
-$$
+\]
+</div>
 这个我看不懂
 
-$$
+<div class="math-display">
+\[
 \frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
-$$
+\]
+</div>
 换算因子有什么用，怎么用
 
 #### respond
@@ -125,17 +137,21 @@ Dimensional analysis is a systematic form of unit conversion. The value $3.50\ \
 
 The exponent 3 applies to the entire length conversion because volume has three dimensions:
 
-$$
+<div class="math-display">
+\[
 1\ \text{m}=100\ \text{cm}
 \quad\Rightarrow\quad
 1\ \text{m}^3=(100\ \text{cm})^3=1{,}000{,}000\ \text{cm}^3.
-$$
+\]
+</div>
 
 Therefore,
 
-$$
+<div class="math-display">
+\[
 \frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
-$$
+\]
+</div>
 
 is a conversion factor equal to 1. It changes the unit representation without changing the physical quantity. It is placed so that $\text{cm}^3$ cancels from the denominator of the density.
 
@@ -150,67 +166,87 @@ I can identify $3.50\ \text{g/cm}^3$ as a density and explain the meaning of the
 #### question
 
 在密度中：
-$$
+<div class="math-display">
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
-$$
+\]
+</div>
 我们想把分母的 $\text{cm}^3$ 换成 $\text{m}^3$，所以使用：
-$$
+<div class="math-display">
+\[
 \frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
-$$
+\]
+</div>
 因为：
-$$
+<div class="math-display">
+\[
 \frac{\text{g}}{\text{cm}^3}
 \times
 \frac{\text{cm}^3}{\text{m}^3}
 =\frac{\text{g}}{\text{m}^3}
-$$
+\]
+</div>
 $\text{cm}^3$ 被消去了。完整使用：
-$$
+<div class="math-display">
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
 \times
 \frac{1\ \text{kg}}{1000\ \text{g}}
 \times
 \frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
 =3.50\times10^3\frac{\text{kg}}{\text{m}^3}
-$$
+\]
+</div>
 注意方向如果是把普通体积 $2.00\ \text{cm}^3$ 换成 $\text{m}^3$，应该使用相反方向：
-$$
+<div class="math-display">
+\[
 2.00\ \text{cm}^3
 \times
 \frac{1\ \text{m}^3}{1{,}000{,}000\ \text{cm}^3}
 =2.00\times10^{-6}\ \text{m}^3
-$$
+\]
+</div>
 这个过程我看不懂
 
 现在把单位放在一起：
-$$
+<div class="math-display">
+\[
 \frac{\text{g}}{\text{cm}^3}
 \times
 \frac{\text{cm}^3}{\text{m}^3}
-$$
+\]
+</div>
 上下都有 $\text{cm}^3$，所以可以消去：
-$$
+<div class="math-display">
+\[
 \frac{\text{g}}{\text{cm}^3}
 \times
 \frac{\text{cm}^3}{\text{m}^3}
 =\frac{\text{g}}{\text{m}^3}
-$$
+\]
+</div>
 这一步是为了什么
 
 只换体积单位：
-$$
+<div class="math-display">
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
 \times
 \frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
-$$
+\]
+</div>
 数值变成：
-$$
+<div class="math-display">
+\[
 3.50\times1{,}000{,}000=3.50\times10^6
-$$
+\]
+</div>
 单位变成：
-$$
+<div class="math-display">
+\[
 3.50\times10^6\frac{\text{g}}{\text{m}^3}
-$$
+\]
+</div>
 数值和单位是分开计算的吗
 
 3.50g/cm3换算为kg/m3，先找换算因子 因为1000g=1kg，所以换算因子是1kg/1000g
@@ -229,12 +265,14 @@ $$
 
 The correct procedure is to multiply by conversion factors and arrange them so unwanted units cancel. For density:
 
-$$
+<div class="math-display">
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
 \times\frac{1\ \text{kg}}{1000\ \text{g}}
 \times\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
 =3.50\times10^3\frac{\text{kg}}{\text{m}^3}.
-$$
+\]
+</div>
 
 The numerical values and units are handled together in one multiplication, but they can be checked separately: calculate the number and verify that the units cancel. The direction is not arbitrary. For a density, $\text{cm}^3$ is in the denominator, so $\text{cm}^3$ must appear in the numerator of the conversion factor. For an ordinary volume with $\text{cm}^3$ in the numerator, the factor must be reversed.
 
@@ -256,15 +294,19 @@ checkoutquestion的下一题是什么
 
 所以kelvin与celsius的换算关系是什么
 
-$$
+<div class="math-display">
+\[
 T_K=T_C+273.15
-$$
+\]
+</div>
 这个关系的换算因子怎么做
 
 因为 Kelvin 和 Celsius 的单位间隔相同，但**零点不同**：
-$$
+<div class="math-display">
+\[
 0^\circ\text{C}=273.15\text{ K}
-$$
+\]
+</div>
 这句话是什么意思
 
 所以77k转换为。c，先找换算因子是C=K-273.15
@@ -276,9 +318,11 @@ $T_F=T_C\times\frac{9}{5}+32$ 怎么这么复杂
 如果$0^\circ\text{C}=32^\circ\text{F}$，那么100c不是应该等于132c吗
 
 $100^\circ\text{C}=180^\circ\text{F}$
-$$
+<div class="math-display">
+\[
 \boxed{100^\circ\text{C}=212^\circ\text{F}}
-$$
+\]
+</div>
 为什么同样的100c，能出现两个结果f
 
 #### respond
