@@ -358,6 +358,73 @@ I understand the different zero points of Kelvin, Celsius, and Fahrenheit and th
 
 1. 把 \(3.50\ \text{g/cm}^3\) 换算为 \(\text{kg/m}^3\)。写出完整换算链，并展示单位如何消去。
 
+回答：
+
+3.50g/cm3换算为kg/m3，先找换算因子 因为1000g=1kg，所以换算因子是1kg/1000g
+
+好的，3.50g/cm3，转换为kg/m3，先找换算因子两个1.1kg/1000g 2.（1m）3=（100cm）3
+
+数值部分得到1000
+
+数值部分得到1000，乘以3.50 等于3500
+
+参考结果：
+
+\[
+3.50\ \frac{\text{g}}{\text{cm}^3}
+\times\frac{1\ \text{kg}}{1000\ \text{g}}
+\times\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+=3.50\times10^3\ \frac{\text{kg}}{\text{m}^3}
+\]
+
 2. 液氮的沸点为 \(77\ \text{K}\)。把它换算为 \({}^{\circ}\text{C}\) 和 \({}^{\circ}\text{F}\)；写明运算顺序，并说明为什么 Kelvin 不写度数符号。
 
+回答：
+
+所以kelvin与celsius的换算关系是什么
+
+所以77k转换为。c，先找换算因子是C=K-273.15
+
+Fahrenheit 呢
+
+\(T_F=T_C\times\frac{9}{5}+32\) 怎么这么复杂
+
+如果\(0^\circ\text{C}=32^\circ\text{F}\)，那么100c不是应该等于132c吗
+
+\(100^\circ\text{C}=180^\circ\text{F}\)
+
+\[
+\boxed{100^\circ\text{C}=212^\circ\text{F}}
+\]
+为什么同样的100c，能出现两个结果f
+
+参考结果：
+
+\[
+77\ \text{K}=77-273.15=-196.15^\circ\text{C}
+\]
+
+\[
+T_F=(-196.15)\times\frac{9}{5}+32=-321.07^\circ\text{F}
+\]
+
+Kelvin 是绝对温标，单位写作 K，不使用度数符号。
+
 3. 某液体密度为 \(0.745\ \text{g/mL}\)。已知 \(1\ \text{gal}=3.785\ \text{L}\)，求 \(12.0\ \text{gal}\) 该液体的质量（kg）；写出单位链，并按正确有效数字报告结果。
+
+回答：
+
+好的，换算因子是3.785L/1gal，所以12.0gal等于3.785L乘以12.0gal，对吗
+
+得到45.42L，按照12.0的有效数字报告得到45.4L
+
+参考结果：
+
+\[
+12.0\ \text{gal}
+\times\frac{3.785\ \text{L}}{1\ \text{gal}}
+\times\frac{1000\ \text{mL}}{1\ \text{L}}
+\times0.745\frac{\text{g}}{\text{mL}}
+\times\frac{1\ \text{kg}}{1000\ \text{g}}
+=33.8\ \text{kg}
+\]
