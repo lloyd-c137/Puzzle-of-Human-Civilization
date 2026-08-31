@@ -13,7 +13,7 @@ subject: Chemistry
 
 ## Purpose
 
-This Journal records my actual learning process for Track 2 Lesson 5: how to change the representation of data while preserving its meaning. It will contain my questions, answers, calculations, mistakes, corrections, and evidence from the assigned examples and Check Out Questions.
+This Journal records how I learned to change the representation of data while preserving its meaning. It keeps my questions, attempts, calculations, mistakes, corrections, and experiment record together.
 
 ## Progress dashboard
 
@@ -28,11 +28,11 @@ This Journal records my actual learning process for Track 2 Lesson 5: how to cha
 
 | Concept or term | Current understanding | Example or connection |
 | --- | --- | --- |
-| Dimensional analysis | A method that changes units by multiplying by conversion factors and checking that units cancel. | Convert gal to L, then mL, then use density to obtain mass. |
-| Conversion factor | A ratio made from two equal quantities, written in the direction that cancels the current unit. | $\frac{3.785\ \text{L}}{1\ \text{gal}}$. |
-| Temperature scale | A system for expressing temperature with a defined zero point and unit interval. | Kelvin and Celsius have the same unit interval but different zero points. |
-| Density | Mass divided by volume. | $d=\frac{m}{V}$. |
-| Gallon (gal) | A unit of volume; in this lesson, $1\ \text{gal}=3.785\ \text{L}$. | $12.0\ \text{gal}=45.4\ \text{L}$. |
+| Dimensional analysis | I use conversion factors and cancel units to change the way a quantity is written. | Convert gal to L, then mL, then use density to obtain mass. |
+| Conversion factor | I write two equal quantities as a ratio and choose the direction that cancels the current unit. | $\frac{3.785\ \text{L}}{1\ \text{gal}}$. |
+| Temperature scale | I compare a scale's zero point and the size of its temperature interval. | Kelvin and Celsius have the same interval size but different zero points. |
+| Density | I calculate density as mass divided by volume. | $d=\frac{m}{V}$. |
+| Gallon (gal) | I use the volume relationship $1\ \text{gal}=3.785\ \text{L}$ in this lesson. | $12.0\ \text{gal}=45.4\ \text{L}$. |
 
 ## Learning records
 
@@ -59,9 +59,9 @@ Check Out Questions
 
 #### respond
 
-This learning session covers three related ways to preserve the meaning of a measured quantity while changing how it is expressed: dimensional analysis changes units through conversion factors and unit cancellation; temperature conversion uses the relationship between different zero points and unit intervals; density connects mass and volume through $d=\frac{m}{V}$. The assigned examples are Example 1.7, Example 1.11, and Example 1.14, followed by four selected exercises from each of Sections 1.7, 1.8, and 1.9 and the three Check Out Questions.
+我把这次学习分成三个相互联系的部分：因次分析通过换算因子和单位消去改变单位；温标转换要考虑不同的零点和单位间隔；密度用 $d=\frac{m}{V}$ 连接质量和体积。我还整理了 Example 1.7、Example 1.11、Example 1.14，以及三个 Check Out Questions。
 
-The first active calculation is the third Check Out Question. The conversion factors are selected from equalities and arranged so the units cancel:
+我先尝试第三道 Check Out Question。我根据等式选择换算因子，并把它们排列成可以消去单位的链：
 
 <div class="math-display">
 \[
@@ -74,7 +74,7 @@ The first active calculation is the third Check Out Question. The conversion fac
 \]
 </div>
 
-The first step gives:
+我先计算体积：
 
 <div class="math-display">
 \[
@@ -82,13 +82,13 @@ The first step gives:
 \]
 </div>
 
-The result is rounded to three significant figures because $12.0$ has three significant figures. The next step is to convert $45.4\ \text{L}$ to milliliters, then use the density and convert grams to kilograms.
+因为 $12.0$ 有 3 个有效数字，所以先写成 $45.4\ \text{L}$。然后把升换成毫升，用密度求质量，最后把克换成千克。
 
 #### reflection
 
-I am beginning Lesson 5 by connecting unit conversion, temperature conversion, and density rather than treating them as unrelated formulas. I understand that changing a unit must preserve the physical quantity, so the conversion factor must represent an equality and must be oriented so the unwanted unit cancels.
+我开始把单位换算、温标转换和密度看成同一个问题的不同形式：改变表达方式时，物理量本身不能改变。换算因子必须来自等式，而且方向要能消去不需要的单位。
 
-I correctly found $\frac{3.785\ \text{L}}{1\ \text{gal}}$, calculated $45.42\ \text{L}$, and reported $45.4\ \text{L}$. I still need to complete the full density chain independently and then study the temperature-conversion question and the first unit-conversion question.
+我找到了 $\frac{3.785\ \text{L}}{1\ \text{gal}}$，算出 $45.42\ \text{L}$，并按有效数字写成 $45.4\ \text{L}$。我还需要继续练习完整的密度换算链和温度换算顺序。
 
 ### Learning record — 2026-08-31 — Dimensional analysis and cubic units
 
@@ -133,9 +133,9 @@ I correctly found $\frac{3.785\ \text{L}}{1\ \text{gal}}$, calculated $45.42\ \t
 
 #### respond
 
-Dimensional analysis is a systematic form of unit conversion. The value $3.50\ \text{g/cm}^3$ is a density: grams of mass per cubic centimeter of volume. To express it in $\text{kg/m}^3$, both the mass unit and the cubic volume unit must be changed.
+我明白了，dimensional analysis 本质上是有步骤的单位换算。$3.50\ \text{g/cm}^3$ 是密度，表示每立方厘米有多少克；换成 $\text{kg/m}^3$ 时，质量单位和体积单位都要改变。
 
-The exponent 3 applies to the entire length conversion because volume has three dimensions:
+我一开始不明白为什么长度换算要整体立方。后来我把它写成：
 
 <div class="math-display">
 \[
@@ -145,7 +145,7 @@ The exponent 3 applies to the entire length conversion because volume has three 
 \]
 </div>
 
-Therefore,
+所以我把
 
 <div class="math-display">
 \[
@@ -153,13 +153,13 @@ Therefore,
 \]
 </div>
 
-is a conversion factor equal to 1. It changes the unit representation without changing the physical quantity. It is placed so that $\text{cm}^3$ cancels from the denominator of the density.
+看成等于 1 的换算因子。它改变的是单位表达，不改变物理量；在密度中要把 $\text{cm}^3$ 放在分子，才能和原来分母的 $\text{cm}^3$ 消去。
 
 #### reflection
 
-I first recognized dimensional analysis as unit conversion, but I did not yet understand why the volume conversion factor is cubed or why the fraction is written in that direction. I now understand that $\text{cm}^3$ means three-dimensional volume, so the factor $100$ must be cubed. I also understand that a conversion factor is a way to multiply by 1 while changing units.
+我最初只把因次分析理解成普通单位换算，不明白体积换算因子为什么要立方，也不明白分数方向。现在我知道 $\text{cm}^3$ 表示三维体积，所以 $100$ 必须立方；换算因子就是用乘以 1 的方式改变单位。
 
-I can identify $3.50\ \text{g/cm}^3$ as a density and explain the meaning of the cubic conversion. I still need to practice choosing the direction of a conversion factor and checking cancellation in a complete chain.
+现在我能说明 $3.50\ \text{g/cm}^3$ 的含义，也能解释体积单位为什么立方。下一步是独立写出完整换算链，先检查单位方向，再计算数字。
 
 ### Learning record — 2026-08-31 — Conversion factors and unit cancellation
 
@@ -263,7 +263,7 @@ $\text{cm}^3$ 被消去了。完整使用：
 
 #### respond
 
-The correct procedure is to multiply by conversion factors and arrange them so unwanted units cancel. For density:
+我最后把密度换算写成下面的完整链。关键是先让单位消去：
 
 <div class="math-display">
 \[
@@ -274,17 +274,17 @@ The correct procedure is to multiply by conversion factors and arrange them so u
 \]
 </div>
 
-The numerical values and units are handled together in one multiplication, but they can be checked separately: calculate the number and verify that the units cancel. The direction is not arbitrary. For a density, $\text{cm}^3$ is in the denominator, so $\text{cm}^3$ must appear in the numerator of the conversion factor. For an ordinary volume with $\text{cm}^3$ in the numerator, the factor must be reversed.
+数值和单位是在同一个乘法中一起计算的，但我可以分开检查：一边算数字，一边确认单位是否消去。方向不是随便选的：密度中的 $\text{cm}^3$ 在分母，所以换算因子中的 $\text{cm}^3$ 要放在分子；普通体积中的 $\text{cm}^3$ 在分子时，方向要反过来。
 
-The attempted conversion to $\text{kg/s}$ is not a valid unit conversion because seconds measure time, while density has units of mass per volume. A new physical relationship involving time would be required.
+我把 $\text{g/cm}^3$ 转成 $\text{kg/s}$ 的尝试是不成立的，因为秒是时间单位，而密度是质量除以体积。要出现秒，必须另外知道一个和时间有关的物理关系。
 
-The correction to the numerical work is that the mass factor is $\frac{1\ \text{kg}}{1000\ \text{g}}$, not $1.1\ \text{kg}/1000\ \text{g}$. The final value is $3500\ \text{kg/m}^3$, normally written $3.50\times10^3\ \text{kg/m}^3$ to preserve three significant figures.
+我还发现质量换算因子应该是 $\frac{1\ \text{kg}}{1000\ \text{g}}$，不是 $1.1\ \text{kg}/1000\ \text{g}$。最后结果是 $3500\ \text{kg/m}^3$，写成 $3.50\times10^3\ \text{kg/m}^3$ 可以保留 3 个有效数字。
 
 #### reflection
 
-I understood that the conversion factor is a multiplication term, but I initially focused on the numbers without checking the units. I also briefly used the wrong target unit $\text{kg/s}$ and wrote an incorrect mass factor. The unit-cancellation check exposes both problems immediately.
+我知道换算因子是乘项，但一开始只看数字，没有同时检查单位。我还暂时把目标单位写成 $\text{kg/s}$，并写错了质量换算因子。把单位消去后，这两个问题马上就能看出来。
 
-I now understand why the factor direction depends on whether the unit is in the numerator or denominator, and why the numerical value and unit cannot be separated from the calculation. I need to practice writing the complete chain without first calculating only the number.
+现在我明白，换算因子的方向取决于原单位在分子还是分母，数值和单位不能真正分开。下一步我会先写完整单位链，再进行数字计算。
 
 ### Learning record — 2026-08-31 — Temperature scales and conversion order
 
@@ -327,17 +327,17 @@ $100^\circ\text{C}=180^\circ\text{F}$
 
 #### respond
 
-Kelvin and Celsius have equal-sized temperature intervals, but their zero points are different. Therefore the conversion from Kelvin to Celsius is $T_C=T_K-273.15$. For $77\ \text{K}$, subtract $273.15$ first to obtain the Celsius temperature, then use $T_F=T_C\times\frac{9}{5}+32$ to obtain Fahrenheit.
+我学到 Kelvin 和 Celsius 的单位间隔相同，但零点不同，所以 $T_C=T_K-273.15$。$77\ \text{K}$ 要先减去 $273.15$ 得到摄氏温度，再用 $T_F=T_C\times\frac{9}{5}+32$ 换成华氏温度。
 
-The Fahrenheit scale requires both a change in interval size and a shifted zero point. One Celsius degree corresponds to $9/5$ Fahrenheit degrees, and $0^{\circ}\text{C}$ corresponds to $32^{\circ}\text{F}$. Thus $100^{\circ}\text{C}$ corresponds to a temperature interval of $180^{\circ}\text{F}$, but its Fahrenheit reading is $180+32=212^{\circ}\text{F}$. The $180^{\circ}\text{F}$ value describes only the interval from $0^{\circ}\text{C}$ to $100^{\circ}\text{C}$, not the final temperature reading.
+我一开始把 $100^\circ\text{C}$ 到 $100^\circ\text{F}$ 的温度间隔和最终温度读数混在一起。$1^\circ\text{C}=\frac{9}{5}^\circ\text{F}$，所以从 $0^\circ\text{C}$ 到 $100^\circ\text{C}$ 的间隔是 $180^\circ\text{F}$；但还要加上 $0^\circ\text{C}=32^\circ\text{F}$ 的起点，最终读数是 $212^\circ\text{F}$。
 
-Kelvin is written as K without a degree symbol because it is an absolute SI temperature scale; Celsius and Fahrenheit are written with $^{\circ}$.
+Kelvin 是绝对温标，单位写作 K，不加度数符号；Celsius 和 Fahrenheit 的单位写作 $^\circ\text{C}$ 和 $^\circ\text{F}$。
 
 #### reflection
 
-I correctly identified $T_C=T_K-273.15$, but I initially treated temperature conversion like a simple multiplicative unit conversion. I also confused the Fahrenheit temperature interval $180^{\circ}\text{F}$ with the final Fahrenheit reading $212^{\circ}\text{F}$. The correction is to distinguish a change in temperature interval from a temperature scale reading.
+我能写出 $T_C=T_K-273.15$，但最初把温度转换当成普通的乘法单位换算，也把 $180^\circ\text{F}$ 的温度间隔误认为最终读数 $212^\circ\text{F}$。修正后，我会区分“温度变化量”和“温标上的温度读数”。
 
-I understand the different zero points of Kelvin, Celsius, and Fahrenheit and the order of the Fahrenheit calculation. I still need to calculate $77\ \text{K}$ to both Celsius and Fahrenheit independently and explain the result without notes.
+现在我理解 Kelvin、Celsius 和 Fahrenheit 的零点不同，也知道华氏转换的顺序。还需要不看笔记，独立算出 $77\ \text{K}$ 对应的摄氏和华氏温度。
 
 ### Learning record — 2026-08-31 — Chapter 1 Sections 1.7–1.9 selected exercises
 
@@ -347,9 +347,9 @@ I understand the different zero points of Kelvin, Celsius, and Fahrenheit and th
 
 #### respond
 
-I checked the Chapter 1 exercises in the Zumdahl textbook and selected four exercises from each assigned section. The solutions below keep the unit chain visible and apply the rounding rule after the calculation.
+我从 Zumdahl Chapter 1 的课后练习中各选了 4 个题号。下面保留我的单位链、计算过程和最后的舍入依据。
 
-**Textbook examples assigned for this lesson**
+**我的例题记录**
 
 **Example 1.7 — Unit Conversions III.** A 10.0-km run is converted to miles:
 
@@ -357,7 +357,7 @@ $$
 10.0\ \text{km}\times\frac{1000\ \text{m}}{1\ \text{km}}\times\frac{1.094\ \text{yd}}{1\ \text{m}}\times\frac{1\ \text{mi}}{1760\ \text{yd}}=6.216\ldots\ \text{mi}
 $$
 
-Because the starting value has three significant figures, the reported result is $6.22\ \text{mi}$.
+因为起始数据 $10.0\ \text{km}$ 有 3 个有效数字，所以我把结果写成 $6.22\ \text{mi}$。
 
 **Example 1.11 — Temperature Conversions I.** Normal body temperature, $98.6^\circ\text{F}$, is converted first to Celsius and then to Kelvin:
 
@@ -369,7 +369,7 @@ $$
 T_K=37.0+273.15=310.2\ \text{K}
 $$
 
-The Celsius result has one decimal place, so it limits the final Kelvin result to one decimal place.
+摄氏结果保留 1 位小数，所以最后的 Kelvin 结果也保留 1 位小数。
 
 **Example 1.14 — Determining Density.** For $25.00\ \text{cm}^3$ of liquid with a mass of $19.625\ \text{g}$:
 
@@ -377,9 +377,9 @@ $$
 d=\frac{m}{V}=\frac{19.625\ \text{g}}{25.00\ \text{cm}^3}=0.7850\ \text{g/cm}^3
 $$
 
-This matches the listed density of isopropyl alcohol. Ethanol is close, so additional density experiments or another test would improve the identification.
+这个密度与表中的 isopropyl alcohol 相同。Ethanol 的密度也很接近，所以还需要更多次密度实验或其他测试来确认。
 
-**Comparison.** 因次分析用等值的换算因子改变单位，并通过单位消去检查方向；温标转换要处理不同温标的零点和单位间隔；密度计算用 $d=m/V$ 建立质量与体积之间的关系。三者都要保留单位、检查单位是否得到目标单位，并在最后按测量数据的精度报告结果。
+**我的比较。** 因次分析用等值的换算因子改变单位，并通过单位消去检查方向；温标转换要处理不同温标的零点和单位间隔；密度计算用 $d=m/V$ 建立质量与体积之间的关系。三种计算都要保留单位，检查最后是否得到目标单位，并按数据精度报告结果。
 
 **Section 1.7 — Dimensional Analysis and Unit Conversions (Exercises 39, 40, 41, 42)**
 
@@ -389,7 +389,7 @@ $$
 8.43\ \text{cm}\times\frac{10\ \text{mm}}{1\ \text{cm}}=84.3\ \text{mm}
 $$
 
-Answer: $84.3\ \text{mm}$.
+我的结果：$84.3\ \text{mm}$。
 
 **Exercise 40(a).** How many kilograms are in $1\ \text{teragram}$?
 
@@ -397,7 +397,7 @@ $$
 1\ \text{Tg}\times\frac{10^{12}\ \text{g}}{1\ \text{Tg}}\times\frac{1\ \text{kg}}{1000\ \text{g}}=1\times10^9\ \text{kg}
 $$
 
-Answer: $1\times10^9\ \text{kg}$.
+我的结果：$1\times10^9\ \text{kg}$。
 
 **Exercise 41(a).** A baby has a mass of $3.91\ \text{kg}$ and a length of $51.4\ \text{cm}$. Convert the mass to pounds and ounces and the length to inches, rounded to the nearest quarter inch.
 
@@ -411,7 +411,7 @@ $$
 51.4\ \text{cm}\times\frac{1\ \text{in}}{2.54\ \text{cm}}=20.236\ldots\ \text{in}\approx20.25\ \text{in}
 $$
 
-Answer: approximately $8\ \text{lb}\ 9.9\ \text{oz}$ and $20.25\ \text{in}$ ($20\frac{1}{4}\ \text{in}$).
+我的结果：约 $8\ \text{lb}\ 9.9\ \text{oz}$，长度为 $20.25\ \text{in}$（$20\frac{1}{4}\ \text{in}$）。
 
 **Exercise 42(a).** Convert $908\ \text{oz}$ to kilograms:
 
@@ -419,11 +419,11 @@ $$
 908\ \text{oz}\times\frac{1\ \text{lb}}{16\ \text{oz}}\times\frac{453.6\ \text{g}}{1\ \text{lb}}\times\frac{1\ \text{kg}}{1000\ \text{g}}=25.7418\ldots\ \text{kg}\approx25.7\ \text{kg}
 $$
 
-Answer: $25.7\ \text{kg}$.
+我的结果：$25.7\ \text{kg}$。
 
 **Section 1.8 — Temperature (Exercises 57, 58, 59, 60)**
 
-For these conversions, I used $T_K=T_C+273.15$ and $T_F=T_C\times\frac{9}{5}+32$. The input precision determines the displayed decimal place.
+我使用 $T_K=T_C+273.15$ 和 $T_F=T_C\times\frac{9}{5}+32$。输入数据的精度决定结果保留的小数位。
 
 **Exercise 59(a).** $39.2^\circ\text{C}$:
 
@@ -435,7 +435,7 @@ $$
 T_F=39.2\times\frac{9}{5}+32=102.56^\circ\text{F}\approx102.6^\circ\text{F}
 $$
 
-Answer: $312.4\ \text{K}$ and $102.6^\circ\text{F}$.
+我的结果：$312.4\ \text{K}$ 和 $102.6^\circ\text{F}$。
 
 **Exercise 57(b).** Convert $-40.8^\circ\text{F}$ to Celsius and Kelvin:
 
@@ -447,7 +447,7 @@ $$
 T_K=-40.444\ldots+273.15=232.705\ldots\ \text{K}\approx232.7\ \text{K}
 $$
 
-Answer: $-40.4^\circ\text{C}$ and $232.7\ \text{K}$.
+我的结果：$-40.4^\circ\text{C}$ 和 $232.7\ \text{K}$。
 
 **Exercise 58.** A thermometer reads $96.1^\circ\text{F}\pm0.2^\circ\text{F}$. Convert the temperature and uncertainty to Celsius:
 
@@ -459,7 +459,7 @@ $$
 \Delta T_C=0.2\times\frac{5}{9}=0.111\ldots^\circ\text{C}\approx0.1^\circ\text{C}
 $$
 
-Answer: $35.6\pm0.1^\circ\text{C}$.
+我的结果：$35.6\pm0.1^\circ\text{C}$。
 
 **Exercise 60(a).** Convert $233\ \text{K}$ to Celsius and Fahrenheit. This is the temperature that has the same numerical value on the Celsius and Fahrenheit scales:
 
@@ -471,7 +471,7 @@ $$
 T_F=(-40.15)\times\frac{9}{5}+32=-40.27^\circ\text{F}\approx-40^\circ\text{F}
 $$
 
-Answer: approximately $-40^\circ\text{C}$ and $-40^\circ\text{F}$.
+我的结果：约为 $-40^\circ\text{C}$ 和 $-40^\circ\text{F}$。
 
 **Section 1.9 — Density**
 
@@ -485,7 +485,7 @@ $$
 d=\frac{615.0\ \text{g}}{101.5\ \text{cm}^3}=6.059\ldots\ \text{g/cm}^3\approx6.1\ \text{g/cm}^3
 $$
 
-Answer: $V=1.0\times10^2\ \text{cm}^3$ and $d=6.1\ \text{g/cm}^3$. The limiting measurements are $2.9$ and $3.5$, which have two significant figures.
+我的结果：$V=1.0\times10^2\ \text{cm}^3$，$d=6.1\ \text{g/cm}^3$。限制精度的是 $2.9$ 和 $3.5$，它们只有 2 个有效数字。
 
 **Exercise 69(a).** Find the volume of a $5.0$-carat diamond. Given $1\ \text{carat}=0.200\ \text{g}$ and $d=3.51\ \text{g/cm}^3$:
 
@@ -493,7 +493,7 @@ $$
 V=5.0\ \text{carat}\times\frac{0.200\ \text{g}}{1\ \text{carat}}\times\frac{1\ \text{cm}^3}{3.51\ \text{g}}=0.2849\ldots\ \text{cm}^3\approx0.28\ \text{cm}^3
 $$
 
-Answer: $0.28\ \text{cm}^3$.
+我的结果：$0.28\ \text{cm}^3$。
 
 **Exercise 69(b).** Find the mass in carats of a diamond measuring $2.8\ \text{mL}$:
 
@@ -501,7 +501,7 @@ $$
 2.8\ \text{mL}\times\frac{3.51\ \text{g}}{1\ \text{mL}}\times\frac{1\ \text{carat}}{0.200\ \text{g}}=49.14\ldots\ \text{carat}\approx49\ \text{carat}
 $$
 
-Answer: $49\ \text{carat}$.
+我的结果：$49\ \text{carat}$。
 
 **Exercise 71.** A $33.42\ \text{g}$ metal sample raises the water level from $12.7\ \text{mL}$ to $21.6\ \text{mL}$:
 
@@ -513,7 +513,7 @@ $$
 d=\frac{33.42\ \text{g}}{8.9\ \text{mL}}=3.755\ldots\ \text{g/mL}\approx3.8\ \text{g/mL}
 $$
 
-Answer: $3.8\ \text{g/mL}$.
+我的结果：$3.8\ \text{g/mL}$。
 
 **Exercise 72.** For $5.25\ \text{g}$ of silver with density $10.5\ \text{g/cm}^3$:
 
@@ -525,13 +525,13 @@ $$
 V_{\text{final}}=11.2\ \text{mL}+0.500\ \text{mL}=11.700\ \text{mL}\approx11.7\ \text{mL}
 $$
 
-Answer: the water level rises to $11.7\ \text{mL}$.
+我的结果：水面上升到 $11.7\ \text{mL}$。
 
 #### reflection
 
-I completed four numbered exercises from each assigned section: Exercises 39, 40, 41, and 42 for dimensional analysis; Exercises 57, 58, 59, and 60 for temperature; and Exercises 68, 69, 71, and 72 for density. The main pattern is that the equation or conversion factor is chosen first, units are canceled through the chain, and rounding is applied after the unrounded calculation.
+我完成了每节 4 个不同题号：因次分析为 Exercises 39、40、41、42；温标为 Exercises 57、58、59、60；密度为 Exercises 68、69、71、72。我的共同检查方法是先写公式或换算因子，再消去单位，最后根据未舍入的结果进行舍入。
 
-**Experiment report evidence.** The completed experiment report is included as photographs and as the original PDF:
+**我的实验报告记录。** 我把实验报告的两页照片和原 PDF 放在这里：
 
 ![Experiment report — page 1]({{ '/assets/images/experiment-report/page-1.jpg' | relative_url }})
 
@@ -568,7 +568,7 @@ I completed four numbered exercises from each assigned section: Exercises 39, 40
 
 数值部分得到1000，乘以3.50 等于3500
 
-参考结果：
+我的计算记录：
 
 \[
 3.50\ \frac{\text{g}}{\text{cm}^3}
@@ -598,7 +598,7 @@ Fahrenheit 呢
 \]
 为什么同样的100c，能出现两个结果f
 
-参考结果：
+我的计算记录：
 
 \[
 77\ \text{K}=77-273.15=-196.15^\circ\text{C}
@@ -618,7 +618,7 @@ Kelvin 是绝对温标，单位写作 K，不使用度数符号。
 
 得到45.42L，按照12.0的有效数字报告得到45.4L
 
-参考结果：
+我的计算记录：
 
 \[
 12.0\ \text{gal}
