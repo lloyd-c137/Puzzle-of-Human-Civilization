@@ -98,19 +98,25 @@ I correctly found \(\frac{3.785\ \text{L}}{1\ \text{gal}}\), calculated \(45.42\
 
 3.50g/cm3怎么换算成kg/m3
 
-\\(\left(\frac{100\ \text{cm}}{1\ \text{m}}\right)^3\\) 这是什么，我看不懂
+\[
+\left(\frac{100\ \text{cm}}{1\ \text{m}}\right)^3
+\]
+这是什么，我看不懂
 
-# (1\text{ m}^3
+\[
+1\ \text{m}^3=(100\ \text{cm})^3=1{,}000{,}000\ \text{cm}^3
+\]
+这个我能看懂，
 
-# (100\text{ cm})^3
+\[
+\left(\frac{100\ \text{cm}}{1\ \text{m}}\right)^3
+=\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+\]
+这个我看不懂
 
-1{,}000{,}000\text{ cm}^3)这个我能看懂，
-
-# (\left(\frac{100\text{ cm}}{1\text{ m}}\right)^3
-
-\frac{1{,}000{,}000\text{ cm}^3}{1\text{ m}^3})这个我看不懂
-
-\\[ \frac{1{,}000{,}000\text{ cm}^3}{1\text{ m}^3} \\]
+\[
+\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+\]
 换算因子有什么用，怎么用
 
 #### respond
@@ -143,54 +149,69 @@ I can identify \(3.50\ \text{g/cm}^3\) as a density and explain the meaning of t
 
 #### question
 
-在密度中：[
+在密度中：
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
-]我们想把分母的 (\text{cm}^3) 换成 (\text{m}^3)，所以使用：[
-\frac{1{,}000{,}000\text{ cm}^3}{1\text{ m}^3}
-]因为：[
+\]
+我们想把分母的 \(\text{cm}^3\) 换成 \(\text{m}^3\)，所以使用：
+\[
+\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+\]
+因为：
+\[
 \frac{\text{g}}{\text{cm}^3}
 \times
 \frac{\text{cm}^3}{\text{m}^3}
-==============================
-
-\frac{\text{g}}{\text{m}^3}
-]\(\text{cm}^3) 被消去了。完整使用：[
+=\frac{\text{g}}{\text{m}^3}
+\]
+\(\text{cm}^3\) 被消去了。完整使用：
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
 \times
-\frac{1\text{ kg}}{1000\text{ g}}
+\frac{1\ \text{kg}}{1000\ \text{g}}
 \times
-\frac{1{,}000{,}000\text{ cm}^3}{1\text{ m}^3}
-==============================================
-
-3.50\times10^3\frac{\text{kg}}{\text{m}^3}
-]注意方向如果是把普通体积 (2.00\text{ cm}^3) 换成 (\text{m}^3)，应该使用相反方向：[
-2.00\text{ cm}^3
+\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+=3.50\times10^3\frac{\text{kg}}{\text{m}^3}
+\]
+注意方向如果是把普通体积 \(2.00\ \text{cm}^3\) 换成 \(\text{m}^3\)，应该使用相反方向：
+\[
+2.00\ \text{cm}^3
 \times
-\frac{1\text{ m}^3}{1{,}000{,}000\text{ cm}^3}
-==============================================
+\frac{1\ \text{m}^3}{1{,}000{,}000\ \text{cm}^3}
+=2.00\times10^{-6}\ \text{m}^3
+\]
+这个过程我看不懂
 
-2.00\times10^{-6}\text{ m}^3 ] 这个过程我看不懂
-
-现在把单位放在一起：[
+现在把单位放在一起：
+\[
 \frac{\text{g}}{\text{cm}^3}
 \times
 \frac{\text{cm}^3}{\text{m}^3}
-]上下都有 (\text{cm}^3)，所以可以消去：[
+\]
+上下都有 \(\text{cm}^3\)，所以可以消去：
+\[
 \frac{\text{g}}{\cancel{\text{cm}^3}}
 \times
 \frac{\cancel{\text{cm}^3}}{\text{m}^3}
-=======================================
+=\frac{\text{g}}{\text{m}^3}
+\]
+这一步是为了什么
 
-\frac{\text{g}}{\text{m}^3} ] 这一步是为了什么
-
-只换体积单位[
+只换体积单位：
+\[
 3.50\frac{\text{g}}{\text{cm}^3}
 \times
-\frac{1{,}000{,}000\text{ cm}^3}{1\text{ m}^3}
-]数值变成：[
-3.50\times1{,}000{,}000
-=======================
-3.50\times10^6 ]单位变成：[ 3.50\times10^6\frac{\text{g}}{\text{m}^3} ] 数值和单位是分开计算的吗
+\frac{1{,}000{,}000\ \text{cm}^3}{1\ \text{m}^3}
+\]
+数值变成：
+\[
+3.50\times1{,}000{,}000=3.50\times10^6
+\]
+单位变成：
+\[
+3.50\times10^6\frac{\text{g}}{\text{m}^3}
+\]
+数值和单位是分开计算的吗
 
 3.50g/cm3换算为kg/m3，先找换算因子 因为1000g=1kg，所以换算因子是1kg/1000g
 
@@ -235,22 +256,30 @@ checkoutquestion的下一题是什么
 
 所以kelvin与celsius的换算关系是什么
 
-\\[ T\_K=T\_C+273.15 \\]
+\[
+T_K=T_C+273.15
+\]
 这个关系的换算因子怎么做
 
 因为 Kelvin 和 Celsius 的单位间隔相同，但**零点不同**：
-\\[ 0^\circ\text{C}=273.15\text{ K} \\] 这句话是什么意思
+\[
+0^\circ\text{C}=273.15\text{ K}
+\]
+这句话是什么意思
 
 所以77k转换为。c，先找换算因子是C=K-273.15
 
 Fahrenheit 呢
 
-\\(T\_F=T\_C\times\frac{9}{5}+32\\) 怎么这么复杂
+\(T_F=T_C\times\frac{9}{5}+32\) 怎么这么复杂
 
-如果\\(0^\circ\text{C}=32^\circ\text{F}\\)，那么100c不是应该等于132c吗
+如果\(0^\circ\text{C}=32^\circ\text{F}\)，那么100c不是应该等于132c吗
 
-\\(100^\circ\text{C}=180^\circ\text{F}\\)
-\\[ \boxed{100^\circ\text{C}=212^\circ\text{F}} \\] 为什么同样的100c，能出现两个结果f
+\(100^\circ\text{C}=180^\circ\text{F}\)
+\[
+\boxed{100^\circ\text{C}=212^\circ\text{F}}
+\]
+为什么同样的100c，能出现两个结果f
 
 #### respond
 
