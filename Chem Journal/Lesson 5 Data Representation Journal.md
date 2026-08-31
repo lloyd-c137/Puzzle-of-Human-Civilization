@@ -353,3 +353,11 @@ I understand the different zero points of Kelvin, Celsius, and Fahrenheit and th
 | Date | Topic | Mistake | Correction |
 |---|---|---|---|
 | 2026-08-31 | Conversion-factor notation | I first described the multiplication as $3.785\ \text{L}\times12.0\ \text{gal}$, leaving an extra gal unit. | Write $12.0\ \text{gal}\times\frac{3.785\ \text{L}}{1\ \text{gal}}$ so gal cancels. |
+
+## Check Out Questions
+
+1. 把 \(3.50\ \text{g/cm}^3\) 换算为 \(\text{kg/m}^3\)。写出完整换算链，并展示单位如何消去。
+
+2. 液氮的沸点为 \(77\ \text{K}\)。把它换算为 \({}^{\circ}\text{C}\) 和 \({}^{\circ}\text{F}\)；写明运算顺序，并说明为什么 Kelvin 不写度数符号。
+
+3. 某液体密度为 \(0.745\ \text{g/mL}\)。已知 \(1\ \text{gal}=3.785\ \text{L}\)，求 \(12.0\ \text{gal}\) 该液体的质量（kg）；写出单位链，并按正确有效数字报告结果。
