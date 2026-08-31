@@ -14,7 +14,31 @@
         svg: { fontCache: 'global' }
       };
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script id="mathjax-loader" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script>
+      (function () {
+        var loader = document.getElementById('mathjax-loader');
+        var fallback = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.min.js';
+        var typesetMath = function () {
+          if (!window.MathJax || !window.MathJax.startup) return;
+          window.MathJax.startup.promise.then(function () {
+            return window.MathJax.typesetPromise();
+          });
+        };
+
+        loader.addEventListener('error', function () {
+          if (loader.dataset.fallbackLoaded) return;
+          loader.dataset.fallbackLoaded = 'true';
+          var fallbackLoader = document.createElement('script');
+          fallbackLoader.src = fallback;
+          fallbackLoader.defer = true;
+          fallbackLoader.addEventListener('load', typesetMath);
+          document.head.appendChild(fallbackLoader);
+        });
+
+        window.addEventListener('load', typesetMath);
+      }());
+    </script>
     <link rel="stylesheet" href="{{ '/assets/css/annotations.css' | relative_url }}?v=20260830-3">
     <script defer src="{{ '/assets/js/annotations.js' | relative_url }}?v=20260830-3"></script>
   </head>
