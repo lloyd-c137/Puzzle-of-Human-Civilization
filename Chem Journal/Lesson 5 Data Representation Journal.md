@@ -19,10 +19,10 @@ This Journal records my actual learning process for Track 2 Lesson 5: how to cha
 
 | Topic | Current progress | Next step |
 | --- | --- | --- |
-| Dimensional analysis | Partly understood | Build and check the complete conversion chain independently. |
-| Temperature conversion | Exploring | Convert $77\ \text{K}$ to ${}^{\circ}\text{C}$ and ${}^{\circ}\text{F}$. |
-| Density calculation | Partly understood | Complete the $12.0\ \text{gal}$ mass calculation. |
-| Lesson 5 Check Out Questions | Exploring | Answer all three questions independently. |
+| Dimensional analysis | Applied | Review the four selected exercises and unit cancellation. |
+| Temperature conversion | Applied | Review the order of Celsius/Kelvin/Fahrenheit conversion. |
+| Density calculation | Applied | Review the density unit chain and significant figures. |
+| Lesson 5 Check Out Questions | Applied | Keep the completed answers and evidence together. |
 
 ## Key knowledge and vocabulary
 
@@ -381,7 +381,7 @@ This matches the listed density of isopropyl alcohol. Ethanol is close, so addit
 
 **Comparison.** 因次分析用等值的换算因子改变单位，并通过单位消去检查方向；温标转换要处理不同温标的零点和单位间隔；密度计算用 $d=m/V$ 建立质量与体积之间的关系。三者都要保留单位、检查单位是否得到目标单位，并在最后按测量数据的精度报告结果。
 
-**Section 1.7 — Dimensional Analysis and Unit Conversions**
+**Section 1.7 — Dimensional Analysis and Unit Conversions (Exercises 39, 40, 41, 42)**
 
 **Exercise 39(a).** Convert $8.43\ \text{cm}$ to millimeters:
 
@@ -391,31 +391,37 @@ $$
 
 Answer: $84.3\ \text{mm}$.
 
-**Exercise 39(b).** Convert $2.41\times10^{-2}\ \text{cm}$ to meters:
+**Exercise 40(a).** How many kilograms are in $1\ \text{teragram}$?
 
 $$
-2.41\times10^{-2}\ \text{cm}\times\frac{1\ \text{m}}{100\ \text{cm}}=2.41\times10^{-4}\ \text{m}
+1\ \text{Tg}\times\frac{10^{12}\ \text{g}}{1\ \text{Tg}}\times\frac{1\ \text{kg}}{1000\ \text{g}}=1\times10^9\ \text{kg}
 $$
 
-Answer: $2.41\times10^{-4}\ \text{m}$.
+Answer: $1\times10^9\ \text{kg}$.
 
-**Exercise 39(c).** Convert $294.5\ \text{nm}$ to centimeters:
-
-$$
-294.5\ \text{nm}\times\frac{1\ \text{m}}{10^9\ \text{nm}}\times\frac{100\ \text{cm}}{1\ \text{m}}=2.945\times10^{-5}\ \text{cm}
-$$
-
-Answer: $2.945\times10^{-5}\ \text{cm}$.
-
-**Exercise 39(d).** Convert $1.445\times10^4\ \text{m}$ to kilometers:
+**Exercise 41(a).** A baby has a mass of $3.91\ \text{kg}$ and a length of $51.4\ \text{cm}$. Convert the mass to pounds and ounces and the length to inches, rounded to the nearest quarter inch.
 
 $$
-1.445\times10^4\ \text{m}\times\frac{1\ \text{km}}{1000\ \text{m}}=14.45\ \text{km}
+3.91\ \text{kg}\times\frac{1\ \text{lb}}{0.4536\ \text{kg}}=8.62\ \text{lb}
 $$
 
-Answer: $14.45\ \text{km}$.
+The fractional part is $0.62\ \text{lb}$, so $0.62\times16=9.9\ \text{oz}$. The mass is approximately $8\ \text{lb}\ 9.9\ \text{oz}$.
 
-**Section 1.8 — Temperature**
+$$
+51.4\ \text{cm}\times\frac{1\ \text{in}}{2.54\ \text{cm}}=20.236\ldots\ \text{in}\approx20.25\ \text{in}
+$$
+
+Answer: approximately $8\ \text{lb}\ 9.9\ \text{oz}$ and $20.25\ \text{in}$ ($20\frac{1}{4}\ \text{in}$).
+
+**Exercise 42(a).** Convert $908\ \text{oz}$ to kilograms:
+
+$$
+908\ \text{oz}\times\frac{1\ \text{lb}}{16\ \text{oz}}\times\frac{453.6\ \text{g}}{1\ \text{lb}}\times\frac{1\ \text{kg}}{1000\ \text{g}}=25.7418\ldots\ \text{kg}\approx25.7\ \text{kg}
+$$
+
+Answer: $25.7\ \text{kg}$.
+
+**Section 1.8 — Temperature (Exercises 57, 58, 59, 60)**
 
 For these conversions, I used $T_K=T_C+273.15$ and $T_F=T_C\times\frac{9}{5}+32$. The input precision determines the displayed decimal place.
 
@@ -431,41 +437,41 @@ $$
 
 Answer: $312.4\ \text{K}$ and $102.6^\circ\text{F}$.
 
-**Exercise 59(b).** $-225^\circ\text{C}$:
+**Exercise 57(b).** Convert $-40.8^\circ\text{F}$ to Celsius and Kelvin:
 
 $$
-T_K=-225+273.15=48.15\ \text{K}\approx48\ \text{K}
-$$
-
-$$
-T_F=(-225)\times\frac{9}{5}+32=-373^\circ\text{F}
-$$
-
-Answer: $48\ \text{K}$ and $-373^\circ\text{F}$.
-
-**Exercise 59(c).** $-273^\circ\text{C}$:
-
-$$
-T_K=-273+273.15=0.15\ \text{K}\approx0\ \text{K}
+T_C=(-40.8-32)\times\frac{5}{9}=-40.444\ldots^\circ\text{C}\approx-40.4^\circ\text{C}
 $$
 
 $$
-T_F=(-273)\times\frac{9}{5}+32=-459.4^\circ\text{F}\approx-459^\circ\text{F}
+T_K=-40.444\ldots+273.15=232.705\ldots\ \text{K}\approx232.7\ \text{K}
 $$
 
-Answer: $0\ \text{K}$ and $-459^\circ\text{F}$, to the precision supported by the given whole-degree Celsius value.
+Answer: $-40.4^\circ\text{C}$ and $232.7\ \text{K}$.
 
-**Exercise 59(d).** $801^\circ\text{C}$:
-
-$$
-T_K=801+273.15=1074.15\ \text{K}\approx1074\ \text{K}
-$$
+**Exercise 58.** A thermometer reads $96.1^\circ\text{F}\pm0.2^\circ\text{F}$. Convert the temperature and uncertainty to Celsius:
 
 $$
-T_F=801\times\frac{9}{5}+32=1473.8^\circ\text{F}\approx1474^\circ\text{F}
+T_C=(96.1-32)\times\frac{5}{9}=35.611\ldots^\circ\text{C}\approx35.6^\circ\text{C}
 $$
 
-Answer: $1074\ \text{K}$ and $1474^\circ\text{F}$.
+$$
+\Delta T_C=0.2\times\frac{5}{9}=0.111\ldots^\circ\text{C}\approx0.1^\circ\text{C}
+$$
+
+Answer: $35.6\pm0.1^\circ\text{C}$.
+
+**Exercise 60(a).** Convert $233\ \text{K}$ to Celsius and Fahrenheit. This is the temperature that has the same numerical value on the Celsius and Fahrenheit scales:
+
+$$
+T_C=233-273.15=-40.15^\circ\text{C}\approx-40^\circ\text{C}
+$$
+
+$$
+T_F=(-40.15)\times\frac{9}{5}+32=-40.27^\circ\text{F}\approx-40^\circ\text{F}
+$$
+
+Answer: approximately $-40^\circ\text{C}$ and $-40^\circ\text{F}$.
 
 **Section 1.9 — Density**
 
@@ -523,7 +529,15 @@ Answer: the water level rises to $11.7\ \text{mL}$.
 
 #### reflection
 
-I completed the required set of 12 exercises: 39(a–d) for dimensional analysis, 59(a–d) for temperature, and 68, 69(a–b), 71, and 72 for density. The main pattern is that the equation or conversion factor is chosen first, units are canceled through the chain, and rounding is applied after the unrounded calculation. I need to review temperature rounding near $0\ \text{K}$ and continue checking that each selected exercise is copied from the correct section of the textbook.
+I completed four numbered exercises from each assigned section: Exercises 39, 40, 41, and 42 for dimensional analysis; Exercises 57, 58, 59, and 60 for temperature; and Exercises 68, 69, 71, and 72 for density. The main pattern is that the equation or conversion factor is chosen first, units are canceled through the chain, and rounding is applied after the unrounded calculation.
+
+**Experiment report evidence.** The completed experiment report is included as photographs and as the original PDF:
+
+![Experiment report — page 1]({{ '/assets/images/experiment-report/page-1.jpg' | relative_url }})
+
+![Experiment report — page 2]({{ '/assets/images/experiment-report/page-2.jpg' | relative_url }})
+
+[Open or download the original experiment report PDF]({{ '/resources/实验报告.pdf' | relative_url }})
 
 ## Concepts to revisit
 
