@@ -190,9 +190,9 @@ I can identify \(3.50\ \text{g/cm}^3\) as a density and explain the meaning of t
 \]
 上下都有 \(\text{cm}^3\)，所以可以消去：
 \[
-\frac{\text{g}}{\cancel{\text{cm}^3}}
+\frac{\text{g}}{\text{cm}^3}
 \times
-\frac{\cancel{\text{cm}^3}}{\text{m}^3}
+\frac{\text{cm}^3}{\text{m}^3}
 =\frac{\text{g}}{\text{m}^3}
 \]
 这一步是为了什么
