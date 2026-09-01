@@ -26,8 +26,8 @@ The primary reference is Zumdahl, *Chemistry*, 9th Edition, Chapter 1, §1.10 �
 | Homogeneous and heterogeneous mixtures | Test whether uniform appearance is sufficient evidence of purity. |
 | Physical and chemical changes | Compare water boiling with water electrolysis by tracking chemical identity explicitly. |
 | Evidence, inference, and limits | Use a judgment–evidence–limitation statement about pure water and salt water. |
-| Selected textbook or Study Guide exercises | Select and solve four classification/change questions with reasons and revisions. |
-| One-page classification evidence | Add the classification tree, the particle-diagram reasoning from textbook Exercise 1.79 (p. 38), and one original-judgment → evidence → revision sentence. |
+| Selected textbook or Study Guide exercises | Review four completed questions: 1.79, 1.81, 1.83, and 1.87. |
+| One-page classification evidence | Review the handwritten classification tree and the particle-diagram reasoning from textbook Exercise 1.79 (p. 38). |
 | Check Out Questions | Answer all three questions using classification, composition, and chemical-identity evidence. |
 
 ## Key knowledge and vocabulary
@@ -355,6 +355,79 @@ A pure substance is matter that contains only one chemical substance and therefo
 #### reflection
 
 The learner is clarifying the classification level above element and compound. The crucial distinction is between fixed composition and uniform appearance: a pure substance is one chemical kind with fixed composition, while a homogeneous mixture can look uniform but contain multiple substances. Next intervention: explain why salt water is homogeneous but not a pure substance.
+
+### Learning record — 2026-09-01 — Four selected exercises from §1.10
+
+#### question
+
+- 自行从本日学习内容对应的课后或者 workbook 中共挑选 4 题，完成在 Journal 上。本日正式学习 §1.10，合计 4 题。题源：教材 1.79–1.88（p.38），或 Study Guide 第 1 章 40–41（p.18）；按当天分类与变化主题选择。指定共解题可计入 4 题，不另加一组。写清书名、题号、理由与修订；不能只写分类标签。 现在来完成这个
+
+#### respond
+
+**Source:** Zumdahl, *Chemistry*, 9th Edition, Chapter 1, §1.10, p. 38.
+
+#### Exercise 1.79 — Particle diagrams
+
+**题目：** Match each description with the microscopic pictures. More than one picture may fit each description; a picture may be used more than once or not used at all.
+
+**我的分类与理由：**
+
+- a. a gaseous compound → **iv**。图 iv 中所有粒子都由两种不同颜色的原子化学结合而成，粒子彼此分散，表示气态化合物。
+- b. a mixture of two gaseous elements → **vi**。图 vi 中有两种不同颜色的单原子粒子，彼此没有化学结合，且分散在空间中，表示两种气态元素的混合物。
+- c. a solid element → **v**。图 v 中只有一种颜色的原子，并且粒子紧密排列，表示固态元素。
+- d. a mixture of a gaseous element and a gaseous compound → **ii、iii**。图 ii 和 iii 中同时出现单一颜色的元素粒子与由两种颜色原子组成的化合物粒子，而且粒子分散，表示气态元素与气态化合物的混合物。
+
+**我的修订：** 不能只根据颜色判断类别。需要同时观察粒子的数量、原子种类、是否化学结合以及排列的疏密程度：单一原子种类对应元素，不同原子固定结合对应化合物，多种粒子同时存在对应混合物，紧密排列表示固体，分散排列表示气体。
+
+#### Exercise 1.81 — Homogeneous and heterogeneous matter
+
+**题目：** What is the difference between homogeneous and heterogeneous matter? Classify each as homogeneous or heterogeneous: (a) a door, (b) the air you breathe, (c) a cup of coffee (black), (d) the water you drink, (e) salsa, (f) your lab partner.
+
+**我的判断与理由：**
+
+- a. a door → **heterogeneous**。门通常由不同材料或不同部分组成，在整体尺度上组成不完全相同。
+- b. the air you breathe → **homogeneous**。空气中的气体在通常观察尺度下均匀混合。
+- c. a cup of coffee (black) → **homogeneous**。黑咖啡在杯中通常呈单一、均匀的相。
+- d. the water you drink → **homogeneous**。在通常观察尺度下，饮用水各部分看起来组成均匀。
+- e. salsa → **heterogeneous**。可以直接看到不同的固体成分，组成不均匀。
+- f. your lab partner → **heterogeneous**。人体由不同组织和物质组成，整体不是均匀的单一组成。
+
+**我的修订：** homogeneous 只表示样品在所观察尺度上均匀，不表示一定是纯净物；heterogeneous 表示组成不均匀。判断依据是组成是否均匀，而不是是否透明或是否看起来简单。
+
+#### Exercise 1.83 — Mixture or pure substance
+
+**题目：** Classify each as a mixture or a pure substance: (a) water, (b) blood, (c) the oceans, (d) iron, (e) brass, (f) uranium, (g) wine, (h) leather, (i) table salt. Of the pure substances, which are elements and which are compounds?
+
+**我的判断与理由：**
+
+- a. water → **pure substance, compound**。水是 H₂O，氢和氧以固定比例化学结合。
+- b. blood → **mixture**。血液含有多种不同物质。
+- c. the oceans → **mixture**。海水含有水、盐和其他溶解物质，组成可以改变。
+- d. iron → **pure substance, element**。铁只含一种原子。
+- e. brass → **mixture**。黄铜是铜和锌等金属组成的合金，比例可以变化。
+- f. uranium → **pure substance, element**。铀是由一种元素组成的纯净物。
+- g. wine → **mixture**。葡萄酒含有水、酒精和其他多种物质。
+- h. leather → **mixture**。皮革含有多种物质和组成成分。
+- i. table salt → **pure substance, compound**。食盐的主要化学物质是 NaCl，由钠和氯以固定比例化学结合。
+
+**我的修订：** “pure substance” 的依据是只有一种化学物质和固定组成；在纯净物中，只有一种原子的是元素，不同元素以固定比例化学结合的是化合物。不能因为样品看起来均匀，就直接判断它是纯净物。
+
+#### Exercise 1.87 — Physical or chemical changes
+
+**题目：** Classify the following as physical or chemical changes: (a) moth balls gradually vaporize in a closet, (b) hydrofluoric acid attacks glass and is used to etch calibration marks on glass laboratory utensils, (c) a French chef making a sauce with brandy is able to boil off the alcohol from the brandy, leaving just the brandy flavoring, (d) chemistry majors sometimes get holes in the cotton jeans they wear to lab because of acid spills.
+
+**我的判断与理由：**
+
+- a. moth balls gradually vaporize → **physical change**。物质由固态变成气态，但化学身份没有改变。
+- b. hydrofluoric acid etches glass → **chemical change**。酸与玻璃发生反应，产生新的物质，玻璃的化学组成改变。
+- c. alcohol boils off from brandy → **physical change**。酒精发生汽化并被分离，物质的化学身份没有因沸腾而改变。
+- d. acid spills create holes in cotton jeans → **chemical change**。酸与棉纤维发生反应，生成新的物质并破坏原来的化学结构。
+
+**我的修订：** 不能只根据“是否有气泡”或“是否看到形态改变”判断变化类型。关键是比较变化前后的化学身份：身份相同是物理变化，生成新物质或身份改变是化学变化。
+
+#### reflection
+
+I completed four exercises from the assigned textbook range. Exercise 1.79 uses particle-level evidence; Exercise 1.81 uses uniformity; Exercise 1.83 uses fixed composition and chemical identity; Exercise 1.87 uses whether chemical identities change. My main correction is that appearance, color, or a visible state change is not enough by itself: the classification must be supported by particle composition, uniformity, fixed ratio, or before-and-after chemical identity.
 
 ## Concepts to revisit
 
