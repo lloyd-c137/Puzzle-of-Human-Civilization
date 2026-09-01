@@ -28,7 +28,7 @@ The primary reference is Zumdahl, *Chemistry*, 9th Edition, Chapter 1, §1.10 �
 | Evidence, inference, and limits | Use a judgment–evidence–limitation statement about pure water and salt water. |
 | Selected textbook or Study Guide exercises | Select and solve four classification/change questions with reasons and revisions. |
 | One-page classification evidence | Add the classification tree, the particle-diagram reasoning from textbook Exercise 1.79 (p. 38), and one original-judgment → evidence → revision sentence. |
-| Check Out Questions | Select and solve four textbook or Study Guide exercises. |
+| Check Out Questions | Answer all three questions using classification, composition, and chemical-identity evidence. |
 
 ## Key knowledge and vocabulary
 
@@ -371,36 +371,28 @@ The learner is clarifying the classification level above element and compound. T
 | 2026-09-01 | Compound criterion | I first used “different elements” alone as the reason H₂O is a compound. | A compound has different elements chemically bonded in a fixed ratio; different elements alone may also occur in a mixture. |
 | 2026-09-01 | Evidence limitation | I judged that a sample might be pure water but wrote a limitation about proving it was not salt water. | The limitation must match the judgment: equal density supports possible pure water but does not prove the sample is pure water. |
 
+## One-page classification evidence
+
+![Handwritten classification tree and particle-diagram reasoning](attachments/lesson-6-classification-evidence.jpg)
+
+This page records my classification tree, particle-based clues, and the judgment–evidence–revision reasoning used for this lesson.
+
 ## Check Out Questions
 
 checkoutquestions:
+1. 纯水与盐水都均匀透明。为什么不能只凭外观判断纯度？提出一项可区分它们的证据，并说明该证据的边界。
+answer: 我选择density作为区分证据，因为盐水和纯水的密度不同
+answer: 边界是受温度，盐浓度和测量误差影响
+answer: 我判断样品可能是纯水，因为在相同温度下它的密度与纯水相同，但密度会受温度，盐浓度和测量误差影响，所以只能支持判断，不能单独证明样品一定是盐水
+answer: 我判断样品可能是纯水，因为在相同温度下它的密度与纯水相同，但密度会受温度，盐浓度和测量误差影响，所以只能支持判断，不能单独证明样品一定是纯水
 
-<section class="checkout-section" aria-labelledby="checkout-heading">
-  <h2 id="checkout-heading">Check Out Questions / 检查题</h2>
-  <p class="checkout-intro">每道题都保留学习过程中实际写下的原文回答；多次修订按作答顺序保留，不改写原文。</p>
-  <ol class="checkout-list">
-    <li class="checkout-item">
-      <h3>1. 纯水与盐水都均匀透明</h3>
-      <p class="checkout-question">question: 为什么不能只凭外观判断纯度？提出一项可区分它们的证据，并说明该证据的边界。</p>
-      <p class="checkout-answer">answer: 我选择density作为区分证据，因为盐水和纯水的密度不同</p>
-      <p class="checkout-answer">answer: 边界是受温度，盐浓度和测量误差影响</p>
-      <p class="checkout-answer">answer: 我判断样品可能是纯水，因为在相同温度下它的密度与纯水相同，但密度会受温度，盐浓度和测量误差影响，所以只能支持判断，不能单独证明样品一定是盐水</p>
-      <p class="checkout-answer">answer: 我判断样品可能是纯水，因为在相同温度下它的密度与纯水相同，但密度会受温度，盐浓度和测量误差影响，所以只能支持判断，不能单独证明样品一定是纯水</p>
-    </li>
-    <li class="checkout-item">
-      <h3>2. A、B、C 的物质分类</h3>
-      <p class="checkout-question">question: A只有O₂；B只有H₂O；C同时有O₂和H₂O。分别属于元素、化合物还是混合物？解释你的分类依据。</p>
-      <p class="checkout-answer">answer: A是element，因为它只有一种分子构成 B是compound，因为它由两种及以上的元素构成 C是mixture，因为它由两种化合物组成</p>
-      <p class="checkout-answer">answer: A是element，因为只包含一种原子 B是compound，因为包含不同元素 C是mixture，因为同时含有两种不同物质</p>
-      <p class="checkout-answer">answer: A是element，因为只包含一种原子 B是compound，因为氢元素和氧元素化学结合，组成氧这种物质 C是mixture，因为它是由两种不同的物质结合在一起，并固定比例组成h2O</p>
-      <p class="checkout-answer">answer: B是compound因为它是由两种不同的元素化学结合在一起以固定比例形成h2O这种物质 C是mixture因为它是由两种不同物质同时存在</p>
-      <p class="checkout-answer">answer: h2O属于compound，因为由两种不同的元素组成</p>
-    </li>
-    <li class="checkout-item">
-      <h3>3. 水沸腾与水电解</h3>
-      <p class="checkout-question">question: 水沸腾与水电解都可能出现气泡。分别属于什么变化？用变化前后的化学身份解释，不能只说“有气泡”。</p>
-      <p class="checkout-answer">answer: 水沸腾是物理变化，因为没有化学物质发生改变 水电解是化学变化，因为有化学物质发生改变</p>
-      <p class="checkout-answer">answer: 水沸腾是物理变化，因为没有化学物质发生改变，前后都是h2o，水电解是化学变化，因为有化学物质发生改变，变化之前是h2o，变化后是h2和o2</p>
-    </li>
-  </ol>
-</section>
+2. A只有O₂；B只有H₂O；C同时有O₂和H₂O。分别属于元素、化合物还是混合物？解释你的分类依据。
+answer: A是element，因为它只有一种分子构成 B是compound，因为它由两种及以上的元素构成 C是mixture，因为它由两种化合物组成
+answer: A是element，因为只包含一种原子 B是compound，因为包含不同元素 C是mixture，因为同时含有两种不同物质
+answer: A是element，因为只包含一种原子 B是compound，因为氢元素和氧元素化学结合，组成氧这种物质 C是mixture，因为它是由两种不同的物质结合在一起，并固定比例组成h2O
+answer: B是compound因为它是由两种不同的元素化学结合在一起以固定比例形成h2O这种物质 C是mixture因为它是由两种不同物质同时存在
+answer: h2O属于compound，因为由两种不同的元素组成
+
+3. 水沸腾与水电解都可能出现气泡。分别属于什么变化？用变化前后的化学身份解释，不能只说“有气泡”。
+answer: 水沸腾是物理变化，因为没有化学物质发生改变 水电解是化学变化，因为有化学物质发生改变
+answer: 水沸腾是物理变化，因为没有化学物质发生改变，前后都是h2o，水电解是化学变化，因为有化学物质发生改变，变化之前是h2o，变化后是h2和o2
