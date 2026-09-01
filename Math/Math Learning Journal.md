@@ -18,14 +18,14 @@ subject: Mathematics
 
 ## Current overview
 
-当前统计学习记录包括 AP Statistics Unit 1–2；Unit 3、Unit 6 和 Unit 7 的新学习记录已开始。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3 已有 summary statistics 和 dot plot 学习记录，Unit 6 和 Unit 7 仍需通过练习建立记录。
+当前统计学习记录包括 AP Statistics Unit 1–2；Unit 3、Unit 6 和 Unit 7 的新学习记录已开始。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3 已记录 mean、median、dot plot 和 sample standard deviation 的学习过程，Unit 6 和 Unit 7 仍需通过练习建立记录。
 
 ## Unit journals
 
 | Unit | Main topics | Last updated | Journal |
 | --- | --- | --- | --- |
 | Statistics Units 1–2 | Categorical data, two-way tables, quantitative displays, distributions, center, spread, and comparisons | 2026-08-24 | [Open Unit Journal]({{ '/math/statistics-units-1-2-journal/' | relative_url }}) |
-| Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | 2026-08-30 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
+| Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | 2026-08-31 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
 
 ## Current learning focus
 
@@ -46,4 +46,4 @@ subject: Mathematics
 | Date | Unit | Topic | Next step |
 | --- | --- | --- | --- |
 | 2026-08-24 | Statistics Units 1–2 | Stem-and-leaf plots, box plots, histograms, and distribution comparisons | Continue independent graph interpretation and summary-statistic practice. |
-| 2026-08-30 | Statistics Units 3, 6, and 7 | Began a combined study session; Unit 3 prior knowledge identified | Continue with a short retrieval question, then record Unit 6 or Unit 7 practice. |
+| 2026-08-31 | Statistics Units 3, 6, and 7 | Interpreted a sample standard-deviation question in Unit 3 | Explain why sample standard deviation uses (n-1) and place the denominator correctly. |

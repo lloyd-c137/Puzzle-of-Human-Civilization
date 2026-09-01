@@ -11,7 +11,8 @@
     <script>
       window.MathJax = {
         tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
-        svg: { fontCache: 'global' }
+        svg: { fontCache: 'global' },
+        startup: { typeset: false }
       };
     </script>
     <script id="mathjax-loader" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
@@ -39,8 +40,10 @@
         window.addEventListener('load', typesetMath);
       }());
     </script>
-    <link rel="stylesheet" href="{{ '/assets/css/annotations.css' | relative_url }}?v=20260830-3">
+    <link rel="stylesheet" href="{{ '/assets/css/annotations.css' | relative_url }}?v=20260830-4">
     <script defer src="{{ '/assets/js/annotations.js' | relative_url }}?v=20260830-3"></script>
+    <script defer src="{{ '/assets/js/annotation-guide.js' | relative_url }}?v=20260830-1"></script>
+    <script defer src="{{ '/assets/js/mathjax-kramdown-fix.js' | relative_url }}?v=20260831-2"></script>
   </head>
   <body>
     <header class="site-header">
@@ -57,6 +60,15 @@
     </header>
 
     <main class="container content" data-annotation-root>
+      <aside class="annotation-guide" data-annotation-guide aria-labelledby="annotation-guide-heading">
+        <div class="annotation-guide-copy">
+          <p class="annotation-guide-kicker">Annotation comments / 标注评论</p>
+          <h2 id="annotation-guide-heading">Select a passage to leave a comment</h2>
+          <p>Drag across text in the note, choose “Comment this selection”, and submit your question or thought. Marked passages show a comment marker; click it to read the comment. <span>在正文中拖选一段文字，点击“Comment this selection”即可发表评论。被标记的内容会显示评论标记，点击标记即可查看评论。</span></p>
+        </div>
+        <button type="button" class="annotation-guide-close" data-annotation-guide-close aria-label="Dismiss annotation instructions">×</button>
+      </aside>
+
       <article>
         {% if page.title %}<p class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a> / {{ page.title }}</p>{% endif %}
         {{ content }}

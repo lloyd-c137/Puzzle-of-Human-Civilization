@@ -17,12 +17,12 @@ This Journal records how I learned to change the representation of data while pr
 
 ## Progress dashboard
 
-| Topic | Current progress | Next step |
-| --- | --- | --- |
-| Dimensional analysis | Applied | Review the four selected exercises and unit cancellation. |
-| Temperature conversion | Applied | Review the order of Celsius/Kelvin/Fahrenheit conversion. |
-| Density calculation | Applied | Review the density unit chain and significant figures. |
-| Lesson 5 Check Out Questions | Applied | Keep the completed answers and evidence together. |
+| Topic | Next step |
+| --- | --- |
+| Dimensional analysis | Review the four selected exercises and unit cancellation. |
+| Temperature conversion | Review the order of Celsius/Kelvin/Fahrenheit conversion. |
+| Density calculation | Review the density unit chain and significant figures. |
+| Lesson 5 Check Out Questions | Keep the completed answers and evidence together. |
 
 ## Key knowledge and vocabulary
 
@@ -530,14 +530,6 @@ $$
 #### reflection
 
 我完成了每节 4 个不同题号：因次分析为 Exercises 39、40、41、42；温标为 Exercises 57、58、59、60；密度为 Exercises 68、69、71、72。我的共同检查方法是先写公式或换算因子，再消去单位，最后根据未舍入的结果进行舍入。
-
-**我的实验报告记录。** 我把实验报告的两页照片和原 PDF 放在这里：
-
-![Experiment report — page 1]({{ '/assets/images/experiment-report/page-1.jpg' | relative_url }})
-
-![Experiment report — page 2]({{ '/assets/images/experiment-report/page-2.jpg' | relative_url }})
-
-[Open or download the original experiment report PDF]({{ '/resources/实验报告.pdf' | relative_url }})
 
 ## Concepts to revisit
 

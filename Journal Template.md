@@ -4,7 +4,7 @@ This is the shared format for all PHC subject and unit journals.
 
 ## How the structure works
 
-- Each subject has one **learning journal** overview. It records current status, Unit links, current focus, and recurring mistakes.
+- Each subject has one **learning journal** overview. It records Unit links, current focus, and recurring mistakes.
 - A Khan Academy-bound Unit uses a **unit learning journal**. Other learning uses a general **learning journal**.
 - Add the detailed record to the Unit journal first. Update the subject overview only when the Unit status or overall focus changes.
 
@@ -111,6 +111,12 @@ answer when the AI asked the question.
 
 AI's reflection about exposed problems, current understanding, uncertainty,
 mastery estimate, and next intervention.
+
+Every learning record has exactly these three fields: `question`, `respond`, and
+`reflection`. Do not add status, difficulty, confidence, source, activity, or
+other subfields inside a record. Status labels such as `High`, `Medium`,
+`Exploring`, `Applied`, and `Not started` are not journal fields; use the
+learning record and the Runtime state as the evidence instead.
 
 ## Concepts to revisit
 

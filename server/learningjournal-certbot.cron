@@ -1,0 +1,5 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Renew only the Learning Journal certificate; reload Nginx without stopping services.
+17 */12 * * * root /opt/learningjournal-certbot-venv/bin/certbot renew --cert-name learning.lloydev.site --quiet --deploy-hook "/usr/bin/systemctl reload nginx"

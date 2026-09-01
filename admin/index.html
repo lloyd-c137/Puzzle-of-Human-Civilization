@@ -6,8 +6,10 @@
     <title>Comment administration · Puzzle of Human Civilization</title>
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/annotations.css?v=20260830-4">
     <link rel="stylesheet" href="/assets/css/admin.css">
     <script defer src="/assets/js/admin.js?v=20260830-2"></script>
+    <script defer src="/assets/js/annotation-guide.js?v=20260830-1"></script>
   </head>
   <body>
     <header class="site-header">
@@ -18,6 +20,15 @@
     </header>
 
     <main class="container admin-content">
+      <aside class="annotation-guide" data-annotation-guide aria-labelledby="annotation-guide-heading">
+        <div class="annotation-guide-copy">
+          <p class="annotation-guide-kicker">Annotation comments / 标注评论</p>
+          <h2 id="annotation-guide-heading">Select a passage to leave a comment</h2>
+          <p>On a learning page, drag across text, choose “Comment this selection”, and submit your question or thought. Marked passages show a comment marker; click it to read the comment. <span>在学习页面中拖选一段文字，点击“Comment this selection”即可发表评论。被标记的内容会显示评论标记，点击标记即可查看评论。</span></p>
+        </div>
+        <button type="button" class="annotation-guide-close" data-annotation-guide-close aria-label="Dismiss annotation instructions">×</button>
+      </aside>
+
       <section class="admin-intro">
         <p class="breadcrumb"><a href="/">Learning journal</a> / Administration</p>
         <h1>Comment administration</h1>

@@ -1,3 +1,69 @@
+.annotation-guide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--accent-soft);
+}
+
+.annotation-guide-copy {
+  min-width: 0;
+}
+
+.annotation-guide-kicker {
+  margin: 0 0 3px;
+  color: var(--accent);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.annotation-guide h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.annotation-guide p:last-child {
+  margin: 5px 0 0;
+  color: var(--ink);
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.annotation-guide p:last-child span {
+  color: var(--muted);
+}
+
+.annotation-guide-close {
+  flex: 0 0 auto;
+  min-width: 34px;
+  min-height: 34px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--muted);
+  background: var(--paper);
+  font: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.annotation-guide-close:hover,
+.annotation-guide-close:focus-visible {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+
 .annotation-panel {
   margin-top: 28px;
   padding: 22px 24px;
@@ -383,6 +449,7 @@
 }
 
 @media (max-width: 640px) {
+  .annotation-guide { padding: 14px; }
   .annotation-panel { padding: 18px; }
   .annotation-panel-header { align-items: flex-start; flex-direction: column; gap: 8px; }
   .annotation-panel-header p span { display: block; margin-left: 0; }

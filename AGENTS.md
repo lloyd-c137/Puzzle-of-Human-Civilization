@@ -108,3 +108,21 @@ When an existing learning record contains useful knowledge in an old section, pr
 4. Update an overview only when status, current focus, or recurring mistakes change.
 5. Run `bash scripts/validate-journals.sh`.
 6. Report exact validation results and any skipped runtime or publication checks. Exact learner-message whitespace is preserved when needed.
+
+## Khan Academy launch requirement
+
+If the learner explicitly requests a Khan Academy course or Unit, use the
+LearningOS intent route with the learner's original message, execute the
+returned required `computer_use.open_in_app_browser` action with Computer Use
+in the Codex sidebar, and acknowledge the verified URL before starting the
+lesson. A Khan Unit must not be treated as started, and its Journal must not be
+written, until the Host Action acknowledgement succeeds. If the action cannot
+be executed, stop the Khan flow and state the technical block instead of
+turning the request into a conversation-only lesson.
+
+For a full structured Lesson request, create an independent Lesson Journal
+named for that Lesson rather than appending it to a subject overview or Unit
+Journal. If `Check Out Questions` appears in the source, preserve every exact
+question at the bottom under `checkoutquestions:`. Put an `answer:` line
+immediately after each question and copy the learner's original answer there
+after submission, without rewriting it.

@@ -20,20 +20,20 @@ subject: Biology
 
 ## Current overview
 
-Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；Unit 4 的 population growth、carrying capacity、limiting factors 和 r/K life-history strategies 已经开始记录。当前重点是继续 Unit 4 练习，并复习人口增长概念。
+Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；Unit 4 的 population growth、carrying capacity、limiting factors 和 r/K life-history strategies 已经开始记录。Unit 2 “From cells to organisms”现已开始学习，当前重点转为 Unit 2。
 
 ## Unit journals
 
 | Unit | Main topics | Last updated | Journal |
 | --- | --- | --- | --- |
 | Units 1 and 4 | Natural systems, ecology, niches, population growth, and carrying capacity | 2026-08-24 | [Open Unit Journal]({{ '/biology/units-1-and-4-journal/' | relative_url }}) |
+| Unit 2 | From cells to organisms: cells, organization, organ systems, and homeostasis | 2026-08-31 | [Open Unit Journal]({{ '/biology/unit-2-from-cells-to-organisms-journal/' | relative_url }}) |
 
 ## Current learning focus
 
-- 继续 Unit 4 exercises；
-- 复习 carrying capacity 与 limiting factors 的关系；
-- 区分 population 的当前变化和年龄结构对未来增长的影响；
-- 用证据和自己的解释完成 retrieval check。
+- 开始 Unit 2 “From cells to organisms”；
+- 建立细胞、细胞结构和生物组织层级的理解；
+- 记录 Unit 2 学习中的问题、错误和修正。
 
 ## Recurring mistakes
 
@@ -48,3 +48,4 @@ Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；U
 | Date | Unit | Topic | Next step |
 | --- | --- | --- | --- |
 | 2026-08-24 | Units 1 and 4 | Natural systems and population growth | Review the concepts and complete the next retrieval check. |
+| 2026-08-31 | Unit 2 | From cells to organisms | Begin with the cellular basis of life. |
