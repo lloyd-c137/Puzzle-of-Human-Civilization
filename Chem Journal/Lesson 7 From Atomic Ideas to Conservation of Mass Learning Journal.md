@@ -58,6 +58,19 @@ Lesson 7 begins with a prediction about a sealed container: before calculating a
 
 The next step is to make an independent prediction before explanation. The important boundary is whether the container is sealed and whether the measured system includes every reactant and product. No LearningOS runtime evidence was persisted for this session because the local service was unavailable.
 
+### Learning record — 2026-09-02 — Prediction for a sealed reaction
+
+#### question
+
+
+#### respond
+
+我的预测是“保持不变”。这个预测在系统边界包括密封容器和全部内容物时是正确的：物质可以发生重新排列，但没有物质离开或进入，所以反应前后的总质量应保持不变。
+
+#### reflection
+
+The learner made the correct prediction. The important condition is not simply that a reaction occurs, but that the system is closed and that the measured mass includes the container and all reactants and products. The next step is to analyze why an open beaker can appear to lose mass and identify what crossed the boundary.
+
 ## Concepts to revisit
 
 - The difference between an idea, a hypothesis, an observation, and quantitative evidence.
