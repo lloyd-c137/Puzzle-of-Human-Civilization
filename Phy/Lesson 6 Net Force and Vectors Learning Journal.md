@@ -36,11 +36,11 @@ The learner understands the basic vector-addition rules. The main precision poin
 
 #### respond
 
-The learner identifies that the two forces are perpendicular and that the resultant points along the diagonal. The wording confuses the resultant's magnitude with its direction and does not give the numerical magnitude. For two perpendicular 10 N forces, the resultant is (\sqrt{10^2+10^2}=10\sqrt2\approx14.1\ \mathrm N), directed northeast at 45° between the two forces. Assessment: partly correct, 6.5/10.
+The learner identifies that the two forces are perpendicular and that the resultant points along the diagonal. The wording confuses the resultant's magnitude with its direction and does not give the numerical magnitude. For two perpendicular 10 N forces, the resultant is \(\sqrt{10^2+10^2}=10\sqrt2\approx14.1\ \mathrm N\), directed northeast at 45° between the two forces. Assessment: partly correct, 6.5/10.
 
 #### reflection
 
-The learner recognizes the diagonal direction of a perpendicular vector sum but needs to separate three ideas: each force's magnitude, the resultant magnitude, and the resultant direction. The learner also needs to state that the hypotenuse describes a length/magnitude, not a direction. Next intervention: retry the same example in one complete sentence, including (14.1\ \mathrm N) and northeast.
+The learner recognizes the diagonal direction of a perpendicular vector sum but needs to separate three ideas: each force's magnitude, the resultant magnitude, and the resultant direction. The learner also needs to state that the hypotenuse describes a length/magnitude, not a direction. Next intervention: retry the same example in one complete sentence, including \(14.1\ \mathrm N\) and northeast.
 
 ### Learning record — 2026-09-02 — Perpendicular forces: corrected application
 
@@ -78,7 +78,7 @@ The learner successfully transferred the Pythagorean-theorem method from equal p
 
 #### respond
 
-The answer identifies the key reason: the two forces have different, perpendicular directions. To complete the explanation, magnitudes can be added directly only for forces in the same direction; perpendicular forces must be combined with the Pythagorean theorem, giving (\sqrt{6^2+8^2}=10\ \mathrm N), not 14 N. Assessment: 8/10.
+The answer identifies the key reason: the two forces have different, perpendicular directions. To complete the explanation, magnitudes can be added directly only for forces in the same direction; perpendicular forces must be combined with the Pythagorean theorem, giving \(\sqrt{6^2+8^2}=10\ \mathrm N\), not 14 N. Assessment: 8/10.
 
 #### reflection
 
@@ -121,7 +121,7 @@ The learner correctly distinguishes individual forces from net force. “抵消�
 
 #### respond
 
-The parallelogram rule is used when both force vectors start from the same point: copy each vector from the tip of the other, forming a parallelogram; the diagonal from the common starting point is the resultant. A triangle method is also valid when the vectors are placed head-to-tail: the resultant is the third side from the start of the first vector to the end of the second. For perpendicular 6 N and 8 N forces, the triangle is a right triangle and gives (\sqrt{6^2+8^2}=10\ \mathrm N). The parallelogram is made of two identical such triangles, so both methods give the same resultant. Assessment: question shows productive conceptual checking.
+The parallelogram rule is used when both force vectors start from the same point: copy each vector from the tip of the other, forming a parallelogram; the diagonal from the common starting point is the resultant. A triangle method is also valid when the vectors are placed head-to-tail: the resultant is the third side from the start of the first vector to the end of the second. For perpendicular 6 N and 8 N forces, the triangle is a right triangle and gives \(\sqrt{6^2+8^2}=10\ \mathrm N\). The parallelogram is made of two identical such triangles, so both methods give the same resultant. Assessment: question shows productive conceptual checking.
 
 #### reflection
 
@@ -219,13 +219,13 @@ The learner now correctly distinguishes two directions that produce a resultant 
 
 #### respond
 
-The hand-drawn page uses the scale (1\ \mathrm N=1\ \mathrm{cm}) and shows same-direction, opposite-direction, and perpendicular force cases. The opposite-direction case is correct: (4\ \mathrm N) left and (1\ \mathrm N) right give (3\ \mathrm N) left. The perpendicular case is correct: (3\ \mathrm N) east and (4\ \mathrm N) north give a (5\ \mathrm N) northeast resultant. In the same-direction case, (3\ \mathrm N+6\ \mathrm N) should give (9\ \mathrm N), not (8\ \mathrm N). Assessment: partly complete, 8/10.
+The hand-drawn page uses the scale \(1\ \mathrm N=1\ \mathrm{cm}\) and shows same-direction, opposite-direction, and perpendicular force cases. The opposite-direction case is correct: \(4\ \mathrm N\) left and \(1\ \mathrm N\) right give \(3\ \mathrm N\) left. The perpendicular case is correct: \(3\ \mathrm N\) east and \(4\ \mathrm N\) north give a \(5\ \mathrm N\) northeast resultant. In the same-direction case, \(3\ \mathrm N+6\ \mathrm N\) should give \(9\ \mathrm N\), not \(8\ \mathrm N\). Assessment: partly complete, 8/10.
 
-![Lesson 6 hand-drawn force-addition diagrams]({{ '/assets/images/physics/lesson-6-net-force-hand-drawn.jpg' | relative_url }})
+![Lesson 6 hand-drawn force-addition diagrams]({{ '/assets/images/physics/lesson-6-net-force-hand-drawn.jpg' | relative_url }}?v=20260902-1)
 
 #### reflection
 
-The learner has completed the required three visual cases and selected a consistent scale. The main correction is the same-direction resultant: add the two magnitudes to get (9\ \mathrm N). The opposite-direction resultant should be labeled clearly as leftward. After these labels are corrected, the one-page force-diagram task will be complete.
+The learner has completed the required three visual cases and selected a consistent scale. The main correction is the same-direction resultant: add the two magnitudes to get \(9\ \mathrm N\). The opposite-direction resultant should be labeled clearly as leftward. After these labels are corrected, the one-page force-diagram task will be complete.
 
 ## Concepts to revisit
 
