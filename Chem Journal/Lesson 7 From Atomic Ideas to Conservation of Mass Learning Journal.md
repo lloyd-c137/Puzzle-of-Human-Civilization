@@ -71,6 +71,19 @@ The next step is to make an independent prediction before explanation. The impor
 
 The learner made the correct prediction. The important condition is not simply that a reaction occurs, but that the system is closed and that the measured mass includes the container and all reactants and products. The next step is to analyze why an open beaker can appear to lose mass and identify what crossed the boundary.
 
+### Learning record — 2026-09-02 — Apparent mass loss in an open beaker
+
+#### question
+
+
+#### respond
+
+我的回答是“否，因为可能部分反应物变成了气体释放到了空气中”。这说明敞口烧杯内的测量质量变小，可能是气体离开了称量范围，而不是质量真正消失。
+
+#### reflection
+
+The learner correctly connected an apparent mass decrease with matter crossing an open system boundary. The next step is to define a closed boundary that includes the beaker, the reactants, the products, and any gas that would otherwise escape, then explain what must be tracked to test conservation of mass.
+
 ## Concepts to revisit
 
 - The difference between an idea, a hypothesis, an observation, and quantitative evidence.
