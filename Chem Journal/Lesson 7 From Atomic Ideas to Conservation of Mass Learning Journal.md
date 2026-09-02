@@ -84,6 +84,19 @@ The learner made the correct prediction. The important condition is not simply t
 
 The learner correctly connected an apparent mass decrease with matter crossing an open system boundary. The next step is to define a closed boundary that includes the beaker, the reactants, the products, and any gas that would otherwise escape, then explain what must be tracked to test conservation of mass.
 
+### Learning record — 2026-09-02 — Tracking all matter in the system
+
+#### question
+
+
+#### respond
+
+我的回答是“应该包括所有物质的去向的跟踪和收集”。这抓住了验证质量守恒的关键：需要追踪并收集反应物、生成物以及逸出气体，不能只称量反应后留在烧杯里的部分。
+
+#### reflection
+
+The learner understands that conservation-of-mass evidence depends on accounting for every part of the system, not merely observing the remaining liquid or solid. The closed-system boundary should include the container and all matter inside it; the next step is to use fixed mass data to calculate and compare ratios.
+
 ## Concepts to revisit
 
 - The difference between an idea, a hypothesis, an observation, and quantitative evidence.
