@@ -97,6 +97,26 @@ The learner correctly connected an apparent mass decrease with matter crossing a
 
 The learner understands that conservation-of-mass evidence depends on accounting for every part of the system, not merely observing the remaining liquid or solid. The closed-system boundary should include the container and all matter inside it; the next step is to use fixed mass data to calculate and compare ratios.
 
+### Learning record — 2026-09-03 — Calculating a mass ratio
+
+#### question
+
+怎么算
+
+#### respond
+
+计算质量比就是用化合物 A 中氮的质量除以化合物 B 中氮的质量：
+
+\[
+\frac{1.750\ \text{g N}}{0.8750\ \text{g N}}
+\]
+
+因为 $0.8750\times2=1.750$，所以这个除法的结果是 $2.000$；两个相同的单位 g N 相除后被消去，质量比没有单位。按倍比定律比较时，把它写成小整数比 $2:1$。
+
+#### reflection
+
+The learner needed the division connected to the physical quantities rather than treated as an unexplained number. The denominator is the nitrogen mass in B, the numerator is the nitrogen mass in A, and the oxygen mass is fixed at 1.00 g in both compounds. The next step is to explain why this 2:1 ratio is evidence for the law of multiple proportions.
+
 ## Concepts to revisit
 
 - The difference between an idea, a hypothesis, an observation, and quantitative evidence.
