@@ -35,11 +35,17 @@ The primary source is Zumdahl, *Chemistry*, 9th Edition, Chapter 2, §2.1 *The E
 | Concept or term | My current explanation | Example or connection |
 | --- | --- | --- |
 | atomos | An early idea that matter could be divided only until reaching indivisible particles. | A historical idea, not yet a quantitative test. |
+| Scientific idea or hypothesis | A proposed explanation that can be compared with observations and measurements. | Atomos proposed a picture of matter; it did not by itself provide measured evidence. |
 | Quantitative evidence | Evidence based on measured numbers that can test or constrain an explanation. | Repeated mass measurements and mass ratios. |
+| Qualitative observation | A description of what is seen or noticed without a numerical measurement. | A reaction appears to produce bubbles; this observation alone does not account for the mass of the gas. |
 | Closed system | A defined boundary in which matter does not enter or leave during the process. | A sealed reaction container. |
+| Open system | A system through which matter can cross the boundary. | In an open beaker, gas may escape and no longer be included in the measured mass. |
 | Law of conservation of mass | In a closed system, total mass remains constant during a chemical reaction. | Reactants' mass equals products' mass when all matter is included. |
 | Law of definite proportions | A particular pure compound contains its elements in a fixed mass ratio. | The same compound has the same element mass percentages. |
 | Law of multiple proportions | If two elements form more than one compound, the masses of one element that combine with a fixed mass of the other form small whole-number ratios. | Ratios such as 2:1 or 4:1. |
+| Fixed amount | The same mass of one element used as the comparison basis for different compounds. | Example 2.1 fixes oxygen at 1 g before comparing nitrogen. |
+| Mass ratio | A quotient comparing two masses after the comparison basis has been made equivalent. | \(1.750\ \mathrm{g\ N}/0.8750\ \mathrm{g\ N}=2.000\), written as \(2:1\). |
+| Small whole-number ratio | A ratio close to simple integers, interpreted within measurement uncertainty. | \(2:1\), \(3:1\), and \(4:1\) support a multiple-proportions pattern. |
 | System boundary | The line defining what is included in the measurement or mass account. | An open beaker excludes escaping gas unless it is tracked. |
 
 ## Learning records
@@ -79,6 +85,8 @@ The learner made the correct prediction. The important condition is not simply t
 #### respond
 
 我的回答是“否，因为可能部分反应物变成了气体释放到了空气中”。这说明敞口烧杯内的测量质量变小，可能是气体离开了称量范围，而不是质量真正消失。
+
+如果只称量烧杯和其中剩下的物质，测到的只是系统的一部分。要检验质量守恒，应把边界扩大为“烧杯 + 反应物 + 液体或固体生成物 + 逸出气体 + 其他可能离开烧杯的物质”，比较这个完整系统反应前后的总质量。
 
 #### reflection
 
@@ -145,6 +153,46 @@ $$
 #### reflection
 
 这一步容易把“原子设想”直接当成“已经证明的事实”，或忘记倍比定律必须先固定一种元素的质量。当前的证据链和 Example 2.1 计算已整理完成；四个练习的解题记录如下，仍应把比例和固定量作为重点复核。
+
+### Learning record — 2026-09-03 — From an idea to testable evidence
+
+#### question
+
+
+#### respond
+
+我会先问：如果 atomos 说物质由不可分的粒子组成，为什么还不能直接说它是科学定律？因为“说得通”不等于“已经被测量证明”。一个科学解释至少要能提出可检验的预测，还要接受实验数据的限制。
+
+我又问：Boyle 和 Lavoisier 的作用有什么不同？我现在的理解是，Boyle 代表把物质研究推进到实验和定量测量；Lavoisier 则把反应前后的物质放进质量账中，并强调必须明确系统边界。于是，“质量变小”不能脱离边界解释：如果气体跑出敞口烧杯，烧杯内的读数可以变小，但完整系统的总质量并没有因此证明被消灭。
+
+我的判断顺序是：先写出解释或预测 → 再定义测量系统 → 收集所有相关数据 → 比较数据是否支持原来的解释 → 如果不符合，就修订解释。这样可以把历史上的想法和现代可检验的证据区分开。
+
+#### reflection
+
+我容易把“早期提出过这个想法”和“这个想法已经被实验验证”混在一起。现在我能用“是否有可检验预测、是否有定量数据、系统边界是否完整”来判断证据强弱；下一步要把同样的证据思路用于定比定律和倍比定律。
+
+### Learning record — 2026-09-03 — Why the comparison amount must be fixed
+
+#### question
+
+
+#### respond
+
+我会问：为什么不能直接把不同化合物里氮的质量相除？因为如果两份数据中氧的质量不同，那么氮的质量也受到样品基准不同的影响，直接相除不一定是在比较同样条件。
+
+Example 2.1 已经把每个化合物中的氧固定为 \(1.00\ \mathrm{g}\)，所以 A、B、C 的氮质量可以直接比较。比如 A 和 B 的比较是
+
+$$
+\frac{1.750\ \mathrm{g\ N}}{0.8750\ \mathrm{g\ N}}=2.000\approx2:1
+$$
+
+这不是说所有物质都含有相同质量的氮，而是说在相同的 \(1.00\ \mathrm{g}\) 氧的基准下，A 中结合的氮约为 B 的两倍。B 和 C 也是 \(2:1\)，A 和 C 是 \(4:1\)。因此，这些比值形成有规律的小整数关系，才成为倍比定律的证据。
+
+我的提问方式会是：“固定的量是什么？”“单位有没有消掉？”“这个比值是在比较什么？”如果这三点没有写清楚，就算算出一个数字，也还没有完成解释。
+
+#### reflection
+
+我最容易把“比较数字”误认为“比较比例”。修正后，解题必须先找固定量，再写带单位的质量比，最后把接近的小数比解释成小整数比；不能只写 \(2\) 或 \(4\)。
 
 ### Learning record — 2026-09-03 — Exercises 2.37 and 2.38
 
