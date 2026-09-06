@@ -109,6 +109,40 @@ When an existing learning record contains useful knowledge in an old section, pr
 5. Run `bash scripts/validate-journals.sh`.
 6. Report exact validation results and any skipped runtime or publication checks. Exact learner-message whitespace is preserved when needed.
 
+## LearningOS production publishing
+
+In this repository, requests such as “sync/upload/update this Journal to
+LearningOS”, “sync to learning”, or “deploy to production” mean publishing the
+Journal to `https://learning.lloydev.site`. They do not mean merely pushing to
+GitHub or waiting for GitHub Pages.
+
+Every publishable Journal is mapped to production by its front-matter
+`permalink`. It must also have `layout`, `title`, `section`, `summary`,
+`journal_type`, `learning_platform`, and `subject`; a Khan Academy Unit Journal
+must additionally have `unit`. A file missing this metadata is not ready for
+LearningOS and must be reported instead of silently inventing a route.
+
+Before any LearningOS production operation, read
+`server/LEARNINGOS_DEPLOYMENT.md`. Use the repository entry point:
+
+```bash
+bash scripts/sync-journal-to-learningos.sh --audit
+bash scripts/sync-journal-to-learningos.sh "path/to/Journal.md"
+```
+
+The first command discovers every current Journal from front matter and checks
+its public production route. The second publishes exactly one Journal and its
+referenced local assets. Do not use `scripts/sync-with-github.sh` as proof of a
+LearningOS deployment; it only synchronizes the Git repository and stages all
+pending files.
+
+A LearningOS publish is complete only when the exact public `permalink`
+returns HTTP 200 with the expected title, referenced local assets return HTTP
+200, and the running `learningjournal-static` container has not been restarted
+or replaced. Do not restart, rebuild, stop, or reconfigure any production
+container, Nginx, PostgreSQL, Cloudflare, or unrelated server project for a
+Journal-only deployment.
+
 ## Khan Academy launch requirement
 
 If the learner explicitly requests a Khan Academy course or Unit, use the
