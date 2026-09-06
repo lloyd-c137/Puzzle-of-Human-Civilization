@@ -273,6 +273,23 @@ $$
 
 2.40 让我再次看到“固定量”是倍比问题的关键；2.41 则把质量守恒和原子重新组合联系起来。两题都不能只写最后的数字或标签，必须留下单位、比较基准和理由。
 
+### Learning record — 2026-09-06 — Making Oxygen mass record
+
+#### question
+
+将这两张图片放到journal中合适的位置
+
+#### respond
+
+这张图片是 2026 年 09 月 04 日的 “Making Oxygen: Where Does the Mass Go?” 实验数据页。记录了高锰酸钾受热制氧、固体加热前后的质量、气体体积、荧光木条检验和误差分析。它放在本化学 Journal 的实验记录部分，作为质量变化、系统边界与证据判断的原始记录。
+
+![Making Oxygen mass record](attachments/making-oxygen-mass-record.jpg)
+![Uploaded Making Oxygen report](attachments/making-oxygen-mass-report.png)
+
+#### reflection
+
+图片中的数据支持“有氧气离开称量系统”的解释，但仅凭质量减少不能独立证明质量守恒；还需要把逸出的气体纳入系统并进行独立测量。实验页记录的原始数值应与后续计算和不确定度分析分开保留。
+
 ## Concepts to revisit
 
 - The difference between an idea, a hypothesis, an observation, and quantitative evidence.
