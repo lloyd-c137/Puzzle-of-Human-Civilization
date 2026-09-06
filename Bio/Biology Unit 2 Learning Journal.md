@@ -427,6 +427,26 @@ why does it relates with sensor control center and effector
 
 题目常把“检测到变化”和“做出反应”放在一起，容易把 sensor 和 effector 交换。记忆顺序可以是 monitor → process → act。之后应在血糖或血钙题中分别标出三个角色，而不是只写“身体会调节”。
 
+### Learning record — 2026-09-06 — Biology readiness check 图片证据
+
+#### question
+
+将这三张图片放到journal里并同步journal
+
+#### respond
+
+已将三张 Biology readiness check 原图加入本 Journal，作为 Unit 2 学习证据；图片中的 Unit 1、Unit 2、Unit 9 题目和手写答案均保留。
+
+![Biology readiness check — Unit 1 and Unit 2 free-response page](attachments/biology-readiness-check-unit1-unit2-page.jpg)
+
+![Biology readiness check — Unit 9 page](attachments/biology-readiness-check-unit9-page.jpg)
+
+![Biology pre-learning exam — cover and answer box](attachments/biology-pre-learning-exam-answer-box.jpg)
+
+#### reflection
+
+这些图片补充了 Unit 2 的外部学习证据，但图片本身不等同于正确率或掌握度；后续应逐题核对手写答案，区分概念错误、表达不完整和计算错误。第三张原图含手写姓名，按学习者确认保留并公开原图。
+
 
 ## Concepts to revisit
 
