@@ -437,10 +437,8 @@ why does it relates with sensor control center and effector
 
 ## Mistakes and corrections
 
-| Date | Topic | Mistake | Correction |
-| --- | --- | --- | --- |
-| 2026-09-06 | Khan Practice answer accuracy | 首遍 36 道题没有被页面判错；没有真实概念错题可订正。 | 不虚构错题；保留 9/9 exercises proficient 和 Unit mastery 100% 作为 Khan 页面证据，并安排无辅助回忆检查。 |
-| 2026-09-06 | 操作性修正（非概念错题） | 拖拽排序时的暂时错误顺序和一次过期控件引用。 | 在提交前重新观察页面并重新定位控件；不将操作性修正计为生物学错题。 |
-| 2026-09-06 | 常见易错点 | 把 prokaryotic cell 当成没有 DNA，或把 nucleoid 当成 nucleus。 | 两者都有 DNA；nucleoid 没有核膜，nucleus 是真核细胞的膜性结构。 |
-| 2026-09-06 | 常见易错点 | 把 cell → tissue → organ → organ system 的层级顺序倒置，或把组织和器官当成同一层级。 | 相似细胞形成 tissue，多种 tissue 形成 organ，多种 organ 协同形成 organ system。 |
-| 2026-09-06 | 常见易错点 | 把 positive feedback 和 negative feedback 的方向弄反，或混淆 sensor、control center、effector。 | Positive 放大 stimulus；negative 抵消 stimulus；sensor 监测，control center 处理，effector 执行。 |
+| Date       | Topic        | Mistake                                                                           | Correction                                                                         |     |
+| ---------- | ------------ | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --- |
+| 2026-09-06 | 常见易错点        | 把 prokaryotic cell 当成没有 DNA，或把 nucleoid 当成 nucleus。                               | 两者都有 DNA；nucleoid 没有核膜，nucleus 是真核细胞的膜性结构。                                         |     |
+| 2026-09-06 | 常见易错点        | 把 cell → tissue → organ → organ system 的层级顺序倒置，或把组织和器官当成同一层级。                     | 相似细胞形成 tissue，多种 tissue 形成 organ，多种 organ 协同形成 organ system。                       |     |
+| 2026-09-06 | 常见易错点        | 把 positive feedback 和 negative feedback 的方向弄反，或混淆 sensor、control center、effector。 | Positive 放大 stimulus；negative 抵消 stimulus；sensor 监测，control center 处理，effector 执行。 |     |
