@@ -7,7 +7,7 @@ These rules apply to all learning-journal work in this repository.
 Read `/Journal Template.md` before creating or editing a learning Journal.
 Treat the template and this file as the source of truth for Journal structure.
 
-LearningOS uses two Journal classes:
+PHC Journals use two Journal classes:
 
 - `journal_type: unit_learning_journal` — a Unit Journal explicitly tied to Khan Academy; it must include `learning_platform: khan-academy` and `unit`.
 - `journal_type: learning_journal` — a general Journal not tied to Khan Academy; it must include `learning_platform: independent`.
@@ -109,34 +109,38 @@ When an existing learning record contains useful knowledge in an old section, pr
 5. Run `bash scripts/validate-journals.sh`.
 6. Report exact validation results and any skipped runtime or publication checks. Exact learner-message whitespace is preserved when needed.
 
-## LearningOS production publishing
+## Learning Journal Site production publishing
 
-In this repository, requests such as “sync/upload/update this Journal to
-LearningOS”, “sync to learning”, or “deploy to production” mean publishing the
-Journal to `https://learning.lloydev.site`. They do not mean merely pushing to
-GitHub or waiting for GitHub Pages.
+The server-hosted Journal product is named **Learning Journal Site**. It is
+distinct from the separate **LearningOS** system. In this repository, requests
+such as “sync/upload/update this Journal to Learning Journal Site”, the legacy
+phrase “sync to learning”, or “deploy this Journal to production” mean
+publishing the Journal to `https://learning.lloydev.site`. A request that
+explicitly names LearningOS refers to the separate LearningOS system, not this
+website.
 
 Every publishable Journal is mapped to production by its front-matter
 `permalink`. It must also have `layout`, `title`, `section`, `summary`,
 `journal_type`, `learning_platform`, and `subject`; a Khan Academy Unit Journal
 must additionally have `unit`. A file missing this metadata is not ready for
-LearningOS and must be reported instead of silently inventing a route.
+Learning Journal Site and must be reported instead of silently inventing a
+route.
 
-Before any LearningOS production operation, read
-`server/LEARNINGOS_DEPLOYMENT.md`. Use the repository entry point:
+Before any Learning Journal Site production operation, read
+`server/JOURNAL_SITE_DEPLOYMENT.md`. Use the repository entry point:
 
 ```bash
-bash scripts/sync-journal-to-learningos.sh --audit
-bash scripts/sync-journal-to-learningos.sh "path/to/Journal.md"
+bash scripts/sync-journal-to-site.sh --audit
+bash scripts/sync-journal-to-site.sh "path/to/Journal.md"
 ```
 
 The first command discovers every current Journal from front matter and checks
 its public production route. The second publishes exactly one Journal and its
 referenced local assets. Do not use `scripts/sync-with-github.sh` as proof of a
-LearningOS deployment; it only synchronizes the Git repository and stages all
-pending files.
+Learning Journal Site deployment; it only synchronizes the Git repository and
+stages all pending files.
 
-A LearningOS publish is complete only when the exact public `permalink`
+A Learning Journal Site publish is complete only when the exact public `permalink`
 returns HTTP 200 with the expected title, referenced local assets return HTTP
 200, and the running `learningjournal-static` container has not been restarted
 or replaced. Do not restart, rebuild, stop, or reconfigure any production

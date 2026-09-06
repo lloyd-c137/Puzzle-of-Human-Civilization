@@ -6,15 +6,15 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/bin"
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
 
-production_origin="${LEARNINGOS_ORIGIN:-https://learning.lloydev.site}"
+production_origin="${JOURNAL_SITE_ORIGIN:-https://learning.lloydev.site}"
 render_origin="${PHC_RENDER_ORIGIN:-https://lloyd-c137.github.io/Puzzle-of-Human-Civilization}"
-ssh_host="${LEARNINGOS_SSH_HOST:-root@46.62.212.36}"
-ssh_port="${LEARNINGOS_SSH_PORT:-2222}"
-container_name="${LEARNINGOS_CONTAINER:-learningjournal-static}"
+ssh_host="${JOURNAL_SITE_SSH_HOST:-root@46.62.212.36}"
+ssh_port="${JOURNAL_SITE_SSH_PORT:-2222}"
+container_name="${JOURNAL_SITE_CONTAINER:-learningjournal-static}"
 github_repo="${PHC_GITHUB_REPO:-lloyd-c137/Puzzle-of-Human-Civilization}"
 github_workflow="${PHC_PAGES_WORKFLOW:-pages.yml}"
 
-tmp_dir="$(mktemp -d "${TMPDIR:-/tmp}/phc-learningos.XXXXXX")"
+tmp_dir="$(mktemp -d "${TMPDIR:-/tmp}/learning-journal-site.XXXXXX")"
 trap 'rm -rf "$tmp_dir"' EXIT
 
 fail() {
@@ -25,8 +25,8 @@ fail() {
 usage() {
   cat <<'EOF'
 Usage:
-  bash scripts/sync-journal-to-learningos.sh --audit
-  bash scripts/sync-journal-to-learningos.sh "path/to/Journal.md" [extra-asset ...]
+  bash scripts/sync-journal-to-site.sh --audit
+  bash scripts/sync-journal-to-site.sh "path/to/Journal.md" [extra-asset ...]
 EOF
 }
 
@@ -315,7 +315,7 @@ deploy_journal() {
     "docker inspect -f '{{.State.StartedAt}}' '$container_name'")"
   [[ "$started_after" == "$started_before" ]] || fail "Production container start time changed during deployment"
 
-  printf 'LearningOS deployment verified\n'
+  printf 'Learning Journal Site deployment verified\n'
   printf 'Journal: %s\n' "$journal"
   printf 'Public URL: %s%s (HTTP 200)\n' "${production_origin%/}" "$permalink"
   printf 'Assets checked: %s\n' "$(wc -l < "$asset_list" | tr -d ' ')"

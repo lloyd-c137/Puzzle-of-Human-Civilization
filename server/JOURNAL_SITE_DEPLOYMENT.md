@@ -1,9 +1,11 @@
-# LearningOS production deployment
+# Learning Journal Site production deployment
 
 This file is the source of truth for publishing PHC Journals to the current
-LearningOS production site.
+Learning Journal Site production site. Learning Journal Site is the
+server-hosted website at `learning.lloydev.site`; LearningOS is a separate
+system.
 
-## Meaning of “sync to LearningOS”
+## Meaning of “sync to Learning Journal Site”
 
 The production target is `https://learning.lloydev.site`. GitHub and GitHub
 Pages are upstream source/rendering infrastructure; a push or a successful
@@ -13,13 +15,13 @@ The repository command is:
 
 ```bash
 # Audit every active Journal and its production route.
-bash scripts/sync-journal-to-learningos.sh --audit
+bash scripts/sync-journal-to-site.sh --audit
 
 # Publish one Journal. Referenced repository assets are discovered and copied.
-bash scripts/sync-journal-to-learningos.sh "Phy/Lesson 6 Net Force and Vectors Learning Journal.md"
+bash scripts/sync-journal-to-site.sh "Phy/Lesson 6 Net Force and Vectors Learning Journal.md"
 
 # Extra asset paths may be supplied when an asset is not referenced in HTML.
-bash scripts/sync-journal-to-learningos.sh "path/to/Journal.md" "path/to/extra-asset.jpg"
+bash scripts/sync-journal-to-site.sh "path/to/Journal.md" "path/to/extra-asset.jpg"
 ```
 
 The command refuses to deploy a Journal that is missing required front matter,
