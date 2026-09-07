@@ -192,6 +192,8 @@ The final Khan Academy pages showed Unit 8 mastery 100% with all 11/11 displayed
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 The theoretical-probability exercises repeatedly required counting equally likely outcomes. For two spins of a spinner labeled 0, 1, 2, and 3, the non-negative difference (X) can be 0, 1, 2, or 3. Among the 16 ordered outcomes, the counts are 4, 6, 4, and 2, so the distribution is (4/16,6/16,4/16,2/16). For the sum of two spins, the possible values are 0 through 6, with counts (1,2,3,4,3,2,1).
@@ -206,6 +208,8 @@ The learner-side difficulty exposed by these exercises was not the arithmetic it
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -222,6 +226,8 @@ The learner completed the related practice sets with 4/4 correct results. There 
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 The binomial exercises checked whether a situation has a fixed number of independent trials, two outcomes per trial, and a constant success probability. A binomial random variable counts successes in those (n) trials. The geometric exercises instead stop at the first success, so the random variable counts how many trials are needed.
@@ -236,6 +242,8 @@ The exercises were completed 4/4 for the binomial/geometric distinctions, geomet
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -252,6 +260,8 @@ This was a real calculation and representation error, not an invented mistake. T
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 Unit 9 began with the idea that probability in a continuous normal model is represented by area under the density curve. The sampling-distribution exercises then treated a statistic, not an individual observation, as the random variable. A sampling distribution describes the values a statistic would produce over repeated samples of the same size.
@@ -266,6 +276,8 @@ The main conceptual shift is from “the distribution of individual data” to �
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -288,6 +300,8 @@ No wrong answer was recorded in this group. The important correction to preserve
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 For an independent difference of sample means, subtract the population means for the center and add the two variance terms for the standard error:
@@ -309,6 +323,8 @@ One natural mistake occurred in a difference-of-means question: the first select
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 The International University exercise compared each student’s high-school GPA with that same student’s university GPA. Even though the 80 freshmen were selected by an SRS from 900 students, the two GPA measurements are paired within each person. Therefore the two samples are not independent, and the independent-samples standard-deviation formula is not appropriate without accounting for the pairing.
@@ -323,6 +339,8 @@ This exercise corrected a subtle but important use of the independence condition
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -409,6 +427,8 @@ The learner can recognize a total of 1, but the later mistake showed that a corr
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 The geometric exercises required careful reading of the stopping rule. If (X) is the trial of the first success, then (P(X=k)=(1-p)^{k-1}p). “At most (k)” means the first success occurs by trial (k), so (P(X\le k)=1-(1-p)^k). “Greater than (k)” means the first (k) trials are all failures, so (P(X>k)=(1-p)^k). With a 5% misread rate, (P(B>10)=0.95^{10}\approx0.60).
@@ -421,6 +441,8 @@ No wrong response was recorded for this topic, but the inequality wording is a l
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -435,6 +457,8 @@ The main risk is using the population standard deviation where the standard erro
 #### question
 
 
+AI-initiated Khan Academy practice record; no separate learner question was captured.
+
 #### respond
 
 For a sample proportion, the sampling distribution is centered at (p), with standard deviation ​(\sqrt{p(1-p)/n}) when the conditions support the model. Before using a normal approximation, check that the expected numbers of successes and failures are sufficiently large. For independent sample proportions, the difference is centered at (p_1-p_2), and the two variance terms are added in the standard error.
@@ -447,6 +471,8 @@ No actual wrong answer was recorded in this group. The common error to prevent i
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
@@ -466,6 +492,8 @@ This preserves the actual arithmetic mistake and its correction. The useful habi
 
 #### question
 
+
+AI-initiated Khan Academy practice record; no separate learner question was captured.
 
 #### respond
 
