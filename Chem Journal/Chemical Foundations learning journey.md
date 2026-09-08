@@ -25,6 +25,7 @@ subject: Chemistry
 | Unit | Main topics | Status | Last updated | Journal |
 |---|---|---|---|---|
 | Chemical Foundations and Liquid Type Test | Measurement, laboratory vocabulary, density, atomic structure, and classification of substances | Exploring to Applied | 2026-08-20 | [Open Unit Journal]({{ '/chemistry/chemical-foundations-unit-journal/' | relative_url }}) |
+| Lesson 10: Ch1–3 comprehensive review | Chapter 1–3 integrated review and checkpoint game | Started | 2026-09-08 | [Open Lesson 10 Journal]({{ '/chemistry/lesson-10-ch1-3-comprehensive-review-journal/' | relative_url }}) |
 | AP Chemistry Units 1–9 | AP Chemistry content route and Zumdahl chapter mapping | Not started as a separate Unit Journal | 2026-08-20 | [Open learning path]({{ '/chemistry/learning-path/' | relative_url }}) |
 
 ## Current learning focus
@@ -33,6 +34,7 @@ subject: Chemistry
 - 计算质量、密度、平均值和范围；
 - 区分 physical property、chemical property、physical change 和 chemical change；
 - 根据重复结果和参考值判断“consistent with”或“inconclusive”。
+- 开始 Lesson 10 的 Chapter 1–3 综合复习，并记录实际通关证据。
 
 ## Recurring mistakes
 
@@ -47,3 +49,4 @@ subject: Chemistry
 | Date | Unit | Topic | Progress | Next step |
 |---|---|---|---|---|
 | 2026-08-20 | Chemical Foundations and Liquid Type Test | Laboratory foundations and atomic structure | Understood to Exploring | Perform the three measurements and study physical and chemical changes. |
+| 2026-09-08 | Lesson 10: Ch1–3 comprehensive review | Chapter 1–3 review setup | Started | Complete the first checkpoint and record the learner's reasoning. |
