@@ -20,20 +20,21 @@ subject: Biology
 
 ## Current overview
 
-Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；Unit 4 的 population growth、carrying capacity、limiting factors 和 r/K life-history strategies 已经开始记录。Unit 2 “From cells to organisms”现已开始学习，当前重点转为 Unit 2。
+Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；Unit 4 的 population growth、carrying capacity、limiting factors 和 r/K life-history strategies 已经开始记录。Unit 2 “From cells to organisms”已完成 Khan Academy 页面上的 9 个 Practice exercise，Unit 页面显示 mastery 100%；Quiz 1–3 和 Unit test 尚未完成。当前仍需把页面完成状态与无辅助解释、回忆和迁移能力分开检查。
 
 ## Unit journals
 
 | Unit | Main topics | Last updated | Journal |
 | --- | --- | --- | --- |
 | Units 1 and 4 | Natural systems, ecology, niches, population growth, and carrying capacity | 2026-08-24 | [Open Unit Journal]({{ '/biology/units-1-and-4-journal/' | relative_url }}) |
-| Unit 2 | From cells to organisms: cells, organization, organ systems, and homeostasis | 2026-08-31 | [Open Unit Journal]({{ '/biology/unit-2-from-cells-to-organisms-journal/' | relative_url }}) |
+| Unit 2 | From cells to organisms: cells, organization, organ systems, and homeostasis | 2026-09-07 | [Open Unit Journal]({{ '/biology/unit-2-from-cells-to-organisms-journal/' | relative_url }}) |
 
 ## Current learning focus
 
-- 开始 Unit 2 “From cells to organisms”；
-- 建立细胞、细胞结构和生物组织层级的理解；
-- 记录 Unit 2 学习中的问题、错误和修正。
+- 复核 Unit 2 的细胞、细胞结构、生物组织层级、器官系统和稳态反馈；
+- 复习已有的英文、中英混合提问和常见概念错误，但不把仿写问题当作新的原始记录；
+- 用新情境进行无辅助回忆，检查页面 mastery 之外的理解和迁移；
+- Quiz 1–3 和 Unit test 尚未进行。
 
 ## Recurring mistakes
 
@@ -48,4 +49,6 @@ Unit 1 的自然系统、生命分布和生态位内容已经学习并整理；U
 | Date | Unit | Topic | Next step |
 | --- | --- | --- | --- |
 | 2026-08-24 | Units 1 and 4 | Natural systems and population growth | Review the concepts and complete the next retrieval check. |
-| 2026-08-31 | Unit 2 | From cells to organisms | Begin with the cellular basis of life. |
+| 2026-09-04 | Unit 2 | The cellular basis of life | Explain why cells are both structural and functional units of life. |
+| 2026-09-06 | Unit 2 | Practice exercises across cells to homeostasis | Review the concepts independently; Quiz 1–3 and Unit test remain incomplete. |
+| 2026-09-07 | Unit 2 | Revisited the learner's original questions about unicellular organisms, organelles, organization, differentiation, and feedback | Apply the corrected explanations to unfamiliar diagrams and examples without prompts. |

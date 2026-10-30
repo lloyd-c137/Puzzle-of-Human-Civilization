@@ -18,7 +18,7 @@ subject: Mathematics
 
 ## Current overview
 
-当前统计学习记录包括 AP Statistics Unit 1–2；Unit 3、Unit 6 和 Unit 7 的新学习记录已开始。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3 已记录 mean、median、dot plot 和 sample standard deviation 的学习过程，Unit 6 和 Unit 7 仍需通过练习建立记录。
+当前统计学习记录包括 AP Statistics Unit 1–2、Unit 3、Unit 6、Unit 7、Unit 8 和 Unit 9。Unit 1–2 已记录分类数据、双向表、条形图、点图、茎叶图、直方图、箱线图、中心、离散程度、偏态、聚类、间隔和异常值。Unit 3 已记录 mean、median、dot plot 和 sample standard deviation；Unit 8 和 Unit 9 的 practice exercises 已完成，Khan 页面均显示 Unit mastery 100%。
 
 ## Unit journals
 
@@ -26,12 +26,16 @@ subject: Mathematics
 | --- | --- | --- | --- |
 | Statistics Units 1–2 | Categorical data, two-way tables, quantitative displays, distributions, center, spread, and comparisons | 2026-08-24 | [Open Unit Journal]({{ '/math/statistics-units-1-2-journal/' | relative_url }}) |
 | Statistics Units 3, 6, and 7 | Summary statistics, collecting data, and probability | 2026-08-31 | [Open Unit Journal]({{ '/math/statistics-units-3-6-7-journal/' | relative_url }}) |
+| Statistics Units 8 and 9 | Random variables, probability distributions, and sampling distributions | 2026-09-07 | [Open Unit Journal]({{ '/math/statistics-units-8-9-journal/' | relative_url }}) |
 
 ## Current learning focus
 
 - Unit 3：Summary statistics；
 - Unit 6：Collecting data；
 - Unit 7：Probability。
+- Unit 8：Random variables and probability distributions（practice 已完成，Khan Unit mastery 100%）；
+- Unit 9：Sampling distributions（practice 已完成，Khan Unit mastery 100%）；
+- Quiz 和 Unit test 尚未进行。
 
 ## Recurring mistakes
 
@@ -40,6 +44,8 @@ subject: Mathematics
 | Unit rates | 混淆总数量、额外购买数量和单位价格。 | 先确定题目要求的总量、增量和单位，再计算并检查单位。 |
 | Distribution shape | 依据数据集中位置判断偏态，而不是观察尾部方向。 | 左偏看左尾，右偏看右尾。 |
 | Comparing distributions | 把平均值比较误读为每一个观察值都更大。 | 中心支持 average 说法，不自动支持 every-observation 说法。 |
+| Theoretical probability | 看到概率表的形状后忽略完整 sample space，导致分母和随机变量取值范围看错。 | 先列出 equally likely outcomes，再按 (X) 的每个可能值计数并检查总和是否为 1。 |
+| Sampling distributions | 把同一批学生身上的两种测量当作 independent samples，或把 mean difference 算错。 | 先写出统计量的顺序；同一对象的两种测量是 paired data，不能直接套独立样本公式。 |
 
 ## Recent progress
 
@@ -47,3 +53,5 @@ subject: Mathematics
 | --- | --- | --- | --- |
 | 2026-08-24 | Statistics Units 1–2 | Stem-and-leaf plots, box plots, histograms, and distribution comparisons | Continue independent graph interpretation and summary-statistic practice. |
 | 2026-08-31 | Statistics Units 3, 6, and 7 | Interpreted a sample standard-deviation question in Unit 3 | Explain why sample standard deviation uses (n-1) and place the denominator correctly. |
+| 2026-09-02 | Statistics Units 8 and 9 | Interpreted Unit 8 Lesson 1 videos and exercises | Check a discrete probability distribution and calculate probabilities from it. |
+| 2026-09-07 | Statistics Units 8 and 9 | Completed and corrected practice exercises for random variables, probability distributions, and sampling distributions; Khan pages show 100% mastery for both units. | Revisit the formulas independently, then choose whether to attempt the quizzes and unit tests. |
